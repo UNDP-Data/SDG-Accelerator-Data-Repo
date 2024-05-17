@@ -2,6 +2,31 @@
   "countryCode": "ECU",
   "goalStatus": [
     {
+      "goal": 10,
+      "noOfIndicatorsWithData": 8,
+      "status": "For Review"
+    },
+    {
+      "goal": 5,
+      "noOfIndicatorsWithData": 4,
+      "status": "For Review"
+    },
+    {
+      "goal": 1,
+      "noOfIndicatorsWithData": 9,
+      "status": "For Review"
+    },
+    {
+      "goal": 3,
+      "noOfIndicatorsWithData": 22,
+      "status": "For Review"
+    },
+    {
+      "goal": 16,
+      "noOfIndicatorsWithData": 7,
+      "status": "For Review"
+    },
+    {
       "goal": 12,
       "noOfIndicatorsWithData": 7,
       "status": "For Review"
@@ -14,11 +39,6 @@
     {
       "goal": 15,
       "noOfIndicatorsWithData": 12,
-      "status": "For Review"
-    },
-    {
-      "goal": 16,
-      "noOfIndicatorsWithData": 7,
       "status": "For Review"
     },
     {
@@ -42,28 +62,8 @@
       "status": "On Track"
     },
     {
-      "goal": 5,
-      "noOfIndicatorsWithData": 4,
-      "status": "For Review"
-    },
-    {
-      "goal": 3,
-      "noOfIndicatorsWithData": 22,
-      "status": "For Review"
-    },
-    {
       "goal": 7,
       "noOfIndicatorsWithData": 6,
-      "status": "For Review"
-    },
-    {
-      "goal": 10,
-      "noOfIndicatorsWithData": 8,
-      "status": "For Review"
-    },
-    {
-      "goal": 1,
-      "noOfIndicatorsWithData": 9,
       "status": "For Review"
     },
     {
@@ -88,6 +88,36 @@
     }
   ],
   "targetStatus": [
+    {
+      "goal": "10",
+      "target": "10.1",
+      "status": null
+    },
+    {
+      "goal": "5",
+      "target": "5.5",
+      "status": "For Review"
+    },
+    {
+      "goal": "1",
+      "target": "1.2",
+      "status": "Identified Gap"
+    },
+    {
+      "goal": "3",
+      "target": "3.3",
+      "status": "For Review"
+    },
+    {
+      "goal": "16",
+      "target": "16.1",
+      "status": "Identified Gap"
+    },
+    {
+      "goal": "12",
+      "target": "12.4",
+      "status": "Identified Gap"
+    },
     {
       "goal": "12",
       "target": "12.1",
@@ -149,11 +179,6 @@
       "status": "Identified Gap"
     },
     {
-      "goal": "5",
-      "target": "5.5",
-      "status": "Identified Gap"
-    },
-    {
       "goal": "3",
       "target": "3.1",
       "status": "For Review"
@@ -181,12 +206,12 @@
     {
       "goal": "8",
       "target": "8.1",
-      "status": "Identified Gap"
+      "status": "On Track"
     },
     {
       "goal": "8",
       "target": "8.6",
-      "status": "For Review"
+      "status": "Identified Gap"
     },
     {
       "goal": "16",
@@ -197,11 +222,6 @@
       "goal": "10",
       "target": "10.4",
       "status": "For Review"
-    },
-    {
-      "goal": "10",
-      "target": "10.1",
-      "status": null
     },
     {
       "goal": "8",
@@ -242,11 +262,6 @@
       "goal": "3",
       "target": "3.6",
       "status": "On Track"
-    },
-    {
-      "goal": "1",
-      "target": "1.2",
-      "status": "Identified Gap"
     },
     {
       "goal": "1",
@@ -355,11 +370,6 @@
     },
     {
       "goal": "12",
-      "target": "12.4",
-      "status": "Identified Gap"
-    },
-    {
-      "goal": "12",
       "target": "12.5",
       "status": null
     },
@@ -446,11 +456,6 @@
     {
       "goal": "15",
       "target": "15.b",
-      "status": "Identified Gap"
-    },
-    {
-      "goal": "16",
-      "target": "16.1",
       "status": "Identified Gap"
     },
     {
@@ -567,11 +572,6 @@
       "goal": "2",
       "target": "2.c",
       "status": null
-    },
-    {
-      "goal": "3",
-      "target": "3.3",
-      "status": "For Review"
     },
     {
       "goal": "3",
@@ -796,6 +796,42 @@
   ],
   "indicatorStatus": [
     {
+      "goal": "10",
+      "target": "10.1",
+      "indicator": "10.1.1",
+      "status": null
+    },
+    {
+      "goal": "5",
+      "target": "5.5",
+      "indicator": "5.5.1",
+      "status": "For Review"
+    },
+    {
+      "goal": "1",
+      "target": "1.2",
+      "indicator": "1.2.2",
+      "status": "Identified Gap"
+    },
+    {
+      "goal": "3",
+      "target": "3.3",
+      "indicator": "3.3.1",
+      "status": "On Track"
+    },
+    {
+      "goal": "16",
+      "target": "16.1",
+      "indicator": "16.1.1",
+      "status": "Identified Gap"
+    },
+    {
+      "goal": "12",
+      "target": "12.4",
+      "indicator": "12.4.1",
+      "status": "For Review"
+    },
+    {
       "goal": "12",
       "target": "12.1",
       "indicator": "12.1.1",
@@ -868,12 +904,6 @@
       "status": "Identified Gap"
     },
     {
-      "goal": "5",
-      "target": "5.5",
-      "indicator": "5.5.1",
-      "status": "Identified Gap"
-    },
-    {
       "goal": "3",
       "target": "3.1",
       "indicator": "3.1.1",
@@ -907,13 +937,13 @@
       "goal": "8",
       "target": "8.1",
       "indicator": "8.1.1",
-      "status": "Identified Gap"
+      "status": "On Track"
     },
     {
       "goal": "8",
       "target": "8.6",
       "indicator": "8.6.1",
-      "status": "For Review"
+      "status": "Identified Gap"
     },
     {
       "goal": "16",
@@ -932,12 +962,6 @@
       "target": "10.4",
       "indicator": "10.4.1",
       "status": "For Review"
-    },
-    {
-      "goal": "10",
-      "target": "10.1",
-      "indicator": "10.1.1",
-      "status": null
     },
     {
       "goal": "9",
@@ -1021,12 +1045,6 @@
       "goal": "1",
       "target": "1.1",
       "indicator": "1.1.1",
-      "status": "Identified Gap"
-    },
-    {
-      "goal": "1",
-      "target": "1.2",
-      "indicator": "1.2.2",
       "status": "Identified Gap"
     },
     {
@@ -1218,12 +1236,6 @@
     {
       "goal": "12",
       "target": "12.4",
-      "indicator": "12.4.1",
-      "status": "For Review"
-    },
-    {
-      "goal": "12",
-      "target": "12.4",
       "indicator": "12.4.2",
       "status": "Identified Gap"
     },
@@ -1351,12 +1363,6 @@
       "goal": "15",
       "target": "15.b",
       "indicator": "15.b.1",
-      "status": "Identified Gap"
-    },
-    {
-      "goal": "16",
-      "target": "16.1",
-      "indicator": "16.1.1",
       "status": "Identified Gap"
     },
     {
@@ -1574,12 +1580,6 @@
       "target": "2.c",
       "indicator": "2.c.1",
       "status": null
-    },
-    {
-      "goal": "3",
-      "target": "3.3",
-      "indicator": "3.3.1",
-      "status": "On Track"
     },
     {
       "goal": "3",
@@ -1975,8 +1975,474 @@
   "tsData": [
     {
       "Reporting Type": "G",
+      "series": "[GOV]SWZ_ECB_WNIZ",
+      "seriesDescription": "Growth rates of household expenditure or income per capita among the total population",
+      "goal": "10",
+      "target": "10.1",
+      "indicator": "10.1.1",
+      "Custodian_Agency(ies)": "Country Office",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "",
+      "values": [
+        {
+          "value": -1.6,
+          "year": 2023,
+          "id": 0,
+          "addedByCO": true
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "decrease",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": null,
+        "latestAvailable": 2023
+      },
+      "currentLevelAssessment": null,
+      "status": "Insufficient Data"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "[GOV]GKW_AYW_LPKO",
+      "seriesDescription": "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population",
+      "goal": "10",
+      "target": "10.1",
+      "indicator": "10.1.1",
+      "Custodian_Agency(ies)": "Country Office",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "",
+      "values": [
+        {
+          "value": -0.99,
+          "year": 2023,
+          "id": 0,
+          "addedByCO": true
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "decrease",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": null,
+        "latestAvailable": 2023
+      },
+      "currentLevelAssessment": null,
+      "status": "Insufficient Data"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "[GOV]LMI_MVC_ZKUF",
+      "seriesDescription": "Proportion of seats held by women in local governments",
+      "goal": "5",
+      "target": "5.5",
+      "indicator": "5.5.1",
+      "Custodian_Agency(ies)": "Country Office",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "",
+      "values": [
+        {
+          "value": 25.66,
+          "year": 2014,
+          "id": 0,
+          "addedByCO": true
+        },
+        {
+          "value": 27.17,
+          "year": 2019,
+          "id": 1,
+          "addedByCO": true
+        },
+        {
+          "value": 41.13,
+          "year": 2023,
+          "id": 2,
+          "addedByCO": true
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": 2014,
+        "latestAvailable": 2023
+      },
+      "currentLevelAssessment": null,
+      "status": "On Track"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "[GOV]AUT_IOB_XRPS",
+      "seriesDescription": "Proportion of seats held by women in national parliaments",
+      "goal": "5",
+      "target": "5.5",
+      "indicator": "5.5.1",
+      "Custodian_Agency(ies)": "Country Office",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "",
+      "values": [
+        {
+          "value": 38.46,
+          "year": 2013,
+          "id": 0,
+          "addedByCO": true
+        },
+        {
+          "value": 38.46,
+          "year": 2017,
+          "id": 1,
+          "addedByCO": true
+        },
+        {
+          "value": 38.46,
+          "year": 2021,
+          "id": 2,
+          "addedByCO": true
+        },
+        {
+          "value": 42.75,
+          "year": 2023,
+          "id": 3,
+          "addedByCO": true
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": 2017,
+        "latestAvailable": 2023
+      },
+      "currentLevelAssessment": null,
+      "status": "On Track"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "[GOV]GOY_KRE_OPYO",
+      "seriesDescription": "Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",
+      "goal": "1",
+      "target": "1.2",
+      "indicator": "1.2.2",
+      "Custodian_Agency(ies)": "Country Office",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "",
+      "values": [
+        {
+          "value": 37.74,
+          "year": 2018,
+          "id": 0,
+          "addedByCO": true
+        },
+        {
+          "value": 37.88,
+          "year": 2019,
+          "id": 1,
+          "addedByCO": true
+        },
+        {
+          "value": 39.63,
+          "year": 2021,
+          "id": 2,
+          "addedByCO": true
+        },
+        {
+          "value": 38.4,
+          "year": 2022,
+          "id": 3,
+          "addedByCO": true
+        },
+        {
+          "value": 36.92,
+          "year": 2023,
+          "id": 4,
+          "addedByCO": true
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "decrease",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": 2018,
+        "latestAvailable": 2023
+      },
+      "currentLevelAssessment": null,
+      "status": "Fair progress but acceleration needed"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "[GOV]ROS_GFK_RYJY",
+      "seriesDescription": "Maternal mortality ratio",
+      "goal": "3",
+      "target": "3.3",
+      "indicator": "3.3.1",
+      "Custodian_Agency(ies)": "Country Office",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "",
+      "values": [
+        {
+          "value": 59.04,
+          "year": 2010,
+          "id": 0,
+          "addedByCO": true
+        },
+        {
+          "value": 70.44,
+          "year": 2011,
+          "id": 1,
+          "addedByCO": true
+        },
+        {
+          "value": 59.9,
+          "year": 2012,
+          "id": 2,
+          "addedByCO": true
+        },
+        {
+          "value": 46.3,
+          "year": 2013,
+          "id": 3,
+          "addedByCO": true
+        },
+        {
+          "value": 49.16,
+          "year": 2014,
+          "id": 4,
+          "addedByCO": true
+        },
+        {
+          "value": 44.58,
+          "year": 2015,
+          "id": 5,
+          "addedByCO": true
+        },
+        {
+          "value": 39.67,
+          "year": 2016,
+          "id": 6,
+          "addedByCO": true
+        },
+        {
+          "value": 42.78,
+          "year": 2017,
+          "id": 7,
+          "addedByCO": true
+        },
+        {
+          "value": 41.4,
+          "year": 2018,
+          "id": 8,
+          "addedByCO": true
+        },
+        {
+          "value": 37,
+          "year": 2019,
+          "id": 9,
+          "addedByCO": true
+        },
+        {
+          "value": 57.59,
+          "year": 2020,
+          "id": 10,
+          "addedByCO": true
+        },
+        {
+          "value": 43.5,
+          "year": 2021,
+          "id": 11,
+          "addedByCO": true
+        },
+        {
+          "value": 33.9,
+          "year": 2022,
+          "id": 12,
+          "addedByCO": true
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "decrease",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": 2015,
+        "latestAvailable": 2022
+      },
+      "currentLevelAssessment": null,
+      "status": "On Track"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "[GOV]GLL_KSB_FBAO",
+      "seriesDescription": "Number of victims of intentional homicide per 100,000 population, by sex and age (victims per 100,000 population)",
+      "goal": "16",
+      "target": "16.1",
+      "indicator": "16.1.1",
+      "Custodian_Agency(ies)": "Country Office",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "",
+      "values": [
+        {
+          "value": 8.18,
+          "year": 2014,
+          "id": 0,
+          "addedByCO": true
+        },
+        {
+          "value": 6.46,
+          "year": 2015,
+          "id": 1,
+          "addedByCO": true
+        },
+        {
+          "value": 5.83,
+          "year": 2016,
+          "id": 2,
+          "addedByCO": true
+        },
+        {
+          "value": 5.79,
+          "year": 2017,
+          "id": 3,
+          "addedByCO": true
+        },
+        {
+          "value": 5.84,
+          "year": 2018,
+          "id": 4,
+          "addedByCO": true
+        },
+        {
+          "value": 6.88,
+          "year": 2019,
+          "id": 5,
+          "addedByCO": true
+        },
+        {
+          "value": 7.82,
+          "year": 2020,
+          "id": 6,
+          "addedByCO": true
+        },
+        {
+          "value": 14.06,
+          "year": 2021,
+          "id": 7,
+          "addedByCO": true
+        },
+        {
+          "value": 26.81,
+          "year": 2022,
+          "id": 8,
+          "addedByCO": true
+        },
+        {
+          "value": 45.11,
+          "year": 2023,
+          "id": 9,
+          "addedByCO": true
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "decrease",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": 2015,
+        "latestAvailable": 2023
+      },
+      "currentLevelAssessment": null,
+      "status": "Deterioration"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "[GOV]JUU_KFU_AKYR",
+      "seriesDescription": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement",
+      "goal": "12",
+      "target": "12.4",
+      "indicator": "12.4.1",
+      "Custodian_Agency(ies)": "Country Office",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "",
+      "values": [
+        {
+          "value": 52.38,
+          "year": 2017,
+          "id": 0,
+          "addedByCO": true
+        },
+        {
+          "value": 80.67,
+          "year": 2020,
+          "id": 1,
+          "addedByCO": true
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": 2017,
+        "latestAvailable": 2020
+      },
+      "currentLevelAssessment": null,
+      "status": "On Track"
+    },
+    {
+      "Reporting Type": "G",
       "series": "[GOV]HYM_EDH_LVQG",
-      "seriesDescription": "Number of adopted policy instruments aimed at supporting the shift to sustainable consumption and production",
+      "seriesDescription": "Number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production",
       "goal": "12",
       "target": "12.1",
       "indicator": "12.1.1",
@@ -2061,6 +2527,12 @@
           "year": 2022,
           "id": 12,
           "addedByCO": true
+        },
+        {
+          "value": 11,
+          "year": 2023,
+          "id": 13,
+          "addedByCO": true
         }
       ],
       "methodology": {
@@ -2075,8 +2547,10 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2022
+        "latestAvailable": 2023
       },
+      "comment": "Marco global",
+      "Additional Source": "Estad<U+FFFD>stica de Cambio Clim<U+FFFD>tico, Producci<U+FFFD>n y Consumo Sostenible, Matriz PCS",
       "currentLevelAssessment": null,
       "status": "On Track"
     },
@@ -2087,6 +2561,9 @@
       "goal": "17",
       "target": "17.19",
       "indicator": "17.19.2",
+      "Custodian_Agency(ies)": "Country Office",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "",
       "values": [
         {
           "value": 0,
@@ -2161,12 +2638,16 @@
           "addedByCO": true
         }
       ],
-      "methodology": "NA",
-      "Custodian_Agency(ies)": "Country Office",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
+      "methodology": {
+        "trendMethodology": "Binary",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": null,
+        "latestAvailable": null
+      },
+      "currentLevelAssessment": null,
+      "status": "Methodology Unavailable"
     },
     {
       "Reporting Type": "G",
@@ -2175,6 +2656,9 @@
       "goal": "17",
       "target": "17.19",
       "indicator": "17.19.2",
+      "Custodian_Agency(ies)": "Country Office",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "",
       "values": [
         {
           "value": 0,
@@ -2249,12 +2733,16 @@
           "addedByCO": true
         }
       ],
-      "methodology": "NA",
-      "Custodian_Agency(ies)": "Country Office",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
+      "methodology": {
+        "trendMethodology": "Binary",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": null,
+        "latestAvailable": null
+      },
+      "currentLevelAssessment": null,
+      "status": "Methodology Unavailable"
     },
     {
       "Reporting Type": "G",
@@ -2263,6 +2751,9 @@
       "goal": "17",
       "target": "17.19",
       "indicator": "17.19.2",
+      "Custodian_Agency(ies)": "Country Office",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "",
       "values": [
         {
           "value": 1,
@@ -2341,14 +2832,26 @@
           "year": 2022,
           "id": 12,
           "addedByCO": true
+        },
+        {
+          "value": 1,
+          "year": 2023,
+          "id": 13,
+          "addedByCO": true
         }
       ],
-      "methodology": "NA",
-      "Custodian_Agency(ies)": "Country Office",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
+      "methodology": {
+        "trendMethodology": "Binary",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": null,
+        "latestAvailable": null
+      },
+      "comment": "NA",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos",
+      "currentLevelAssessment": null,
+      "status": "Methodology Unavailable"
     },
     {
       "Reporting Type": "G",
@@ -2473,6 +2976,12 @@
           "year": 2022,
           "id": 7,
           "addedByCO": true
+        },
+        {
+          "value": 89.88,
+          "year": 2023,
+          "id": 8,
+          "addedByCO": true
         }
       ],
       "methodology": {
@@ -2487,8 +2996,10 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2022
+        "latestAvailable": 2023
       },
+      "comment": "Marco global",
+      "Additional Source": "Ministerio del Ambiente, Agua y Transici<U+FFFD>n Ecol<U+FFFD>gica: Capa Geogr<U+FFFD>fica basada en los registros oficiales de declaraci<U+FFFD>n de <U+FFFD>reas Protegidas, a escala 1:250.000 disponible para el <U+FFFD>ltimo periodo de actualizaci<U+FFFD>n.",
       "currentLevelAssessment": null,
       "status": "Limited or No Progress"
     },
@@ -2550,6 +3061,12 @@
           "year": 2022,
           "id": 7,
           "addedByCO": true
+        },
+        {
+          "value": 40.78,
+          "year": 2023,
+          "id": 8,
+          "addedByCO": true
         }
       ],
       "methodology": {
@@ -2564,8 +3081,10 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2022
+        "latestAvailable": 2023
       },
+      "comment": "Marco global",
+      "Additional Source": "Ministerio del Ambiente, Agua y Transici<U+FFFD>n Ecol<U+FFFD>gica: Capa Geogr<U+FFFD>fica basada en los registros oficiales de declaraci<U+FFFD>n de <U+FFFD>reas Protegidas, a escala 1:250.000 disponible para el <U+FFFD>ltimo periodo de actualizaci<U+FFFD>n.",
       "currentLevelAssessment": null,
       "status": "On Track"
     },
@@ -2615,6 +3134,12 @@
           "year": 2022,
           "id": 5,
           "addedByCO": true
+        },
+        {
+          "value": 77.31,
+          "year": 2023,
+          "id": 6,
+          "addedByCO": true
         }
       ],
       "methodology": {
@@ -2629,8 +3154,10 @@
           "all": 2015
         },
         "baseYear": 2017,
-        "latestAvailable": 2022
+        "latestAvailable": 2023
       },
+      "comment": "NA",
+      "Additional Source": "'Direcci<U+FFFD>n General de Registro Civil y Cedulaci<U+FFFD>n: Sistema <U+FFFD>nico de Registro de Identidad (SURI) | Instituto Nacional de Estad<U+FFFD>stica y Censos: Proyecciones poblacionales",
       "currentLevelAssessment": null,
       "status": "Limited or No Progress"
     },
@@ -2682,87 +3209,38 @@
       "goal": "8",
       "target": "8.5",
       "indicator": "8.5.1",
-      "Sex": "FEMALE",
       "Custodian_Agency(ies)": "Country Office",
       "Partner_Agency(ies)": "",
       "Tier_Classification": "",
       "values": [
         {
-          "value": 1.98,
-          "year": 2010,
-          "id": 0,
-          "addedByCO": true
-        },
-        {
-          "value": 2.02,
-          "year": 2011,
-          "id": 1,
-          "addedByCO": true
-        },
-        {
-          "value": 2.26,
-          "year": 2012,
-          "id": 2,
-          "addedByCO": true
-        },
-        {
-          "value": 2.5,
-          "year": 2013,
-          "id": 3,
-          "addedByCO": true
-        },
-        {
-          "value": 2.61,
-          "year": 2014,
-          "id": 4,
-          "addedByCO": true
-        },
-        {
-          "value": 2.73,
-          "year": 2015,
-          "id": 5,
-          "addedByCO": true
-        },
-        {
-          "value": 2.9,
-          "year": 2016,
-          "id": 6,
-          "addedByCO": true
-        },
-        {
-          "value": 2.8,
-          "year": 2017,
-          "id": 7,
-          "addedByCO": true
-        },
-        {
-          "value": 2.71,
+          "value": 8.75,
           "year": 2018,
           "id": 8,
           "addedByCO": true
         },
         {
-          "value": 2.82,
+          "value": 7.53,
           "year": 2019,
           "id": 9,
           "addedByCO": true
         },
         {
-          "value": 2.57,
-          "year": 2020,
-          "id": 10,
-          "addedByCO": true
-        },
-        {
-          "value": 2.7,
+          "value": 6.81,
           "year": 2021,
           "id": 11,
           "addedByCO": true
         },
         {
-          "value": 2.73,
+          "value": 8.49,
           "year": 2022,
           "id": 12,
+          "addedByCO": true
+        },
+        {
+          "value": 5.44,
+          "year": 2023,
+          "id": 4,
           "addedByCO": true
         }
       ],
@@ -2777,119 +3255,13 @@
         "baselineYear": {
           "all": 2015
         },
-        "baseYear": 2015,
-        "latestAvailable": 2022
+        "baseYear": 2018,
+        "latestAvailable": 2023
       },
+      "comment": "NA",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos: Encuesta Nacional Empleo, Desempleo y Subempleo (ENEMDU) - Anual",
       "currentLevelAssessment": null,
-      "status": "Limited or No Progress"
-    },
-    {
-      "Reporting Type": "G",
-      "series": "[GOV]CGA_MMC_QIYP",
-      "seriesDescription": "Average hourly earnings of employees, by sex, age, occupation and persons with disabilities",
-      "goal": "8",
-      "target": "8.5",
-      "indicator": "8.5.1",
-      "Sex": "MALE",
-      "Custodian_Agency(ies)": "Country Office",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "",
-      "values": [
-        {
-          "value": 2.1,
-          "year": 2010,
-          "id": 0,
-          "addedByCO": true
-        },
-        {
-          "value": 2.25,
-          "year": 2011,
-          "id": 1,
-          "addedByCO": true
-        },
-        {
-          "value": 2.45,
-          "year": 2012,
-          "id": 2,
-          "addedByCO": true
-        },
-        {
-          "value": 2.73,
-          "year": 2013,
-          "id": 3,
-          "addedByCO": true
-        },
-        {
-          "value": 2.96,
-          "year": 2014,
-          "id": 4,
-          "addedByCO": true
-        },
-        {
-          "value": 3.1,
-          "year": 2015,
-          "id": 5,
-          "addedByCO": true
-        },
-        {
-          "value": 3.02,
-          "year": 2016,
-          "id": 6,
-          "addedByCO": true
-        },
-        {
-          "value": 3.04,
-          "year": 2017,
-          "id": 7,
-          "addedByCO": true
-        },
-        {
-          "value": 2.95,
-          "year": 2018,
-          "id": 8,
-          "addedByCO": true
-        },
-        {
-          "value": 2.9,
-          "year": 2019,
-          "id": 9,
-          "addedByCO": true
-        },
-        {
-          "value": 2.7,
-          "year": 2020,
-          "id": 10,
-          "addedByCO": true
-        },
-        {
-          "value": 2.83,
-          "year": 2021,
-          "id": 11,
-          "addedByCO": true
-        },
-        {
-          "value": 3,
-          "year": 2022,
-          "id": 12,
-          "addedByCO": true
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2022
-      },
-      "currentLevelAssessment": null,
-      "status": "Limited or No Progress"
+      "status": "Deterioration"
     },
     {
       "Reporting Type": "G",
@@ -2903,57 +3275,63 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 17,
+          "value": 17.02,
           "year": 2014,
           "id": 0,
           "addedByCO": true
         },
         {
-          "value": 107,
+          "value": 107.31,
           "year": 2015,
           "id": 1,
           "addedByCO": true
         },
         {
-          "value": 133,
+          "value": 133.02,
           "year": 2016,
           "id": 2,
           "addedByCO": true
         },
         {
-          "value": 153,
+          "value": 153.29,
           "year": 2017,
           "id": 3,
           "addedByCO": true
         },
         {
-          "value": 249,
+          "value": 249.56,
           "year": 2018,
           "id": 4,
           "addedByCO": true
         },
         {
-          "value": 273,
+          "value": 273.17,
           "year": 2019,
           "id": 5,
           "addedByCO": true
         },
         {
-          "value": 292,
+          "value": 292.87,
           "year": 2020,
           "id": 6,
           "addedByCO": true
         },
         {
-          "value": 311,
+          "value": 314.64,
           "year": 2021,
           "id": 7,
           "addedByCO": true
         },
         {
-          "value": 371,
+          "value": 378.11,
           "year": 2022,
           "id": 8,
+          "addedByCO": true
+        },
+        {
+          "value": 413.94,
+          "year": 2023,
+          "id": 9,
           "addedByCO": true
         }
       ],
@@ -2969,8 +3347,10 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2022
+        "latestAvailable": 2023
       },
+      "comment": "NA",
+      "Additional Source": "Secretar<U+FFFD>a de Educaci<U+FFFD>n Superior Ciencia Tecnolog<U+FFFD>a e Innovaci<U+FFFD>n: Sistema de Registro Acreditaci<U+FFFD>n y Categorizaci<U+FFFD>n de Investigadores Nacionales e Internacionales",
       "currentLevelAssessment": null,
       "status": "On Track"
     },
@@ -2986,67 +3366,75 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 6.31,
+          "value": 6.33,
           "year": 2013,
           "id": 0,
           "addedByCO": true
         },
         {
-          "value": 7.88,
+          "value": 7.9,
           "year": 2014,
           "id": 1,
           "addedByCO": true
         },
         {
-          "value": 9.12,
+          "value": 9.14,
           "year": 2015,
           "id": 2,
           "addedByCO": true
         },
         {
-          "value": 9.7,
+          "value": 9.73,
           "year": 2016,
           "id": 3,
           "addedByCO": true
         },
         {
-          "value": 10.6,
+          "value": 10.63,
           "year": 2017,
           "id": 4,
           "addedByCO": true
         },
         {
-          "value": 11.48,
+          "value": 11.49,
           "year": 2018,
           "id": 5,
           "addedByCO": true
         },
         {
-          "value": 12.12,
+          "value": 12.11,
           "year": 2019,
           "id": 6,
           "addedByCO": true
         },
         {
-          "value": 13.33,
+          "value": 13.38,
           "year": 2020,
           "id": 7,
           "addedByCO": true
         },
         {
-          "value": 13.75,
+          "value": 13.92,
           "year": 2021,
           "id": 8,
           "addedByCO": true
         },
         {
-          "value": 14.86,
+          "value": 15.16,
           "year": 2022,
           "id": 9,
+          "addedByCO": true
+        },
+        {
+          "value": 16.18,
+          "year": 2023,
+          "id": 10,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "Actualizaci<U+FFFD>n de la serie por nuevas proyecciones poblacionales.",
+      "Additional Source": "Agencia de Regulaci<U+FFFD>n y Control de las Telecomunicaciones (ARCOTEL): Sistema Inform<U+FFFD>tico de Estad<U+FFFD>sticas de Telecomunicaciones (SIETEL) <U+FFFD> Reporte de Suscripciones por Velocidad del Servicio de Acceso a Internet (SAI)",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -3196,9 +3584,17 @@
           "year": 2022,
           "id": 7,
           "addedByCO": true
+        },
+        {
+          "value": 47.8,
+          "year": 2023,
+          "id": 8,
+          "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "Marco global",
+      "Additional Source": "Ministerio del Ambiente, Agua y Transici<U+FFFD>n Ecol<U+FFFD>gica: Capa Geogr<U+FFFD>fica basada en los registros oficiales de declaraci<U+FFFD>n de <U+FFFD>reas Protegidas, a escala 1:250.000 disponible para el <U+FFFD>ltimo periodo de actualizaci<U+FFFD>n.",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -3290,9 +3686,17 @@
           "year": 2022,
           "id": 12,
           "addedByCO": true
+        },
+        {
+          "value": 11,
+          "year": 2023,
+          "id": 13,
+          "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "Marco global",
+      "Additional Source": "Ministerio del Ambiente, Agua y Transici<U+FFFD>n Ecol<U+FFFD>gica: Estad<U+FFFD>stica de Cambio Clim<U+FFFD>tico",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -3308,147 +3712,39 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 11.1,
-          "year": 2010,
-          "id": 0,
-          "addedByCO": true
-        },
-        {
-          "value": 10.49,
-          "year": 2011,
-          "id": 1,
-          "addedByCO": true
-        },
-        {
-          "value": 10.55,
-          "year": 2012,
-          "id": 2,
-          "addedByCO": true
-        },
-        {
-          "value": 11.41,
-          "year": 2013,
-          "id": 3,
-          "addedByCO": true
-        },
-        {
-          "value": 11.34,
-          "year": 2014,
-          "id": 4,
-          "addedByCO": true
-        },
-        {
-          "value": 10.55,
-          "year": 2015,
-          "id": 5,
-          "addedByCO": true
-        },
-        {
-          "value": 11.18,
-          "year": 2016,
-          "id": 6,
-          "addedByCO": true
-        },
-        {
-          "value": 11.33,
-          "year": 2017,
-          "id": 7,
-          "addedByCO": true
-        },
-        {
-          "value": 10.67,
+          "value": 10.89,
           "year": 2018,
           "id": 8,
           "addedByCO": true
         },
         {
-          "value": 10.32,
+          "value": 10.49,
           "year": 2019,
           "id": 9,
           "addedByCO": true
         },
         {
-          "value": 9.36,
-          "year": 2020,
-          "id": 10,
-          "addedByCO": true
-        },
-        {
-          "value": 10.76,
+          "value": 10.17,
           "year": 2021,
           "id": 11,
           "addedByCO": true
         },
         {
-          "value": 9.48,
+          "value": 10.58,
           "year": 2022,
           "id": 12,
           "addedByCO": true
-        }
-      ],
-      "methodology": "NA",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
-    },
-    {
-      "Reporting Type": "G",
-      "series": "[GOV]UFE_LXA_AHFM",
-      "seriesDescription": "Proportion of seats held by women in (a) national parliaments and (b) local governments",
-      "goal": "5",
-      "target": "5.5",
-      "indicator": "5.5.1",
-      "Custodian_Agency(ies)": "Country Office",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "",
-      "values": [
+        },
         {
-          "value": 25.66,
-          "year": 2014,
+          "value": 10.07,
+          "year": 2023,
           "id": 4,
           "addedByCO": true
-        },
-        {
-          "value": 27.17,
-          "year": 2019,
-          "id": 5,
-          "addedByCO": true
         }
       ],
       "methodology": "NA",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
-    },
-    {
-      "Reporting Type": "G",
-      "series": "[GOV]NQJ_BTQ_PZNN",
-      "seriesDescription": "Proportion of seats held by women in (a) national parliaments and (b) local governments",
-      "goal": "5",
-      "target": "5.5",
-      "indicator": "5.5.1",
-      "Custodian_Agency(ies)": "Country Office",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "",
-      "values": [
-        {
-          "value": 38.46,
-          "year": 2013,
-          "id": 4,
-          "addedByCO": true
-        },
-        {
-          "value": 38.46,
-          "year": 2017,
-          "id": 5,
-          "addedByCO": true
-        },
-        {
-          "value": 38.46,
-          "year": 2021,
-          "id": 6,
-          "addedByCO": true
-        }
-      ],
-      "methodology": "NA",
+      "comment": "NA",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos: Encuesta Nacional Empleo, Desempleo y Subempleo (ENEMDU) - Anual",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -3534,9 +3830,17 @@
           "year": 2021,
           "id": 11,
           "addedByCO": true
+        },
+        {
+          "value": 33.9,
+          "year": 2022,
+          "id": 12,
+          "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "Cifra 2022 provisional.",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos: Registro Estad<U+FFFD>stico de Defunciones Generales | Proyecciones de Nacimientos",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -3552,75 +3856,81 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 156.28,
+          "value": 157.28,
           "year": 2010,
+          "id": 0,
+          "addedByCO": true
+        },
+        {
+          "value": 153.93,
+          "year": 2011,
+          "id": 1,
+          "addedByCO": true
+        },
+        {
+          "value": 153.15,
+          "year": 2012,
+          "id": 2,
+          "addedByCO": true
+        },
+        {
+          "value": 151.9,
+          "year": 2013,
+          "id": 3,
+          "addedByCO": true
+        },
+        {
+          "value": 152.71,
+          "year": 2014,
+          "id": 4,
+          "addedByCO": true
+        },
+        {
+          "value": 160.08,
+          "year": 2015,
+          "id": 5,
+          "addedByCO": true
+        },
+        {
+          "value": 281.58,
+          "year": 2016,
+          "id": 6,
+          "addedByCO": true
+        },
+        {
+          "value": 281.9,
+          "year": 2017,
+          "id": 7,
+          "addedByCO": true
+        },
+        {
+          "value": 309.77,
+          "year": 2018,
+          "id": 8,
+          "addedByCO": true
+        },
+        {
+          "value": 305.46,
+          "year": 2019,
+          "id": 9,
+          "addedByCO": true
+        },
+        {
+          "value": 303.83,
+          "year": 2020,
           "id": 10,
           "addedByCO": true
         },
         {
-          "value": 153.16,
-          "year": 2011,
+          "value": 302.85,
+          "year": 2021,
           "id": 11,
           "addedByCO": true
         },
         {
-          "value": 152.55,
-          "year": 2012,
+          "value": 307.76,
+          "year": 2022,
           "id": 12,
-          "addedByCO": true
-        },
-        {
-          "value": 151.38,
-          "year": 2013,
-          "id": 13,
-          "addedByCO": true
-        },
-        {
-          "value": 152.24,
-          "year": 2014,
-          "id": 14,
-          "addedByCO": true
-        },
-        {
-          "value": 159.63,
-          "year": 2015,
-          "id": 15,
-          "addedByCO": true
-        },
-        {
-          "value": 280.74,
-          "year": 2016,
-          "id": 16,
-          "addedByCO": true
-        },
-        {
-          "value": 281.05,
-          "year": 2017,
-          "id": 17,
-          "addedByCO": true
-        },
-        {
-          "value": 309.38,
-          "year": 2018,
-          "id": 18,
-          "addedByCO": true
-        },
-        {
-          "value": 305.58,
-          "year": 2019,
-          "id": 19,
-          "addedByCO": true
-        },
-        {
-          "value": 302.62,
-          "year": 2020,
-          "id": 20,
-          "addedByCO": true
-        },
-        {
-          "value": 299.04,
-          "year": 2021,
-          "id": 21,
           "addedByCO": true
         }
       ],
@@ -3636,8 +3946,10 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2021
+        "latestAvailable": 2022
       },
+      "comment": "Actualizaci<U+FFFD>n de serie por nuevas proyecciones y retroproyecciones poblacionales con base en el Censo Nacional 2022.",
+      "Additional Source": "Ministerio de Energ<U+FFFD>a y Minas: Balance Energ<U+FFFD>tico Nacional",
       "currentLevelAssessment": null,
       "status": "On Track"
     },
@@ -3653,75 +3965,81 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 156.28,
+          "value": 157.28,
           "year": 2010,
+          "id": 0,
+          "addedByCO": true
+        },
+        {
+          "value": 153.93,
+          "year": 2011,
+          "id": 1,
+          "addedByCO": true
+        },
+        {
+          "value": 153.15,
+          "year": 2012,
+          "id": 2,
+          "addedByCO": true
+        },
+        {
+          "value": 151.9,
+          "year": 2013,
+          "id": 3,
+          "addedByCO": true
+        },
+        {
+          "value": 152.71,
+          "year": 2014,
+          "id": 4,
+          "addedByCO": true
+        },
+        {
+          "value": 160.08,
+          "year": 2015,
+          "id": 5,
+          "addedByCO": true
+        },
+        {
+          "value": 281.58,
+          "year": 2016,
+          "id": 6,
+          "addedByCO": true
+        },
+        {
+          "value": 281.9,
+          "year": 2017,
+          "id": 7,
+          "addedByCO": true
+        },
+        {
+          "value": 309.77,
+          "year": 2018,
+          "id": 8,
+          "addedByCO": true
+        },
+        {
+          "value": 305.46,
+          "year": 2019,
+          "id": 9,
+          "addedByCO": true
+        },
+        {
+          "value": 303.83,
+          "year": 2020,
           "id": 10,
           "addedByCO": true
         },
         {
-          "value": 153.16,
-          "year": 2011,
+          "value": 302.85,
+          "year": 2021,
           "id": 11,
           "addedByCO": true
         },
         {
-          "value": 152.55,
-          "year": 2012,
+          "value": 307.76,
+          "year": 2022,
           "id": 12,
-          "addedByCO": true
-        },
-        {
-          "value": 151.38,
-          "year": 2013,
-          "id": 13,
-          "addedByCO": true
-        },
-        {
-          "value": 152.24,
-          "year": 2014,
-          "id": 14,
-          "addedByCO": true
-        },
-        {
-          "value": 159.63,
-          "year": 2015,
-          "id": 15,
-          "addedByCO": true
-        },
-        {
-          "value": 280.74,
-          "year": 2016,
-          "id": 16,
-          "addedByCO": true
-        },
-        {
-          "value": 281.05,
-          "year": 2017,
-          "id": 17,
-          "addedByCO": true
-        },
-        {
-          "value": 309.38,
-          "year": 2018,
-          "id": 18,
-          "addedByCO": true
-        },
-        {
-          "value": 305.58,
-          "year": 2019,
-          "id": 19,
-          "addedByCO": true
-        },
-        {
-          "value": 302.62,
-          "year": 2020,
-          "id": 20,
-          "addedByCO": true
-        },
-        {
-          "value": 299.04,
-          "year": 2021,
-          "id": 21,
           "addedByCO": true
         }
       ],
@@ -3737,8 +4055,10 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2021
+        "latestAvailable": 2022
       },
+      "comment": "NA",
+      "Additional Source": "Ministerio de Energ<U+FFFD>a y Minas: Balance Energ<U+FFFD>tico Nacional",
       "currentLevelAssessment": null,
       "status": "On Track"
     },
@@ -3789,81 +4109,33 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 19.73,
-          "year": 2010,
-          "id": 3,
-          "addedByCO": true
-        },
-        {
-          "value": 20.3,
-          "year": 2011,
-          "id": 4,
-          "addedByCO": true
-        },
-        {
-          "value": 20.97,
-          "year": 2012,
-          "id": 5,
-          "addedByCO": true
-        },
-        {
-          "value": 19.69,
-          "year": 2013,
-          "id": 6,
-          "addedByCO": true
-        },
-        {
-          "value": 18.79,
-          "year": 2014,
-          "id": 7,
-          "addedByCO": true
-        },
-        {
-          "value": 19.71,
-          "year": 2015,
+          "value": 19.19,
+          "year": 2018,
           "id": 8,
           "addedByCO": true
         },
         {
-          "value": 18.99,
-          "year": 2016,
+          "value": 19.59,
+          "year": 2019,
           "id": 9,
           "addedByCO": true
         },
         {
-          "value": 19.31,
-          "year": 2017,
-          "id": 10,
-          "addedByCO": true
-        },
-        {
-          "value": 19.98,
-          "year": 2018,
+          "value": 19.02,
+          "year": 2021,
           "id": 11,
           "addedByCO": true
         },
         {
-          "value": 19.76,
-          "year": 2019,
+          "value": 19.11,
+          "year": 2022,
           "id": 12,
           "addedByCO": true
         },
         {
-          "value": 21.02,
-          "year": 2020,
-          "id": 13,
-          "addedByCO": true
-        },
-        {
-          "value": 17.88,
-          "year": 2021,
-          "id": 14,
-          "addedByCO": true
-        },
-        {
-          "value": 18.57,
-          "year": 2022,
-          "id": 15,
+          "value": 18.99,
+          "year": 2023,
+          "id": 4,
           "addedByCO": true
         }
       ],
@@ -3878,9 +4150,11 @@
         "baselineYear": {
           "all": 2015
         },
-        "baseYear": 2015,
-        "latestAvailable": 2022
+        "baseYear": 2018,
+        "latestAvailable": 2023
       },
+      "comment": "NA",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos: Encuesta Nacional Empleo, Desempleo y Subempleo (ENEMDU) - Anual",
       "currentLevelAssessment": null,
       "status": "Fair progress but acceleration needed"
     },
@@ -3896,75 +4170,81 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 1.64,
+          "value": 1.93,
           "year": 2010,
-          "id": 19,
+          "id": 0,
           "addedByCO": true
         },
         {
-          "value": 6.07,
+          "value": 6.53,
           "year": 2011,
-          "id": 20,
+          "id": 1,
           "addedByCO": true
         },
         {
-          "value": 3.91,
+          "value": 3.94,
           "year": 2012,
-          "id": 21,
+          "id": 2,
           "addedByCO": true
         },
         {
-          "value": 3.26,
+          "value": 5.43,
           "year": 2013,
-          "id": 22,
+          "id": 3,
           "addedByCO": true
         },
         {
-          "value": 2.15,
+          "value": 2.55,
           "year": 2014,
-          "id": 23,
+          "id": 4,
           "addedByCO": true
         },
         {
           "value": -1.45,
           "year": 2015,
-          "id": 24,
+          "id": 5,
           "addedByCO": true
         },
         {
-          "value": -2.72,
+          "value": -2.17,
           "year": 2016,
-          "id": 25,
+          "id": 6,
           "addedByCO": true
         },
         {
-          "value": 0.85,
+          "value": 4.4,
           "year": 2017,
-          "id": 26,
+          "id": 7,
           "addedByCO": true
         },
         {
-          "value": -0.18,
+          "value": -0.59,
           "year": 2018,
-          "id": 27,
+          "id": 8,
           "addedByCO": true
         },
         {
-          "value": -1.4,
+          "value": -1.42,
           "year": 2019,
-          "id": 28,
+          "id": 9,
           "addedByCO": true
         },
         {
-          "value": -9.07,
+          "value": -10.11,
           "year": 2020,
-          "id": 29,
+          "id": 10,
           "addedByCO": true
         },
         {
-          "value": 2.82,
+          "value": 9.27,
           "year": 2021,
-          "id": 30,
+          "id": 11,
+          "addedByCO": true
+        },
+        {
+          "value": 5.57,
+          "year": 2022,
+          "id": 12,
           "addedByCO": true
         }
       ],
@@ -3980,10 +4260,12 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2021
+        "latestAvailable": 2022
       },
+      "comment": "Cifra 2021 y 2022 provisionales.",
+      "Additional Source": "Banco Central del Ecuador: Cuentas Nacionales Anuales | Cuentas Nacionales Trimestrales - Instituto Nacional de Estad<U+FFFD>stica y Censos: Proyecciones poblacionales.",
       "currentLevelAssessment": null,
-      "status": "Deterioration"
+      "status": "On Track"
     },
     {
       "Reporting Type": "G",
@@ -3997,81 +4279,33 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 15.6,
-          "year": 2010,
-          "id": 3,
-          "addedByCO": true
-        },
-        {
-          "value": 16.97,
-          "year": 2011,
-          "id": 4,
-          "addedByCO": true
-        },
-        {
-          "value": 16.54,
-          "year": 2012,
-          "id": 5,
-          "addedByCO": true
-        },
-        {
-          "value": 17.92,
-          "year": 2013,
-          "id": 6,
-          "addedByCO": true
-        },
-        {
-          "value": 19.99,
-          "year": 2014,
-          "id": 7,
-          "addedByCO": true
-        },
-        {
-          "value": 19.96,
-          "year": 2015,
+          "value": 17.04,
+          "year": 2018,
           "id": 8,
           "addedByCO": true
         },
         {
-          "value": 18.69,
-          "year": 2016,
+          "value": 17.25,
+          "year": 2019,
           "id": 9,
           "addedByCO": true
         },
         {
-          "value": 18.65,
-          "year": 2017,
+          "value": 18.55,
+          "year": 2021,
           "id": 10,
           "addedByCO": true
         },
         {
-          "value": 17.56,
-          "year": 2018,
+          "value": 18.25,
+          "year": 2022,
           "id": 11,
           "addedByCO": true
         },
         {
-          "value": 16.67,
-          "year": 2019,
+          "value": 18.63,
+          "year": 2023,
           "id": 12,
-          "addedByCO": true
-        },
-        {
-          "value": 17.17,
-          "year": 2020,
-          "id": 13,
-          "addedByCO": true
-        },
-        {
-          "value": 16.86,
-          "year": 2021,
-          "id": 14,
-          "addedByCO": true
-        },
-        {
-          "value": 17.19,
-          "year": 2022,
-          "id": 15,
           "addedByCO": true
         }
       ],
@@ -4086,11 +4320,13 @@
         "baselineYear": {
           "all": 2015
         },
-        "baseYear": 2015,
-        "latestAvailable": 2022
+        "baseYear": 2018,
+        "latestAvailable": 2023
       },
+      "comment": "NA",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos: Encuesta Nacional Empleo, Desempleo y Subempleo (ENEMDU) - Anual",
       "currentLevelAssessment": null,
-      "status": "On Track"
+      "status": "Deterioration"
     },
     {
       "Reporting Type": "G",
@@ -4138,6 +4374,12 @@
           "year": 2022,
           "id": 5,
           "addedByCO": true
+        },
+        {
+          "value": 36.2,
+          "year": 2023,
+          "id": 6,
+          "addedByCO": true
         }
       ],
       "methodology": {
@@ -4152,8 +4394,10 @@
           "all": 2015
         },
         "baseYear": 2017,
-        "latestAvailable": 2022
+        "latestAvailable": 2023
       },
+      "comment": "NA",
+      "Additional Source": "Servicio Nacional de Atenci<U+FFFD>n Integral a Personas Adultas Privadas de la Libertad y Adolescentes Infractores: Estad<U+FFFD>sticas de Centros de Privaci<U+FFFD>n de la Libertad",
       "currentLevelAssessment": null,
       "status": "Deterioration"
     },
@@ -4171,73 +4415,79 @@
         {
           "value": 88.59,
           "year": 2010,
-          "id": 20,
+          "id": 0,
           "addedByCO": true
         },
         {
           "value": 90.5,
           "year": 2011,
-          "id": 21,
+          "id": 1,
           "addedByCO": true
         },
         {
           "value": 92.12,
           "year": 2012,
-          "id": 22,
+          "id": 2,
           "addedByCO": true
         },
         {
           "value": 93.6,
           "year": 2013,
-          "id": 23,
+          "id": 3,
           "addedByCO": true
         },
         {
           "value": 94.98,
           "year": 2014,
-          "id": 24,
+          "id": 4,
           "addedByCO": true
         },
         {
           "value": 94.43,
           "year": 2015,
-          "id": 25,
+          "id": 5,
           "addedByCO": true
         },
         {
           "value": 94.23,
           "year": 2016,
-          "id": 26,
+          "id": 6,
           "addedByCO": true
         },
         {
           "value": 95.7,
           "year": 2017,
-          "id": 27,
+          "id": 7,
           "addedByCO": true
         },
         {
           "value": 95.99,
           "year": 2018,
-          "id": 28,
+          "id": 8,
           "addedByCO": true
         },
         {
           "value": 97.18,
           "year": 2019,
-          "id": 29,
+          "id": 9,
           "addedByCO": true
         },
         {
           "value": 96.25,
           "year": 2020,
-          "id": 30,
+          "id": 10,
           "addedByCO": true
         },
         {
-          "value": 96.81,
+          "value": 96.69,
           "year": 2021,
-          "id": 31,
+          "id": 11,
+          "addedByCO": true
+        },
+        {
+          "value": 96.67,
+          "year": 2022,
+          "id": 12,
           "addedByCO": true
         }
       ],
@@ -4253,8 +4503,10 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2021
+        "latestAvailable": 2022
       },
+      "comment": "Cifra 2022 provisional.",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos: Registro Estad<U+FFFD>stico de Nacidos Vivos",
       "currentLevelAssessment": null,
       "status": "Limited or No Progress"
     },
@@ -4342,76 +4594,6 @@
     },
     {
       "Reporting Type": "G",
-      "series": "[GOV]LCC_VUE_UZUH",
-      "seriesDescription": "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population",
-      "goal": "10",
-      "target": "10.1",
-      "indicator": "10.1.1",
-      "Custodian_Agency(ies)": "Country Office",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "",
-      "values": [
-        {
-          "value": 4.4,
-          "year": 2014,
-          "id": 0,
-          "addedByCO": true
-        },
-        {
-          "value": 3,
-          "year": 2015,
-          "id": 1,
-          "addedByCO": true
-        },
-        {
-          "value": 1.8,
-          "year": 2016,
-          "id": 2,
-          "addedByCO": true
-        },
-        {
-          "value": 1.7,
-          "year": 2017,
-          "id": 3,
-          "addedByCO": true
-        },
-        {
-          "value": 0.26,
-          "year": 2018,
-          "id": 4,
-          "addedByCO": true
-        },
-        {
-          "value": -0.5,
-          "year": 2019,
-          "id": 5,
-          "addedByCO": true
-        },
-        {
-          "value": -3.92,
-          "year": 2020,
-          "id": 6,
-          "addedByCO": true
-        },
-        {
-          "value": -1.3,
-          "year": 2021,
-          "id": 7,
-          "addedByCO": true
-        },
-        {
-          "value": -1.53,
-          "year": 2022,
-          "id": 8,
-          "addedByCO": true
-        }
-      ],
-      "methodology": "NA",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
-    },
-    {
-      "Reporting Type": "G",
       "series": "[GOV]EIK_KNA_LWGO",
       "seriesDescription": "Manufacturing value added as a proportion of GDP per capita (number)",
       "goal": "9",
@@ -4422,79 +4604,87 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 517.28,
+          "value": 775.1,
           "year": 2010,
           "id": 0,
           "addedByCO": true
         },
         {
-          "value": 541.15,
+          "value": 804.09,
           "year": 2011,
           "id": 1,
           "addedByCO": true
         },
         {
-          "value": 554.04,
+          "value": 818.21,
           "year": 2012,
           "id": 2,
           "addedByCO": true
         },
         {
-          "value": 556.9,
+          "value": 835.58,
           "year": 2013,
           "id": 3,
           "addedByCO": true
         },
         {
-          "value": 549.24,
+          "value": 844.51,
           "year": 2014,
           "id": 4,
           "addedByCO": true
         },
         {
-          "value": 536.39,
+          "value": 840.52,
           "year": 2015,
           "id": 5,
           "addedByCO": true
         },
         {
-          "value": 523.63,
+          "value": 825.61,
           "year": 2016,
           "id": 6,
           "addedByCO": true
         },
         {
-          "value": 534.3,
+          "value": 851.61,
           "year": 2017,
           "id": 7,
           "addedByCO": true
         },
         {
-          "value": 529.65,
+          "value": 844.96,
           "year": 2018,
           "id": 8,
           "addedByCO": true
         },
         {
-          "value": 517.98,
+          "value": 813.34,
           "year": 2019,
           "id": 9,
           "addedByCO": true
         },
         {
-          "value": 478.58,
+          "value": 720.43,
           "year": 2020,
           "id": 10,
           "addedByCO": true
         },
         {
-          "value": 491.94,
+          "value": 840.05,
           "year": 2021,
           "id": 11,
+          "addedByCO": true
+        },
+        {
+          "value": 886.85,
+          "year": 2022,
+          "id": 12,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "Cifras 2021 y 2022 provisionales.",
+      "Additional Source": "Banco Central del Ecuador: Cuentas Nacionales Anuales, Cuentas Nacionales Trimestrales y Censo",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -4510,79 +4700,87 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 13.75,
+          "value": 14.69,
           "year": 2010,
           "id": 0,
           "addedByCO": true
         },
         {
-          "value": 13.56,
+          "value": 14.3,
           "year": 2011,
           "id": 1,
           "addedByCO": true
         },
         {
-          "value": 13.36,
+          "value": 14,
           "year": 2012,
           "id": 2,
           "addedByCO": true
         },
         {
-          "value": 13.01,
+          "value": 13.56,
           "year": 2013,
           "id": 3,
           "addedByCO": true
         },
         {
-          "value": 12.56,
+          "value": 13.37,
           "year": 2014,
           "id": 4,
           "addedByCO": true
         },
         {
-          "value": 12.44,
+          "value": 13.5,
           "year": 2015,
           "id": 5,
           "addedByCO": true
         },
         {
-          "value": 12.49,
+          "value": 13.55,
           "year": 2016,
           "id": 6,
           "addedByCO": true
         },
         {
-          "value": 12.63,
+          "value": 13.39,
           "year": 2017,
           "id": 7,
           "addedByCO": true
         },
         {
-          "value": 12.55,
+          "value": 13.37,
           "year": 2018,
           "id": 8,
           "addedByCO": true
         },
         {
-          "value": 12.44,
+          "value": 13.05,
           "year": 2019,
           "id": 9,
           "addedByCO": true
         },
         {
-          "value": 12.64,
+          "value": 12.86,
           "year": 2020,
           "id": 10,
           "addedByCO": true
         },
         {
-          "value": 12.64,
+          "value": 13.72,
           "year": 2021,
           "id": 11,
+          "addedByCO": true
+        },
+        {
+          "value": 13.72,
+          "year": 2022,
+          "id": 12,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "Cifras 2021 y 2022 provisionales.",
+      "Additional Source": "Banco Central del Ecuador: Cuentas Nacionales Anuales y Cuentas Nacionales Trimestrales",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -4598,85 +4796,39 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 5.02,
-          "year": 2010,
-          "id": 0,
-          "addedByCO": true
-        },
-        {
-          "value": 4.21,
-          "year": 2011,
-          "id": 1,
-          "addedByCO": true
-        },
-        {
-          "value": 4.12,
-          "year": 2012,
-          "id": 2,
-          "addedByCO": true
-        },
-        {
-          "value": 4.15,
-          "year": 2013,
-          "id": 3,
-          "addedByCO": true
-        },
-        {
-          "value": 3.8,
-          "year": 2014,
-          "id": 4,
-          "addedByCO": true
-        },
-        {
-          "value": 4.77,
-          "year": 2015,
-          "id": 5,
-          "addedByCO": true
-        },
-        {
-          "value": 5.21,
-          "year": 2016,
-          "id": 6,
-          "addedByCO": true
-        },
-        {
-          "value": 4.62,
-          "year": 2017,
-          "id": 7,
-          "addedByCO": true
-        },
-        {
-          "value": 3.69,
+          "value": 3.92,
           "year": 2018,
           "id": 8,
           "addedByCO": true
         },
         {
-          "value": 3.84,
+          "value": 4.16,
           "year": 2019,
           "id": 9,
           "addedByCO": true
         },
         {
-          "value": 4.9,
-          "year": 2020,
-          "id": 10,
-          "addedByCO": true
-        },
-        {
-          "value": 4.15,
+          "value": 5.24,
           "year": 2021,
           "id": 11,
           "addedByCO": true
         },
         {
-          "value": 3.19,
+          "value": 4.35,
           "year": 2022,
           "id": 12,
+          "addedByCO": true
+        },
+        {
+          "value": 3.85,
+          "year": 2023,
+          "id": 5,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "NA",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos: Encuesta Nacional Empleo, Desempleo y Subempleo (ENEMDU) - Anual",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -4692,79 +4844,87 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 3.73,
+          "value": 4.23,
           "year": 2010,
           "id": 0,
           "addedByCO": true
         },
         {
-          "value": 4.59,
+          "value": 5.18,
           "year": 2011,
           "id": 1,
           "addedByCO": true
         },
         {
-          "value": 3.67,
+          "value": 3.81,
           "year": 2012,
           "id": 2,
           "addedByCO": true
         },
         {
-          "value": 1.18,
+          "value": 3.36,
           "year": 2013,
           "id": 3,
           "addedByCO": true
         },
         {
-          "value": -0.06,
+          "value": 0.36,
           "year": 2014,
           "id": 4,
           "addedByCO": true
         },
         {
-          "value": -2.98,
+          "value": -2.96,
           "year": 2015,
           "id": 5,
           "addedByCO": true
         },
         {
-          "value": -5.5,
+          "value": -4.99,
           "year": 2016,
           "id": 6,
           "addedByCO": true
         },
         {
-          "value": -0.93,
+          "value": 2.55,
           "year": 2017,
           "id": 7,
           "addedByCO": true
         },
         {
-          "value": 1.04,
+          "value": 0.8,
           "year": 2018,
           "id": 8,
           "addedByCO": true
         },
         {
-          "value": -0.72,
+          "value": -0.57,
           "year": 2019,
           "id": 9,
           "addedByCO": true
         },
         {
-          "value": -6.59,
+          "value": -8.06,
           "year": 2020,
           "id": 10,
           "addedByCO": true
         },
         {
-          "value": -2.82,
+          "value": 2.38,
           "year": 2021,
           "id": 11,
+          "addedByCO": true
+        },
+        {
+          "value": 8.22,
+          "year": 2022,
+          "id": 12,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "Cifras 2021 y 2022 provisionales.",
+      "Additional Source": "Banco Central del Ecuador: Cuentas Nacionales Trimestrales | Instituto Nacional de Estad<U+FFFD>stica y Censos: Encuesta Nacional de Empleo,  Desempleo y Subempleo (ENEMDU) <U+FFFD> Puntual de diciembre",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -4780,79 +4940,87 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 1.64,
+          "value": 1.18,
           "year": 2010,
           "id": 0,
           "addedByCO": true
         },
         {
-          "value": 1.59,
+          "value": 1.13,
           "year": 2011,
           "id": 1,
           "addedByCO": true
         },
         {
-          "value": 1.49,
+          "value": 1.06,
           "year": 2012,
           "id": 2,
           "addedByCO": true
         },
         {
-          "value": 1.52,
+          "value": 1.06,
           "year": 2013,
           "id": 3,
           "addedByCO": true
         },
         {
-          "value": 1.61,
+          "value": 1.11,
           "year": 2014,
           "id": 4,
           "addedByCO": true
         },
         {
-          "value": 1.55,
+          "value": 1.07,
           "year": 2015,
           "id": 5,
           "addedByCO": true
         },
         {
-          "value": 1.51,
+          "value": 1.03,
           "year": 2016,
           "id": 6,
           "addedByCO": true
         },
         {
-          "value": 1.52,
+          "value": 1.01,
           "year": 2017,
           "id": 7,
           "addedByCO": true
         },
         {
-          "value": 1.46,
+          "value": 0.98,
           "year": 2018,
           "id": 8,
           "addedByCO": true
         },
         {
-          "value": 1.54,
+          "value": 1.03,
           "year": 2019,
           "id": 9,
           "addedByCO": true
         },
         {
-          "value": 1.47,
+          "value": 1,
           "year": 2020,
           "id": 10,
           "addedByCO": true
         },
         {
-          "value": 1.54,
+          "value": 0.99,
           "year": 2021,
           "id": 11,
+          "addedByCO": true
+        },
+        {
+          "value": 1.01,
+          "year": 2022,
+          "id": 12,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "NA",
+      "Additional Source": "Ministerio de Energ<U+FFFD>a y Minas: Balance Energ<U+FFFD>tico Nacional",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -4898,49 +5066,57 @@
           "addedByCO": true
         },
         {
-          "value": 11.96,
+          "value": 11.93,
           "year": 2015,
           "id": 5,
           "addedByCO": true
         },
         {
-          "value": 13.69,
+          "value": 13.6,
           "year": 2016,
           "id": 6,
           "addedByCO": true
         },
         {
-          "value": 15.84,
+          "value": 15.75,
           "year": 2017,
           "id": 7,
           "addedByCO": true
         },
         {
-          "value": 15.26,
+          "value": 15.21,
           "year": 2018,
           "id": 8,
           "addedByCO": true
         },
         {
-          "value": 16.64,
+          "value": 16.48,
           "year": 2019,
           "id": 9,
           "addedByCO": true
         },
         {
-          "value": 18.83,
+          "value": 18.73,
           "year": 2020,
           "id": 10,
           "addedByCO": true
         },
         {
-          "value": 17.57,
+          "value": 17.37,
           "year": 2021,
           "id": 11,
+          "addedByCO": true
+        },
+        {
+          "value": 15.58,
+          "year": 2022,
+          "id": 12,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "Cifras 2015-2022 provisionales.",
+      "Additional Source": "Ministerio de Energ<U+FFFD>a y Minas: Balance Energ<U+FFFD>tico Nacional",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -5026,7 +5202,7 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 0.47,
+          "value": 0.48,
           "year": 2010,
           "id": 0,
           "addedByCO": true
@@ -5074,7 +5250,7 @@
           "addedByCO": true
         },
         {
-          "value": 0.83,
+          "value": 0.84,
           "year": 2018,
           "id": 8,
           "addedByCO": true
@@ -5092,13 +5268,21 @@
           "addedByCO": true
         },
         {
-          "value": 0.8,
+          "value": 0.81,
           "year": 2021,
           "id": 11,
+          "addedByCO": true
+        },
+        {
+          "value": 0.6,
+          "year": 2022,
+          "id": 12,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "Cifra 2022 provisional.",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos: Registro Estad<U+FFFD>stico de Defunciones Generales",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -5180,13 +5364,21 @@
           "addedByCO": true
         },
         {
-          "value": 5.12,
+          "value": 5.18,
           "year": 2021,
           "id": 11,
+          "addedByCO": true
+        },
+        {
+          "value": 5.44,
+          "year": 2022,
+          "id": 12,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "Cifra 2022 provisional.",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos: Estad<U+FFFD>stica de Defunciones Generales",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -5202,79 +5394,87 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 193.53,
+          "value": 197.5,
           "year": 2010,
           "id": 0,
           "addedByCO": true
         },
         {
-          "value": 192.5,
+          "value": 196,
           "year": 2011,
           "id": 1,
           "addedByCO": true
         },
         {
-          "value": 196.65,
+          "value": 199.73,
           "year": 2012,
           "id": 2,
           "addedByCO": true
         },
         {
-          "value": 192.12,
+          "value": 194.64,
           "year": 2013,
           "id": 3,
           "addedByCO": true
         },
         {
-          "value": 186.5,
+          "value": 188.41,
           "year": 2014,
           "id": 4,
           "addedByCO": true
         },
         {
-          "value": 186.33,
+          "value": 187.61,
           "year": 2015,
           "id": 5,
           "addedByCO": true
         },
         {
-          "value": 199.17,
+          "value": 199.89,
           "year": 2016,
           "id": 6,
           "addedByCO": true
         },
         {
-          "value": 197.46,
+          "value": 197.4,
           "year": 2017,
           "id": 7,
           "addedByCO": true
         },
         {
-          "value": 198.11,
+          "value": 196.89,
           "year": 2018,
           "id": 8,
           "addedByCO": true
         },
         {
-          "value": 202.39,
+          "value": 199.98,
           "year": 2019,
           "id": 9,
           "addedByCO": true
         },
         {
-          "value": 273.29,
+          "value": 270.01,
           "year": 2020,
           "id": 10,
           "addedByCO": true
         },
         {
-          "value": 231.03,
+          "value": 230.99,
           "year": 2021,
           "id": 11,
+          "addedByCO": true
+        },
+        {
+          "value": 215.69,
+          "year": 2022,
+          "id": 12,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "Cifra 2022 provisional.",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos: Registro Estad<U+FFFD>stico de Defunciones Generales",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -5290,55 +5490,55 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 21.98,
+          "value": 22.12,
           "year": 2010,
           "id": 0,
           "addedByCO": true
         },
         {
-          "value": 21.92,
+          "value": 22.03,
           "year": 2011,
           "id": 1,
           "addedByCO": true
         },
         {
-          "value": 20.39,
+          "value": 20.47,
           "year": 2012,
           "id": 2,
           "addedByCO": true
         },
         {
-          "value": 20.06,
+          "value": 20.13,
           "year": 2013,
           "id": 3,
           "addedByCO": true
         },
         {
-          "value": 20.35,
+          "value": 20.42,
           "year": 2014,
           "id": 4,
           "addedByCO": true
         },
         {
-          "value": 19.16,
+          "value": 19.21,
           "year": 2015,
           "id": 5,
           "addedByCO": true
         },
         {
-          "value": 17.71,
+          "value": 17.77,
           "year": 2016,
           "id": 6,
           "addedByCO": true
         },
         {
-          "value": 18.36,
+          "value": 18.41,
           "year": 2017,
           "id": 7,
           "addedByCO": true
         },
         {
-          "value": 18.85,
+          "value": 18.87,
           "year": 2018,
           "id": 8,
           "addedByCO": true
@@ -5350,19 +5550,27 @@
           "addedByCO": true
         },
         {
-          "value": 14.47,
+          "value": 14.53,
           "year": 2020,
           "id": 10,
           "addedByCO": true
         },
         {
-          "value": 18.42,
+          "value": 19.08,
           "year": 2021,
           "id": 11,
+          "addedByCO": true
+        },
+        {
+          "value": 20.31,
+          "year": 2022,
+          "id": 12,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "Cifra 2022 provisional.",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos: Registro Estad<U+FFFD>stico de Defunciones Generales",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -5378,55 +5586,55 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 6.08,
+          "value": 6.12,
           "year": 2010,
           "id": 0,
           "addedByCO": true
         },
         {
-          "value": 6.02,
+          "value": 6.05,
           "year": 2011,
           "id": 1,
           "addedByCO": true
         },
         {
-          "value": 6.29,
+          "value": 6.31,
           "year": 2012,
           "id": 2,
           "addedByCO": true
         },
         {
-          "value": 4.4,
+          "value": 4.41,
           "year": 2013,
           "id": 3,
           "addedByCO": true
         },
         {
-          "value": 4.69,
+          "value": 4.7,
           "year": 2014,
           "id": 4,
           "addedByCO": true
         },
         {
-          "value": 6.66,
+          "value": 6.68,
           "year": 2015,
           "id": 5,
           "addedByCO": true
         },
         {
-          "value": 7.46,
+          "value": 7.48,
           "year": 2016,
           "id": 6,
           "addedByCO": true
         },
         {
-          "value": 7.16,
+          "value": 7.19,
           "year": 2017,
           "id": 7,
           "addedByCO": true
         },
         {
-          "value": 7.17,
+          "value": 7.18,
           "year": 2018,
           "id": 8,
           "addedByCO": true
@@ -5438,19 +5646,27 @@
           "addedByCO": true
         },
         {
-          "value": 6.22,
+          "value": 6.24,
           "year": 2020,
           "id": 10,
           "addedByCO": true
         },
         {
-          "value": 4.96,
+          "value": 5.13,
           "year": 2021,
           "id": 11,
+          "addedByCO": true
+        },
+        {
+          "value": 6.48,
+          "year": 2022,
+          "id": 12,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "Cifra 2022 provisional.",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos: Registro Estad<U+FFFD>stico de Defunciones Generales",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -5532,13 +5748,21 @@
           "addedByCO": true
         },
         {
-          "value": 9.82,
+          "value": 9.94,
           "year": 2021,
           "id": 11,
+          "addedByCO": true
+        },
+        {
+          "value": 10.56,
+          "year": 2022,
+          "id": 12,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "Cifra 2022 provisional.",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos: Estad<U+FFFD>stica de Defunciones Generales",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -5554,85 +5778,39 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 32.76,
-          "year": 2010,
-          "id": 0,
-          "addedByCO": true
-        },
-        {
-          "value": 28.64,
-          "year": 2011,
-          "id": 1,
-          "addedByCO": true
-        },
-        {
-          "value": 27.31,
-          "year": 2012,
-          "id": 2,
-          "addedByCO": true
-        },
-        {
-          "value": 25.55,
-          "year": 2013,
-          "id": 3,
-          "addedByCO": true
-        },
-        {
-          "value": 22.49,
-          "year": 2014,
-          "id": 4,
-          "addedByCO": true
-        },
-        {
-          "value": 23.28,
-          "year": 2015,
-          "id": 5,
-          "addedByCO": true
-        },
-        {
-          "value": 22.92,
-          "year": 2016,
-          "id": 6,
-          "addedByCO": true
-        },
-        {
-          "value": 21.46,
-          "year": 2017,
-          "id": 7,
-          "addedByCO": true
-        },
-        {
-          "value": 23.22,
+          "value": 23.31,
           "year": 2018,
           "id": 8,
           "addedByCO": true
         },
         {
-          "value": 25.04,
+          "value": 23.39,
           "year": 2019,
           "id": 9,
           "addedByCO": true
         },
         {
-          "value": 33.04,
-          "year": 2020,
-          "id": 10,
-          "addedByCO": true
-        },
-        {
-          "value": 27.69,
+          "value": 28.85,
           "year": 2021,
           "id": 11,
           "addedByCO": true
         },
         {
-          "value": 25.23,
+          "value": 25.46,
           "year": 2022,
           "id": 12,
+          "addedByCO": true
+        },
+        {
+          "value": 23.87,
+          "year": 2023,
+          "id": 4,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "NA",
+      "Additional Source": "Instituto Nacional de Estad<U+FFFD>stica y Censos: Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU)",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -5648,85 +5826,39 @@
       "Tier_Classification": "",
       "values": [
         {
-          "value": 7.62,
-          "year": 2010,
-          "id": 0,
-          "addedByCO": true
-        },
-        {
-          "value": 6.6,
-          "year": 2011,
-          "id": 1,
-          "addedByCO": true
-        },
-        {
-          "value": 6.62,
-          "year": 2012,
-          "id": 2,
-          "addedByCO": true
-        },
-        {
-          "value": 5.06,
-          "year": 2013,
-          "id": 3,
-          "addedByCO": true
-        },
-        {
-          "value": 4.53,
-          "year": 2014,
-          "id": 4,
-          "addedByCO": true
-        },
-        {
-          "value": 5.21,
-          "year": 2015,
-          "id": 5,
-          "addedByCO": true
-        },
-        {
-          "value": 5.38,
-          "year": 2016,
-          "id": 6,
-          "addedByCO": true
-        },
-        {
-          "value": 4.96,
-          "year": 2017,
-          "id": 7,
-          "addedByCO": true
-        },
-        {
-          "value": 5.14,
+          "value": 4.69,
           "year": 2018,
           "id": 8,
           "addedByCO": true
         },
         {
-          "value": 5.29,
+          "value": 5.13,
           "year": 2019,
           "id": 9,
           "addedByCO": true
         },
         {
-          "value": 10.28,
-          "year": 2020,
-          "id": 10,
-          "addedByCO": true
-        },
-        {
-          "value": 5.76,
+          "value": 5.97,
           "year": 2021,
           "id": 11,
           "addedByCO": true
         },
         {
-          "value": 5.12,
+          "value": 5.55,
           "year": 2022,
           "id": 12,
+          "addedByCO": true
+        },
+        {
+          "value": 5.2,
+          "year": 2023,
+          "id": 4,
           "addedByCO": true
         }
       ],
       "methodology": "NA",
+      "comment": "NA.",
+      "Additional Source": "Instituto Nacional de Estad\u00ef\u00bf\u00bdstica y Censos: Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU)",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
     },
@@ -26060,7 +26192,7 @@
     {
       "Reporting Type": "G",
       "series": "IT_NET_BBND",
-      "seriesDescription": "Fixed broadband subscriptions per 100\u00ef\u00bf\u00bdinhabitants, by speed (per 100 inhabitants)",
+      "seriesDescription": "Fixed broadband subscriptions per 100<U+FFFD>inhabitants, by speed (per 100 inhabitants)",
       "goal": "17",
       "target": "17.6",
       "indicator": "17.6.1",
@@ -39423,9 +39555,9 @@
         "baseYear": 2015,
         "latestAvailable": 2022
       },
-      "Sex": "FEMALE",
       "comment": "Serie provista por la SNP de informaci<U+FFFD>n generada por el INEC (https://www.ecuadorencifras.gob.ec/objetivos-de-desarrollo-sostenible/)",
       "Additional Source": "INEC",
+      "Sex": "FEMALE",
       "currentLevelAssessment": null,
       "status": "Fair progress but acceleration needed"
     },
