@@ -2,6 +2,16 @@
   "countryCode": "ALA",
   "goalStatus": [
     {
+      "goal": 10,
+      "noOfIndicatorsWithData": 0,
+      "status": null
+    },
+    {
+      "goal": 16,
+      "noOfIndicatorsWithData": 0,
+      "status": null
+    },
+    {
       "goal": 11,
       "noOfIndicatorsWithData": 1,
       "status": "Identified Gap"
@@ -18,11 +28,16 @@
     },
     {
       "goal": 17,
-      "noOfIndicatorsWithData": 1,
+      "noOfIndicatorsWithData": 3,
       "status": "On Track"
     },
     {
       "goal": 2,
+      "noOfIndicatorsWithData": 0,
+      "status": null
+    },
+    {
+      "goal": 5,
       "noOfIndicatorsWithData": 0,
       "status": null
     },
@@ -33,6 +48,16 @@
     }
   ],
   "targetStatus": [
+    {
+      "goal": "10",
+      "target": "10.3",
+      "status": null
+    },
+    {
+      "goal": "16",
+      "target": "16.b",
+      "status": null
+    },
     {
       "goal": "11",
       "target": "11.a",
@@ -65,6 +90,11 @@
     },
     {
       "goal": "17",
+      "target": "17.18",
+      "status": "On Track"
+    },
+    {
+      "goal": "17",
       "target": "17.19",
       "status": "On Track"
     },
@@ -74,12 +104,29 @@
       "status": null
     },
     {
+      "goal": "5",
+      "target": "5.a",
+      "status": null
+    },
+    {
       "goal": "6",
       "target": "6.6",
       "status": null
     }
   ],
   "indicatorStatus": [
+    {
+      "goal": "10",
+      "target": "10.3",
+      "indicator": "10.3.1",
+      "status": null
+    },
+    {
+      "goal": "16",
+      "target": "16.b",
+      "indicator": "16.b.1",
+      "status": null
+    },
     {
       "goal": "11",
       "target": "11.a",
@@ -118,6 +165,18 @@
     },
     {
       "goal": "17",
+      "target": "17.18",
+      "indicator": "17.18.2",
+      "status": "On Track"
+    },
+    {
+      "goal": "17",
+      "target": "17.18",
+      "indicator": "17.18.3",
+      "status": "On Track"
+    },
+    {
+      "goal": "17",
       "target": "17.19",
       "indicator": "17.19.2",
       "status": "On Track"
@@ -129,6 +188,12 @@
       "status": null
     },
     {
+      "goal": "5",
+      "target": "5.a",
+      "indicator": "5.a.2",
+      "status": null
+    },
+    {
       "goal": "6",
       "target": "6.6",
       "indicator": "6.6.1",
@@ -136,6 +201,82 @@
     }
   ],
   "tsData": [
+    {
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Disability status": "_T",
+      "Grounds of discrimination": "ALL",
+      "series": "VC_VOV_GDSD",
+      "goal": "10",
+      "target": "10.3",
+      "indicator": "10.3.1",
+      "seriesDescription": "Proportion of population reporting having felt discriminated against, by grounds of discrimination, sex and disability (%)",
+      "values": [
+        {
+          "value": 12.0,
+          "year": 2020.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "decrease",
+        "CAGRLimit": [
+          0.01,
+          -0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 1.0,
+        "baseYear": null,
+        "latestAvailable": 2020.0
+      },
+      "Custodian_Agency(ies)": "OHCHR",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier II",
+      "currentLevelAssessment": null,
+      "status": "Insufficient Data"
+    },
+    {
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Disability status": "_T",
+      "Grounds of discrimination": "ALL",
+      "series": "VC_VOV_GDSD",
+      "goal": "16",
+      "target": "16.b",
+      "indicator": "16.b.1",
+      "seriesDescription": "Proportion of population reporting having felt discriminated against, by grounds of discrimination, sex and disability (%)",
+      "values": [
+        {
+          "value": 12.0,
+          "year": 2020.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "decrease",
+        "CAGRLimit": [
+          0.01,
+          -0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 1.0,
+        "baseYear": null,
+        "latestAvailable": 2020.0
+      },
+      "Custodian_Agency(ies)": "OHCHR",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier II",
+      "currentLevelAssessment": null,
+      "status": "Insufficient Data"
+    },
     {
       "Reporting Type": "G",
       "series": "SD_CPA_UPRDP",
@@ -147,6 +288,10 @@
         {
           "value": 0.0,
           "year": 2020.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -167,6 +312,7 @@
     {
       "Reporting Type": "G",
       "Level/Status": "LI_PLDV",
+      "Marine Spatial Planning (MSP)": "_T",
       "series": "EN_SCP_ECSYBA",
       "goal": "14",
       "target": "14.2",
@@ -243,7 +389,7 @@
       "goal": "15",
       "target": "15.2",
       "indicator": "15.2.1",
-      "seriesDescription": "Forest area under an independently verified forest management certification scheme (thousands of hectares)",
+      "seriesDescription": "Forest area certified under an independently verified certification scheme (thousands of hectares)",
       "values": [
         {
           "value": 0.0,
@@ -280,6 +426,10 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -294,7 +444,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "FAO",
       "Partner_Agency(ies)": "UNEP,UNFCCC",
@@ -311,60 +461,64 @@
       "seriesDescription": "Red List Index",
       "values": [
         {
-          "value": 0.99039,
+          "value": 0.99773,
           "year": 2010.0
         },
         {
-          "value": 0.98997,
+          "value": 0.99768,
           "year": 2011.0
         },
         {
-          "value": 0.98955,
+          "value": 0.99767,
           "year": 2012.0
         },
         {
-          "value": 0.98896,
+          "value": 0.99767,
           "year": 2013.0
         },
         {
-          "value": 0.98836,
+          "value": 0.99767,
           "year": 2014.0
         },
         {
-          "value": 0.98777,
+          "value": 0.9977,
           "year": 2015.0
         },
         {
-          "value": 0.98717,
+          "value": 0.9977,
           "year": 2016.0
         },
         {
-          "value": 0.98717,
+          "value": 0.9977,
           "year": 2017.0
         },
         {
-          "value": 0.98717,
+          "value": 0.99768,
           "year": 2018.0
         },
         {
-          "value": 0.98717,
+          "value": 0.99765,
           "year": 2019.0
         },
         {
-          "value": 0.98717,
+          "value": 0.99762,
           "year": 2020.0
         },
         {
-          "value": 0.98717,
+          "value": 0.99762,
           "year": 2021.0
         },
         {
-          "value": 0.98717,
+          "value": 0.99762,
           "year": 2022.0
         },
         {
-          "value": 0.98717,
+          "value": 0.99762,
           "year": 2023.0
+        },
+        {
+          "value": 0.99762,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -384,7 +538,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2023.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "IUCN",
       "Partner_Agency(ies)": "UNEP,CITES, BirdLife International",
@@ -443,6 +597,14 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
+        },
+        {
+          "value": 0.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -457,7 +619,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "CBD-Secretariat",
       "Partner_Agency(ies)": "FAO,UNEP",
@@ -500,6 +662,14 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
+        },
+        {
+          "value": 0.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -568,6 +738,14 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
+        },
+        {
+          "value": 0.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -584,6 +762,182 @@
       "Tier_Classification": "Tier I",
       "currentLevelAssessment": null,
       "status": "Target Not Achieved"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "SG_STT_FPOS",
+      "goal": "17",
+      "target": "17.18",
+      "indicator": "17.18.2",
+      "seriesDescription": "Countries with national statistical legislation exists that complies with the Fundamental Principles of Official Statistics (1 = YES; 0 = NO)",
+      "values": [
+        {
+          "value": 1.0,
+          "year": 2022.0
+        },
+        {
+          "value": 1.0,
+          "year": 2023.0
+        },
+        {
+          "value": 1.0,
+          "year": 2024.0
+        }
+      ],
+      "methodology": {
+        "value": 1,
+        "trendMethodology": "Binary",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": null,
+        "latestAvailable": null
+      },
+      "Custodian_Agency(ies)": "PARIS21",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "SG_STT_NSDSFDGVT",
+      "goal": "17",
+      "target": "17.18",
+      "indicator": "17.18.3",
+      "seriesDescription": "Countries with national statistical plans with funding from Government (1 = YES; 0 = NO)",
+      "values": [
+        {
+          "value": 1.0,
+          "year": 2022.0
+        },
+        {
+          "value": 1.0,
+          "year": 2023.0
+        },
+        {
+          "value": 1.0,
+          "year": 2024.0
+        }
+      ],
+      "methodology": {
+        "value": 1,
+        "trendMethodology": "Binary",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": null,
+        "latestAvailable": null
+      },
+      "Custodian_Agency(ies)": "PARIS21",
+      "Partner_Agency(ies)": "UNSD,Regional Commissions,World Bank",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "SG_STT_NSDSFDOTHR",
+      "goal": "17",
+      "target": "17.18",
+      "indicator": "17.18.3",
+      "seriesDescription": "Countries with national statistical plans with funding from others (1 = YES; 0 = NO)",
+      "values": [
+        {
+          "value": 1.0,
+          "year": 2022.0
+        },
+        {
+          "value": 1.0,
+          "year": 2023.0
+        }
+      ],
+      "methodology": {
+        "value": 1,
+        "trendMethodology": "Binary",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": null,
+        "latestAvailable": null
+      },
+      "Custodian_Agency(ies)": "PARIS21",
+      "Partner_Agency(ies)": "UNSD,Regional Commissions,World Bank",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "SG_STT_NSDSIMPL",
+      "goal": "17",
+      "target": "17.18",
+      "indicator": "17.18.3",
+      "seriesDescription": "Countries with national statistical plans that are under implementation (1 = YES; 0 = NO)",
+      "values": [
+        {
+          "value": 1.0,
+          "year": 2022.0
+        },
+        {
+          "value": 1.0,
+          "year": 2023.0
+        },
+        {
+          "value": 1.0,
+          "year": 2024.0
+        }
+      ],
+      "methodology": {
+        "value": 1,
+        "trendMethodology": "Binary",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": null,
+        "latestAvailable": null
+      },
+      "Custodian_Agency(ies)": "PARIS21",
+      "Partner_Agency(ies)": "UNSD,Regional Commissions,World Bank",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "SG_STT_NSDSFND",
+      "goal": "17",
+      "target": "17.18",
+      "indicator": "17.18.3",
+      "seriesDescription": "Countries with national statistical plans that are fully funded (1 = YES; 0 = NO)",
+      "values": [
+        {
+          "value": 1.0,
+          "year": 2022.0
+        },
+        {
+          "value": 1.0,
+          "year": 2023.0
+        },
+        {
+          "value": 1.0,
+          "year": 2024.0
+        }
+      ],
+      "methodology": {
+        "value": 1,
+        "trendMethodology": "Binary",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": null,
+        "latestAvailable": null
+      },
+      "Custodian_Agency(ies)": "PARIS21",
+      "Partner_Agency(ies)": "UNSD,Regional Commissions,World Bank",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
     },
     {
       "Reporting Type": "G",
@@ -616,6 +970,10 @@
         {
           "value": 1.0,
           "year": 2020.0
+        },
+        {
+          "value": 1.0,
+          "year": 2021.0
         }
       ],
       "methodology": {
@@ -664,6 +1022,10 @@
         {
           "value": 1.0,
           "year": 2020.0
+        },
+        {
+          "value": 1.0,
+          "year": 2021.0
         }
       ],
       "methodology": {
@@ -690,11 +1052,11 @@
       "seriesDescription": "Indicator of Food Price Anomalies (IFPA), by Consumer Food Price Index",
       "values": [
         {
-          "value": -1.37,
+          "value": -1.96,
           "year": 2010.0
         },
         {
-          "value": -0.12,
+          "value": -0.05,
           "year": 2011.0
         },
         {
@@ -702,19 +1064,19 @@
           "year": 2012.0
         },
         {
-          "value": 0.64,
+          "value": 0.61,
           "year": 2013.0
         },
         {
-          "value": -0.29,
+          "value": -0.31,
           "year": 2014.0
         },
         {
-          "value": -0.2,
+          "value": -0.22,
           "year": 2015.0
         },
         {
-          "value": -0.62,
+          "value": -0.63,
           "year": 2016.0
         },
         {
@@ -722,20 +1084,28 @@
           "year": 2017.0
         },
         {
-          "value": 0.15,
+          "value": 0.17,
           "year": 2018.0
         },
         {
-          "value": 0.38,
+          "value": 0.39,
           "year": 2019.0
         },
         {
-          "value": 0.27,
+          "value": 0.28,
           "year": 2020.0
         },
         {
-          "value": -0.29,
+          "value": -0.3,
           "year": 2021.0
+        },
+        {
+          "value": 1.5,
+          "year": 2022.0
+        },
+        {
+          "value": 0.62,
+          "year": 2023.0
         }
       ],
       "methodology": "NA",
@@ -744,6 +1114,39 @@
       "Tier_Classification": "Tier I",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
+    },
+    {
+      "Reporting Type": "G",
+      "series": "SG_LGL_LNDFEMOD",
+      "goal": "5",
+      "target": "5.a",
+      "indicator": "5.a.2",
+      "seriesDescription": "Degree to which the legal framework (including customary law) guarantees women\u2019s equal rights to land ownership and/or control (1=No evidence to 6=Highest levels of guarantees)",
+      "values": [
+        {
+          "value": 3.0,
+          "year": 2024.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": null,
+        "latestAvailable": 2024.0
+      },
+      "Custodian_Agency(ies)": "FAO",
+      "Partner_Agency(ies)": "World Bank, UN Women",
+      "Tier_Classification": "Tier II",
+      "currentLevelAssessment": null,
+      "status": "Insufficient Data"
     },
     {
       "Reporting Type": "G",
@@ -803,34 +1206,6 @@
         },
         {
           "value": 25.9766,
-          "year": 2022.0
-        }
-      ],
-      "methodology": "NA",
-      "Custodian_Agency(ies)": "UNEP,Ramsar",
-      "Partner_Agency(ies)": "UN-Water,IUCN",
-      "Tier_Classification": "Tier I",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
-    },
-    {
-      "Reporting Type": "G",
-      "series": "EN_LKRV_PWAP",
-      "goal": "6",
-      "target": "6.6",
-      "indicator": "6.6.1",
-      "seriesDescription": "Lakes and rivers permanent water area (% of total land area)",
-      "values": [
-        {
-          "value": 0.01629,
-          "year": 2020.0
-        },
-        {
-          "value": 0.01635,
-          "year": 2021.0
-        },
-        {
-          "value": 0.01644,
           "year": 2022.0
         }
       ],
@@ -911,34 +1286,6 @@
     },
     {
       "Reporting Type": "G",
-      "series": "EN_LKRV_SWAP",
-      "goal": "6",
-      "target": "6.6",
-      "indicator": "6.6.1",
-      "seriesDescription": "Lakes and rivers seasonal water area (% of total land area)",
-      "values": [
-        {
-          "value": 0.00597,
-          "year": 2020.0
-        },
-        {
-          "value": 0.0065,
-          "year": 2021.0
-        },
-        {
-          "value": 0.00679,
-          "year": 2022.0
-        }
-      ],
-      "methodology": "NA",
-      "Custodian_Agency(ies)": "UNEP,Ramsar",
-      "Partner_Agency(ies)": "UN-Water,IUCN",
-      "Tier_Classification": "Tier I",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
-    },
-    {
-      "Reporting Type": "G",
       "series": "EN_LKRV_PWAC",
       "goal": "6",
       "target": "6.6",
@@ -946,55 +1293,55 @@
       "seriesDescription": "Lakes and rivers permanent water area change (%)",
       "values": [
         {
-          "value": -1.87111,
+          "value": 3.61699,
           "year": 2010.0
         },
         {
-          "value": -2.87341,
+          "value": 2.55863,
           "year": 2011.0
         },
         {
-          "value": -3.86174,
+          "value": 1.51503,
           "year": 2012.0
         },
         {
-          "value": -3.59971,
+          "value": 1.79171,
           "year": 2013.0
         },
         {
-          "value": -4.14556,
+          "value": 1.21533,
           "year": 2014.0
         },
         {
-          "value": -3.95432,
+          "value": 1.41727,
           "year": 2015.0
         },
         {
-          "value": -3.99545,
+          "value": 1.37384,
           "year": 2016.0
         },
         {
-          "value": -4.68457,
+          "value": 0.64618,
           "year": 2017.0
         },
         {
-          "value": -4.54898,
+          "value": 0.78935,
           "year": 2018.0
         },
         {
-          "value": -4.71402,
+          "value": 0.61508,
           "year": 2019.0
         },
         {
-          "value": -4.86553,
+          "value": 0.4551,
           "year": 2020.0
         },
         {
-          "value": -4.50207,
+          "value": 0.83889,
           "year": 2021.0
         },
         {
-          "value": -3.99152,
+          "value": 1.37799,
           "year": 2022.0
         }
       ],
@@ -1014,55 +1361,55 @@
       "seriesDescription": "Lakes and rivers seasonal water area change (%)",
       "values": [
         {
-          "value": -5.67203,
+          "value": -5.06106,
           "year": 2010.0
         },
         {
-          "value": -5.78984,
+          "value": -5.17963,
           "year": 2011.0
         },
         {
-          "value": -3.29162,
+          "value": -2.66523,
           "year": 2012.0
         },
         {
-          "value": -9.87537,
+          "value": -9.29163,
           "year": 2013.0
         },
         {
-          "value": -0.21784,
+          "value": 0.42846,
           "year": 2014.0
         },
         {
-          "value": 7.1095,
+          "value": 7.80326,
           "year": 2015.0
         },
         {
-          "value": 11.10091,
+          "value": 11.82053,
           "year": 2016.0
         },
         {
-          "value": 17.90997,
+          "value": 18.67369,
           "year": 2017.0
         },
         {
-          "value": 28.9275,
+          "value": 29.76258,
           "year": 2018.0
         },
         {
-          "value": 37.42088,
+          "value": 38.31097,
           "year": 2019.0
         },
         {
-          "value": 43.29662,
+          "value": 44.22477,
           "year": 2020.0
         },
         {
-          "value": 56.17387,
+          "value": 57.18543,
           "year": 2021.0
         },
         {
-          "value": 63.10979,
+          "value": 64.16627,
           "year": 2022.0
         }
       ],
@@ -1143,34 +1490,6 @@
     },
     {
       "Reporting Type": "G",
-      "series": "EN_RSRV_MNWAP",
-      "goal": "6",
-      "target": "6.6",
-      "indicator": "6.6.1",
-      "seriesDescription": "Reservoir minimum water area (% of total land area)",
-      "values": [
-        {
-          "value": 0.0,
-          "year": 2020.0
-        },
-        {
-          "value": 0.0,
-          "year": 2021.0
-        },
-        {
-          "value": 0.0,
-          "year": 2022.0
-        }
-      ],
-      "methodology": "NA",
-      "Custodian_Agency(ies)": "UNEP,Ramsar",
-      "Partner_Agency(ies)": "UN-Water,IUCN",
-      "Tier_Classification": "Tier I",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
-    },
-    {
-      "Reporting Type": "G",
       "series": "EN_RSRV_MXWAN",
       "goal": "6",
       "target": "6.6",
@@ -1217,34 +1536,6 @@
           "value": 0.0,
           "year": 2019.0
         },
-        {
-          "value": 0.0,
-          "year": 2020.0
-        },
-        {
-          "value": 0.0,
-          "year": 2021.0
-        },
-        {
-          "value": 0.0,
-          "year": 2022.0
-        }
-      ],
-      "methodology": "NA",
-      "Custodian_Agency(ies)": "UNEP,Ramsar",
-      "Partner_Agency(ies)": "UN-Water,IUCN",
-      "Tier_Classification": "Tier I",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
-    },
-    {
-      "Reporting Type": "G",
-      "series": "EN_RSRV_MXWAP",
-      "goal": "6",
-      "target": "6.6",
-      "indicator": "6.6.1",
-      "seriesDescription": "Reservoir maximum water area (% of total land area)",
-      "values": [
         {
           "value": 0.0,
           "year": 2020.0

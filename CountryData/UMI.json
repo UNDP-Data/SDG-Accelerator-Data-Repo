@@ -4,7 +4,7 @@
     {
       "goal": 10,
       "noOfIndicatorsWithData": 1,
-      "status": "For Review"
+      "status": "On Track"
     },
     {
       "goal": 11,
@@ -26,7 +26,7 @@
     {
       "goal": "10",
       "target": "10.a",
-      "status": "For Review"
+      "status": "On Track"
     },
     {
       "goal": "11",
@@ -56,7 +56,7 @@
     {
       "goal": "15",
       "target": "15.5",
-      "status": "Identified Gap"
+      "status": "On Track"
     },
     {
       "goal": "15",
@@ -69,7 +69,7 @@
       "goal": "10",
       "target": "10.a",
       "indicator": "10.a.1",
-      "status": "For Review"
+      "status": "On Track"
     },
     {
       "goal": "11",
@@ -111,7 +111,7 @@
       "goal": "15",
       "target": "15.5",
       "indicator": "15.5.1",
-      "status": "Identified Gap"
+      "status": "On Track"
     },
     {
       "goal": "15",
@@ -121,69 +121,6 @@
     }
   ],
   "tsData": [
-    {
-      "Type of product": "IND",
-      "Reporting Type": "G",
-      "series": "TM_TRF_ZERO",
-      "goal": "10",
-      "target": "10.a",
-      "indicator": "10.a.1",
-      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
-      "values": [
-        {
-          "value": 31.82418,
-          "year": 2010.0
-        },
-        {
-          "value": 26.3197,
-          "year": 2015.0
-        },
-        {
-          "value": 25.03016,
-          "year": 2016.0
-        },
-        {
-          "value": 25.10684,
-          "year": 2017.0
-        },
-        {
-          "value": 26.50081,
-          "year": 2018.0
-        },
-        {
-          "value": 28.34068,
-          "year": 2019.0
-        },
-        {
-          "value": 42.53247,
-          "year": 2020.0
-        },
-        {
-          "value": 44.81659,
-          "year": 2021.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "targetValue": 1.0,
-        "baseYear": 2015,
-        "latestAvailable": 2021.0
-      },
-      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Target Achieved"
-    },
     {
       "Type of product": "ALP",
       "Reporting Type": "G",
@@ -224,6 +161,14 @@
         {
           "value": 40.68692,
           "year": 2021.0
+        },
+        {
+          "value": 47.28261,
+          "year": 2022.0
+        },
+        {
+          "value": 41.71712,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -239,70 +184,7 @@
         },
         "targetValue": 1.0,
         "baseYear": 2015,
-        "latestAvailable": 2021.0
-      },
-      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Target Achieved"
-    },
-    {
-      "Type of product": "TEX",
-      "Reporting Type": "G",
-      "series": "TM_TRF_ZERO",
-      "goal": "10",
-      "target": "10.a",
-      "indicator": "10.a.1",
-      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
-      "values": [
-        {
-          "value": 22.54902,
-          "year": 2010.0
-        },
-        {
-          "value": 15.78947,
-          "year": 2015.0
-        },
-        {
-          "value": 17.10526,
-          "year": 2016.0
-        },
-        {
-          "value": 10.44776,
-          "year": 2017.0
-        },
-        {
-          "value": 10.44776,
-          "year": 2018.0
-        },
-        {
-          "value": 9.09091,
-          "year": 2019.0
-        },
-        {
-          "value": 10.86957,
-          "year": 2020.0
-        },
-        {
-          "value": 15.625,
-          "year": 2021.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "targetValue": 1.0,
-        "baseYear": 2015,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
       "Partner_Agency(ies)": "",
@@ -350,6 +232,14 @@
         {
           "value": 11.50442,
           "year": 2021.0
+        },
+        {
+          "value": 17.24138,
+          "year": 2022.0
+        },
+        {
+          "value": 25.47771,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -365,7 +255,263 @@
         },
         "targetValue": 1.0,
         "baseYear": 2015,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2023.0
+      },
+      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Type of product": "AGR",
+      "Reporting Type": "G",
+      "series": "TM_TRF_ZERO",
+      "goal": "10",
+      "target": "10.a",
+      "indicator": "10.a.1",
+      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
+      "values": [
+        {
+          "value": 15.41502,
+          "year": 2010.0
+        },
+        {
+          "value": 24.34018,
+          "year": 2015.0
+        },
+        {
+          "value": 39.24051,
+          "year": 2016.0
+        },
+        {
+          "value": 35.11111,
+          "year": 2017.0
+        },
+        {
+          "value": 36.03604,
+          "year": 2018.0
+        },
+        {
+          "value": 14.93506,
+          "year": 2019.0
+        },
+        {
+          "value": 30.0,
+          "year": 2020.0
+        },
+        {
+          "value": 37.80488,
+          "year": 2021.0
+        },
+        {
+          "value": 36.06557,
+          "year": 2022.0
+        },
+        {
+          "value": 36.2069,
+          "year": 2023.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 1.0,
+        "baseYear": 2015,
+        "latestAvailable": 2023.0
+      },
+      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Type of product": "OIL",
+      "Reporting Type": "G",
+      "series": "TM_TRF_ZERO",
+      "goal": "10",
+      "target": "10.a",
+      "indicator": "10.a.1",
+      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
+      "values": [
+        {
+          "value": 0.0,
+          "year": 2010.0
+        },
+        {
+          "value": 0.0,
+          "year": 2015.0
+        },
+        {
+          "value": 100.0,
+          "year": 2023.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 1.0,
+        "baseYear": null,
+        "latestAvailable": 2023.0
+      },
+      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Type of product": "IND",
+      "Reporting Type": "G",
+      "series": "TM_TRF_ZERO",
+      "goal": "10",
+      "target": "10.a",
+      "indicator": "10.a.1",
+      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
+      "values": [
+        {
+          "value": 31.82418,
+          "year": 2010.0
+        },
+        {
+          "value": 26.3197,
+          "year": 2015.0
+        },
+        {
+          "value": 25.03016,
+          "year": 2016.0
+        },
+        {
+          "value": 25.10684,
+          "year": 2017.0
+        },
+        {
+          "value": 26.50081,
+          "year": 2018.0
+        },
+        {
+          "value": 28.34068,
+          "year": 2019.0
+        },
+        {
+          "value": 42.53247,
+          "year": 2020.0
+        },
+        {
+          "value": 44.81659,
+          "year": 2021.0
+        },
+        {
+          "value": 51.55039,
+          "year": 2022.0
+        },
+        {
+          "value": 44.65623,
+          "year": 2023.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 1.0,
+        "baseYear": 2015,
+        "latestAvailable": 2023.0
+      },
+      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Type of product": "TEX",
+      "Reporting Type": "G",
+      "series": "TM_TRF_ZERO",
+      "goal": "10",
+      "target": "10.a",
+      "indicator": "10.a.1",
+      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
+      "values": [
+        {
+          "value": 22.54902,
+          "year": 2010.0
+        },
+        {
+          "value": 15.78947,
+          "year": 2015.0
+        },
+        {
+          "value": 17.10526,
+          "year": 2016.0
+        },
+        {
+          "value": 10.44776,
+          "year": 2017.0
+        },
+        {
+          "value": 10.44776,
+          "year": 2018.0
+        },
+        {
+          "value": 9.09091,
+          "year": 2019.0
+        },
+        {
+          "value": 10.86957,
+          "year": 2020.0
+        },
+        {
+          "value": 15.625,
+          "year": 2021.0
+        },
+        {
+          "value": 29.06977,
+          "year": 2022.0
+        },
+        {
+          "value": 25.0,
+          "year": 2023.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 1.0,
+        "baseYear": 2015,
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
       "Partner_Agency(ies)": "",
@@ -409,6 +555,10 @@
         {
           "value": 0.0,
           "year": 2021.0
+        },
+        {
+          "value": 50.0,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -424,109 +574,7 @@
         },
         "targetValue": 1.0,
         "baseYear": 2017,
-        "latestAvailable": 2021.0
-      },
-      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Deterioration"
-    },
-    {
-      "Type of product": "OIL",
-      "Reporting Type": "G",
-      "series": "TM_TRF_ZERO",
-      "goal": "10",
-      "target": "10.a",
-      "indicator": "10.a.1",
-      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
-      "values": [
-        {
-          "value": 0.0,
-          "year": 2010.0
-        },
-        {
-          "value": 0.0,
-          "year": 2015.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "targetValue": 1.0,
-        "baseYear": null,
-        "latestAvailable": null
-      },
-      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "No Data After 2015"
-    },
-    {
-      "Type of product": "AGR",
-      "Reporting Type": "G",
-      "series": "TM_TRF_ZERO",
-      "goal": "10",
-      "target": "10.a",
-      "indicator": "10.a.1",
-      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
-      "values": [
-        {
-          "value": 15.41502,
-          "year": 2010.0
-        },
-        {
-          "value": 24.34018,
-          "year": 2015.0
-        },
-        {
-          "value": 39.24051,
-          "year": 2016.0
-        },
-        {
-          "value": 35.11111,
-          "year": 2017.0
-        },
-        {
-          "value": 36.03604,
-          "year": 2018.0
-        },
-        {
-          "value": 14.93506,
-          "year": 2019.0
-        },
-        {
-          "value": 30.0,
-          "year": 2020.0
-        },
-        {
-          "value": 37.80488,
-          "year": 2021.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "targetValue": 1.0,
-        "baseYear": 2015,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
       "Partner_Agency(ies)": "",
@@ -545,6 +593,10 @@
         {
           "value": 0.0,
           "year": 2020.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -649,56 +701,64 @@
       "seriesDescription": "Average proportion of Marine Key Biodiversity Areas (KBAs) covered by protected areas (%)",
       "values": [
         {
-          "value": 91.25702,
+          "value": 71.50745,
           "year": 2010.0
         },
         {
-          "value": 91.25702,
+          "value": 91.25498,
           "year": 2011.0
         },
         {
-          "value": 91.25702,
+          "value": 91.25498,
           "year": 2012.0
         },
         {
-          "value": 91.25702,
+          "value": 91.25498,
           "year": 2013.0
         },
         {
-          "value": 91.25702,
+          "value": 91.25498,
           "year": 2014.0
         },
         {
-          "value": 91.25702,
+          "value": 91.25498,
           "year": 2015.0
         },
         {
-          "value": 91.25702,
+          "value": 91.25498,
           "year": 2016.0
         },
         {
-          "value": 91.25702,
+          "value": 91.25498,
           "year": 2017.0
         },
         {
-          "value": 91.25702,
+          "value": 91.25498,
           "year": 2018.0
         },
         {
-          "value": 91.25702,
+          "value": 91.25498,
           "year": 2019.0
         },
         {
-          "value": 91.25702,
+          "value": 91.25498,
           "year": 2020.0
         },
         {
-          "value": 91.25702,
+          "value": 91.25498,
           "year": 2021.0
         },
         {
-          "value": 91.25702,
+          "value": 91.25498,
           "year": 2022.0
+        },
+        {
+          "value": 91.25498,
+          "year": 2023.0
+        },
+        {
+          "value": 91.25498,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -722,7 +782,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "UNEP-WCMC,UNEP,IUCN",
       "Partner_Agency(ies)": "Ramsar",
@@ -783,56 +843,64 @@
       "seriesDescription": "Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas (%)",
       "values": [
         {
-          "value": 96.01161,
+          "value": 62.5316,
           "year": 2010.0
         },
         {
-          "value": 96.01161,
+          "value": 96.01132,
           "year": 2011.0
         },
         {
-          "value": 96.01161,
+          "value": 96.01132,
           "year": 2012.0
         },
         {
-          "value": 96.01161,
+          "value": 96.01132,
           "year": 2013.0
         },
         {
-          "value": 96.01161,
+          "value": 96.01132,
           "year": 2014.0
         },
         {
-          "value": 96.01161,
+          "value": 96.01132,
           "year": 2015.0
         },
         {
-          "value": 96.01161,
+          "value": 96.01132,
           "year": 2016.0
         },
         {
-          "value": 96.01161,
+          "value": 96.01132,
           "year": 2017.0
         },
         {
-          "value": 96.01161,
+          "value": 96.01132,
           "year": 2018.0
         },
         {
-          "value": 96.01161,
+          "value": 96.01132,
           "year": 2019.0
         },
         {
-          "value": 96.01161,
+          "value": 96.01132,
           "year": 2020.0
         },
         {
-          "value": 96.01161,
+          "value": 96.01132,
           "year": 2021.0
         },
         {
-          "value": 96.01161,
+          "value": 96.01132,
           "year": 2022.0
+        },
+        {
+          "value": 96.01132,
+          "year": 2023.0
+        },
+        {
+          "value": 96.01132,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -848,7 +916,7 @@
         },
         "targetValue": 95.0,
         "baseYear": 2015,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "UNEP-WCMC,UNEP,IUCN",
       "Partner_Agency(ies)": "Ramsar",
@@ -862,7 +930,7 @@
       "goal": "15",
       "target": "15.2",
       "indicator": "15.2.1",
-      "seriesDescription": "Forest area under an independently verified forest management certification scheme (thousands of hectares)",
+      "seriesDescription": "Forest area certified under an independently verified certification scheme (thousands of hectares)",
       "values": [
         {
           "value": 0.0,
@@ -899,6 +967,10 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -913,7 +985,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "FAO",
       "Partner_Agency(ies)": "UNEP,UNFCCC",
@@ -930,60 +1002,64 @@
       "seriesDescription": "Red List Index",
       "values": [
         {
-          "value": 0.73762,
+          "value": 0.84598,
           "year": 2010.0
         },
         {
-          "value": 0.7372,
+          "value": 0.84538,
           "year": 2011.0
         },
         {
-          "value": 0.73671,
+          "value": 0.8455,
           "year": 2012.0
         },
         {
-          "value": 0.7363,
+          "value": 0.84521,
           "year": 2013.0
         },
         {
-          "value": 0.73599,
+          "value": 0.8449,
           "year": 2014.0
         },
         {
-          "value": 0.73573,
+          "value": 0.84498,
           "year": 2015.0
         },
         {
-          "value": 0.73507,
+          "value": 0.84484,
           "year": 2016.0
         },
         {
-          "value": 0.7346,
+          "value": 0.84475,
           "year": 2017.0
         },
         {
-          "value": 0.73388,
+          "value": 0.84546,
           "year": 2018.0
         },
         {
-          "value": 0.7339,
+          "value": 0.84517,
           "year": 2019.0
         },
         {
-          "value": 0.73278,
+          "value": 0.84531,
           "year": 2020.0
         },
         {
-          "value": 0.73318,
+          "value": 0.84497,
           "year": 2021.0
         },
         {
-          "value": 0.7324,
+          "value": 0.84536,
           "year": 2022.0
         },
         {
-          "value": 0.73215,
+          "value": 0.84436,
           "year": 2023.0
+        },
+        {
+          "value": 0.8435,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -1003,13 +1079,13 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2023.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "IUCN",
       "Partner_Agency(ies)": "UNEP,CITES, BirdLife International",
       "Tier_Classification": "Tier I",
-      "currentLevelAssessment": "Extinction risk at global average",
-      "status": "Deterioration"
+      "currentLevelAssessment": "Extinction risk below global average",
+      "status": "Target Achieved"
     },
     {
       "Reporting Type": "G",
@@ -1062,6 +1138,14 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
+        },
+        {
+          "value": 0.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -1076,7 +1160,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "CBD-Secretariat",
       "Partner_Agency(ies)": "FAO,UNEP",
@@ -1119,6 +1203,14 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
+        },
+        {
+          "value": 0.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -1187,6 +1279,14 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
+        },
+        {
+          "value": 0.0,
+          "year": 2024.0
         }
       ],
       "methodology": {

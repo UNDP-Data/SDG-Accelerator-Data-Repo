@@ -3,8 +3,8 @@
   "goalStatus": [
     {
       "goal": 1,
-      "noOfIndicatorsWithData": 1,
-      "status": "On Track"
+      "noOfIndicatorsWithData": 2,
+      "status": "For Review"
     },
     {
       "goal": 10,
@@ -18,8 +18,8 @@
     },
     {
       "goal": 12,
-      "noOfIndicatorsWithData": 1,
-      "status": "On Track"
+      "noOfIndicatorsWithData": 2,
+      "status": "For Review"
     },
     {
       "goal": 8,
@@ -27,13 +27,18 @@
       "status": "On Track"
     },
     {
+      "goal": 7,
+      "noOfIndicatorsWithData": 4,
+      "status": "Identified Gap"
+    },
+    {
       "goal": 14,
-      "noOfIndicatorsWithData": 2,
+      "noOfIndicatorsWithData": 3,
       "status": "Identified Gap"
     },
     {
       "goal": 15,
-      "noOfIndicatorsWithData": 6,
+      "noOfIndicatorsWithData": 5,
       "status": "Identified Gap"
     },
     {
@@ -54,34 +59,29 @@
     {
       "goal": 3,
       "noOfIndicatorsWithData": 2,
-      "status": "For Review"
+      "status": "On Track"
     },
     {
       "goal": 6,
-      "noOfIndicatorsWithData": 2,
-      "status": "Identified Gap"
-    },
-    {
-      "goal": 7,
-      "noOfIndicatorsWithData": 2,
-      "status": "For Review"
+      "noOfIndicatorsWithData": 1,
+      "status": "On Track"
     },
     {
       "goal": 9,
-      "noOfIndicatorsWithData": 3,
+      "noOfIndicatorsWithData": 2,
       "status": "For Review"
     }
   ],
   "targetStatus": [
     {
       "goal": "1",
-      "target": "1.4",
+      "target": "1.3",
       "status": "On Track"
     },
     {
       "goal": "1",
-      "target": "1.a",
-      "status": null
+      "target": "1.4",
+      "status": "For Review"
     },
     {
       "goal": "10",
@@ -119,13 +119,28 @@
       "status": null
     },
     {
-      "goal": "14",
-      "target": "14.1",
+      "goal": "7",
+      "target": "7.b",
+      "status": "Identified Gap"
+    },
+    {
+      "goal": "12",
+      "target": "12.a",
       "status": "Identified Gap"
     },
     {
       "goal": "14",
+      "target": "14.1",
+      "status": "For Review"
+    },
+    {
+      "goal": "14",
       "target": "14.5",
+      "status": "Identified Gap"
+    },
+    {
+      "goal": "14",
+      "target": "14.7",
       "status": "Identified Gap"
     },
     {
@@ -161,7 +176,7 @@
     {
       "goal": "16",
       "target": "16.3",
-      "status": "Identified Gap"
+      "status": "For Review"
     },
     {
       "goal": "16",
@@ -221,17 +236,12 @@
     {
       "goal": "3",
       "target": "3.7",
-      "status": "Identified Gap"
-    },
-    {
-      "goal": "6",
-      "target": "6.1",
-      "status": "Identified Gap"
+      "status": "On Track"
     },
     {
       "goal": "6",
       "target": "6.2",
-      "status": "For Review"
+      "status": "On Track"
     },
     {
       "goal": "6",
@@ -254,6 +264,11 @@
       "status": "Identified Gap"
     },
     {
+      "goal": "7",
+      "target": "7.3",
+      "status": "Identified Gap"
+    },
+    {
       "goal": "8",
       "target": "8.1",
       "status": null
@@ -261,7 +276,7 @@
     {
       "goal": "9",
       "target": "9.1",
-      "status": "On Track"
+      "status": null
     },
     {
       "goal": "9",
@@ -277,15 +292,15 @@
   "indicatorStatus": [
     {
       "goal": "1",
-      "target": "1.4",
-      "indicator": "1.4.1",
+      "target": "1.3",
+      "indicator": "1.3.1",
       "status": "On Track"
     },
     {
       "goal": "1",
-      "target": "1.a",
-      "indicator": "1.a.2",
-      "status": null
+      "target": "1.4",
+      "indicator": "1.4.1",
+      "status": "For Review"
     },
     {
       "goal": "10",
@@ -330,15 +345,33 @@
       "status": null
     },
     {
+      "goal": "7",
+      "target": "7.b",
+      "indicator": "7.b.1",
+      "status": "Identified Gap"
+    },
+    {
+      "goal": "12",
+      "target": "12.a",
+      "indicator": "12.a.1",
+      "status": "Identified Gap"
+    },
+    {
       "goal": "14",
       "target": "14.1",
       "indicator": "14.1.1",
-      "status": "Identified Gap"
+      "status": "For Review"
     },
     {
       "goal": "14",
       "target": "14.5",
       "indicator": "14.5.1",
+      "status": "Identified Gap"
+    },
+    {
+      "goal": "14",
+      "target": "14.7",
+      "indicator": "14.7.1",
       "status": "Identified Gap"
     },
     {
@@ -367,12 +400,6 @@
     },
     {
       "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "status": "For Review"
-    },
-    {
-      "goal": "15",
       "target": "15.5",
       "indicator": "15.5.1",
       "status": "On Track"
@@ -393,7 +420,7 @@
       "goal": "16",
       "target": "16.3",
       "indicator": "16.3.2",
-      "status": "Identified Gap"
+      "status": "For Review"
     },
     {
       "goal": "16",
@@ -471,19 +498,13 @@
       "goal": "3",
       "target": "3.7",
       "indicator": "3.7.2",
-      "status": "Identified Gap"
-    },
-    {
-      "goal": "6",
-      "target": "6.1",
-      "indicator": "6.1.1",
-      "status": "Identified Gap"
+      "status": "On Track"
     },
     {
       "goal": "6",
       "target": "6.2",
       "indicator": "6.2.1",
-      "status": "For Review"
+      "status": "On Track"
     },
     {
       "goal": "6",
@@ -510,6 +531,12 @@
       "status": "Identified Gap"
     },
     {
+      "goal": "7",
+      "target": "7.3",
+      "indicator": "7.3.1",
+      "status": "Identified Gap"
+    },
+    {
       "goal": "8",
       "target": "8.1",
       "indicator": "8.1.1",
@@ -519,7 +546,7 @@
       "goal": "9",
       "target": "9.1",
       "indicator": "9.1.2",
-      "status": "On Track"
+      "status": null
     },
     {
       "goal": "9",
@@ -535,6 +562,351 @@
     }
   ],
   "tsData": [
+    {
+      "Age": "15-49",
+      "Sex": "FEMALE",
+      "Reporting Type": "G",
+      "series": "SI_COV_MATNL",
+      "goal": "1",
+      "target": "1.3",
+      "indicator": "1.3.1",
+      "seriesDescription": "[ILO] Proportion of mothers with newborns receiving maternity cash benefit (%)",
+      "values": [
+        {
+          "value": 100.0,
+          "year": 2019.0
+        },
+        {
+          "value": 100.0,
+          "year": 2020.0
+        },
+        {
+          "value": 100.0,
+          "year": 2022.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRR",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 95.0,
+        "baseYear": null,
+        "latestAvailable": 2022.0
+      },
+      "Custodian_Agency(ies)": "ILO",
+      "Partner_Agency(ies)": "World Bank",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Age": "<15Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "series": "SI_COV_CHLD",
+      "goal": "1",
+      "target": "1.3",
+      "indicator": "1.3.1",
+      "seriesDescription": "[ILO] Proportion of children/households receiving child/family cash benefit, by sex (%)",
+      "values": [
+        {
+          "value": 100.0,
+          "year": 2019.0
+        },
+        {
+          "value": 100.0,
+          "year": 2020.0
+        },
+        {
+          "value": 100.0,
+          "year": 2022.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRR",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 95.0,
+        "baseYear": null,
+        "latestAvailable": 2022.0
+      },
+      "Custodian_Agency(ies)": "ILO",
+      "Partner_Agency(ies)": "World Bank",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Age": "15+",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "series": "SI_COV_UEMP",
+      "goal": "1",
+      "target": "1.3",
+      "indicator": "1.3.1",
+      "seriesDescription": "[ILO] Proportion of unemployed persons receiving unemployment cash benefit, by sex (%)",
+      "values": [
+        {
+          "value": 93.66,
+          "year": 2019.0
+        },
+        {
+          "value": 93.7,
+          "year": 2020.0
+        },
+        {
+          "value": 95.6,
+          "year": 2022.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRR",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 95.0,
+        "baseYear": null,
+        "latestAvailable": 2022.0
+      },
+      "Custodian_Agency(ies)": "ILO",
+      "Partner_Agency(ies)": "World Bank",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "series": "SI_COV_VULN",
+      "goal": "1",
+      "target": "1.3",
+      "indicator": "1.3.1",
+      "seriesDescription": "[ILO] Proportion of vulnerable population receiving social assistance cash benefit, by sex (%)",
+      "values": [
+        {
+          "value": 63.68,
+          "year": 2019.0
+        },
+        {
+          "value": 63.7,
+          "year": 2020.0
+        },
+        {
+          "value": 100.0,
+          "year": 2023.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRR",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 95.0,
+        "baseYear": null,
+        "latestAvailable": 2023.0
+      },
+      "Custodian_Agency(ies)": "ILO",
+      "Partner_Agency(ies)": "World Bank",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Age": "15+",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "series": "SI_COV_WKINJRY",
+      "goal": "1",
+      "target": "1.3",
+      "indicator": "1.3.1",
+      "seriesDescription": "[ILO] Proportion of employed population covered in the event of work injury, by sex (%)",
+      "values": [
+        {
+          "value": 88.0,
+          "year": 2019.0
+        },
+        {
+          "value": 88.0,
+          "year": 2020.0
+        },
+        {
+          "value": 87.7,
+          "year": 2022.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRR",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 95.0,
+        "baseYear": null,
+        "latestAvailable": 2022.0
+      },
+      "Custodian_Agency(ies)": "ILO",
+      "Partner_Agency(ies)": "World Bank",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Insufficient Data"
+    },
+    {
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "series": "SI_COV_BENFTS",
+      "goal": "1",
+      "target": "1.3",
+      "indicator": "1.3.1",
+      "seriesDescription": "[ILO] Proportion of population covered by at least one social protection benefit, by sex (%)",
+      "values": [
+        {
+          "value": 89.54,
+          "year": 2019.0
+        },
+        {
+          "value": 100.0,
+          "year": 2023.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRR",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 95.0,
+        "baseYear": null,
+        "latestAvailable": 2023.0
+      },
+      "Custodian_Agency(ies)": "ILO",
+      "Partner_Agency(ies)": "World Bank",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "series": "SI_COV_DISAB",
+      "goal": "1",
+      "target": "1.3",
+      "indicator": "1.3.1",
+      "seriesDescription": "[ILO] Proportion of population with severe disabilities receiving disability cash benefit, by sex (%)",
+      "values": [
+        {
+          "value": 100.0,
+          "year": 2019.0
+        },
+        {
+          "value": 100.0,
+          "year": 2020.0
+        },
+        {
+          "value": 100.0,
+          "year": 2022.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRR",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 95.0,
+        "baseYear": null,
+        "latestAvailable": 2022.0
+      },
+      "Custodian_Agency(ies)": "ILO",
+      "Partner_Agency(ies)": "World Bank",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Sex": "BOTHSEX",
+      "Age": "65+",
+      "Reporting Type": "G",
+      "series": "SI_COV_PENSN",
+      "goal": "1",
+      "target": "1.3",
+      "indicator": "1.3.1",
+      "seriesDescription": "[ILO] Proportion of population above statutory pensionable age receiving a pension, by sex (%)",
+      "values": [
+        {
+          "value": 100.0,
+          "year": 2019.0
+        },
+        {
+          "value": 100.0,
+          "year": 2020.0
+        },
+        {
+          "value": 100.0,
+          "year": 2021.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 95.0,
+        "baseYear": null,
+        "latestAvailable": 2021.0
+      },
+      "Custodian_Agency(ies)": "ILO",
+      "Partner_Agency(ies)": "World Bank",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
     {
       "Location": "ALLAREA",
       "Reporting Type": "G",
@@ -587,6 +959,14 @@
         {
           "value": 100.0,
           "year": 2020.0
+        },
+        {
+          "value": 100.0,
+          "year": 2021.0
+        },
+        {
+          "value": 100.0,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -602,7 +982,7 @@
         },
         "targetValue": 97.0,
         "baseYear": 2015,
-        "latestAvailable": 2020.0
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "UN-Habitat",
       "Partner_Agency(ies)": "UNICEF, WHO",
@@ -620,48 +1000,40 @@
       "seriesDescription": "Proportion of population using basic sanitation services, by location (%)",
       "values": [
         {
-          "value": 100.0,
-          "year": 2010.0
-        },
-        {
-          "value": 100.0,
-          "year": 2011.0
-        },
-        {
-          "value": 100.0,
-          "year": 2012.0
-        },
-        {
-          "value": 100.0,
-          "year": 2013.0
-        },
-        {
-          "value": 100.0,
+          "value": 62.5,
           "year": 2014.0
         },
         {
-          "value": 100.0,
+          "value": 62.5,
           "year": 2015.0
         },
         {
-          "value": 100.0,
+          "value": 62.5,
           "year": 2016.0
         },
         {
-          "value": 100.0,
+          "value": 62.5,
           "year": 2017.0
         },
         {
-          "value": 100.0,
+          "value": 62.5,
           "year": 2018.0
         },
         {
-          "value": 100.0,
+          "value": 62.5,
           "year": 2019.0
         },
         {
-          "value": 100.0,
+          "value": 62.5,
           "year": 2020.0
+        },
+        {
+          "value": 62.5,
+          "year": 2021.0
+        },
+        {
+          "value": 62.5,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -677,49 +1049,13 @@
         },
         "targetValue": 97.0,
         "baseYear": 2015,
-        "latestAvailable": 2020.0
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "UN-Habitat",
       "Partner_Agency(ies)": "UNICEF, WHO",
       "Tier_Classification": "Tier I",
       "currentLevelAssessment": null,
-      "status": "Target Achieved"
-    },
-    {
-      "Reporting Type": "G",
-      "series": "SD_XPD_ESED",
-      "goal": "1",
-      "target": "1.a",
-      "indicator": "1.a.2",
-      "seriesDescription": "Proportion of total government spending on essential services, education (%)",
-      "values": [
-        {
-          "value": 19.73752,
-          "year": 2015.0
-        },
-        {
-          "value": 18.97284,
-          "year": 2016.0
-        },
-        {
-          "value": 18.46252,
-          "year": 2017.0
-        },
-        {
-          "value": 17.5558,
-          "year": 2018.0
-        },
-        {
-          "value": 17.43354,
-          "year": 2019.0
-        }
-      ],
-      "methodology": "NA",
-      "Custodian_Agency(ies)": "Under discussion among agencies (ILO, UNESCO-UIS, WHO)",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I/II depending on service",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
+      "status": "Limited or No Progress"
     },
     {
       "Reporting Type": "G",
@@ -780,6 +1116,10 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -795,198 +1135,9 @@
         },
         "targetValue": 5.0,
         "baseYear": null,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "UNHCR",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Target Achieved"
-    },
-    {
-      "Type of product": "TEX",
-      "Reporting Type": "G",
-      "series": "TM_TRF_ZERO",
-      "goal": "10",
-      "target": "10.a",
-      "indicator": "10.a.1",
-      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
-      "values": [
-        {
-          "value": 80.0,
-          "year": 2010.0
-        },
-        {
-          "value": 33.33333,
-          "year": 2015.0
-        },
-        {
-          "value": 55.55556,
-          "year": 2016.0
-        },
-        {
-          "value": 75.0,
-          "year": 2017.0
-        },
-        {
-          "value": 75.0,
-          "year": 2018.0
-        },
-        {
-          "value": 75.0,
-          "year": 2019.0
-        },
-        {
-          "value": 83.33333,
-          "year": 2020.0
-        },
-        {
-          "value": 100.0,
-          "year": 2021.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "targetValue": 1.0,
-        "baseYear": 2015,
-        "latestAvailable": 2021.0
-      },
-      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Target Achieved"
-    },
-    {
-      "Type of product": "IND",
-      "Reporting Type": "G",
-      "series": "TM_TRF_ZERO",
-      "goal": "10",
-      "target": "10.a",
-      "indicator": "10.a.1",
-      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
-      "values": [
-        {
-          "value": 79.8627,
-          "year": 2010.0
-        },
-        {
-          "value": 75.42998,
-          "year": 2015.0
-        },
-        {
-          "value": 78.90819,
-          "year": 2016.0
-        },
-        {
-          "value": 84.19118,
-          "year": 2017.0
-        },
-        {
-          "value": 85.02773,
-          "year": 2018.0
-        },
-        {
-          "value": 79.66805,
-          "year": 2019.0
-        },
-        {
-          "value": 82.06751,
-          "year": 2020.0
-        },
-        {
-          "value": 77.05263,
-          "year": 2021.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "targetValue": 1.0,
-        "baseYear": 2015,
-        "latestAvailable": 2021.0
-      },
-      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Target Achieved"
-    },
-    {
-      "Type of product": "AGR",
-      "Reporting Type": "G",
-      "series": "TM_TRF_ZERO",
-      "goal": "10",
-      "target": "10.a",
-      "indicator": "10.a.1",
-      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
-      "values": [
-        {
-          "value": 81.48148,
-          "year": 2010.0
-        },
-        {
-          "value": 72.41379,
-          "year": 2015.0
-        },
-        {
-          "value": 82.14286,
-          "year": 2016.0
-        },
-        {
-          "value": 62.16216,
-          "year": 2017.0
-        },
-        {
-          "value": 63.15789,
-          "year": 2018.0
-        },
-        {
-          "value": 81.48148,
-          "year": 2019.0
-        },
-        {
-          "value": 78.26087,
-          "year": 2020.0
-        },
-        {
-          "value": 91.30435,
-          "year": 2021.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "targetValue": 1.0,
-        "baseYear": 2015,
-        "latestAvailable": 2021.0
-      },
-      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
       "Partner_Agency(ies)": "",
       "Tier_Classification": "Tier I",
       "currentLevelAssessment": null,
@@ -1032,6 +1183,14 @@
         {
           "value": 60.0,
           "year": 2021.0
+        },
+        {
+          "value": 86.11111,
+          "year": 2022.0
+        },
+        {
+          "value": 85.41667,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -1047,70 +1206,7 @@
         },
         "targetValue": 1.0,
         "baseYear": 2015,
-        "latestAvailable": 2021.0
-      },
-      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Target Achieved"
-    },
-    {
-      "Type of product": "ALP",
-      "Reporting Type": "G",
-      "series": "TM_TRF_ZERO",
-      "goal": "10",
-      "target": "10.a",
-      "indicator": "10.a.1",
-      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
-      "values": [
-        {
-          "value": 79.38144,
-          "year": 2010.0
-        },
-        {
-          "value": 73.68421,
-          "year": 2015.0
-        },
-        {
-          "value": 77.77778,
-          "year": 2016.0
-        },
-        {
-          "value": 82.62295,
-          "year": 2017.0
-        },
-        {
-          "value": 83.52554,
-          "year": 2018.0
-        },
-        {
-          "value": 79.46257,
-          "year": 2019.0
-        },
-        {
-          "value": 81.80039,
-          "year": 2020.0
-        },
-        {
-          "value": 78.05344,
-          "year": 2021.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "targetValue": 1.0,
-        "baseYear": 2015,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
       "Partner_Agency(ies)": "",
@@ -1158,6 +1254,14 @@
         {
           "value": 100.0,
           "year": 2021.0
+        },
+        {
+          "value": 100.0,
+          "year": 2022.0
+        },
+        {
+          "value": 100.0,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -1173,7 +1277,291 @@
         },
         "targetValue": 1.0,
         "baseYear": 2015,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2023.0
+      },
+      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Type of product": "ALP",
+      "Reporting Type": "G",
+      "series": "TM_TRF_ZERO",
+      "goal": "10",
+      "target": "10.a",
+      "indicator": "10.a.1",
+      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
+      "values": [
+        {
+          "value": 79.38144,
+          "year": 2010.0
+        },
+        {
+          "value": 73.68421,
+          "year": 2015.0
+        },
+        {
+          "value": 77.77778,
+          "year": 2016.0
+        },
+        {
+          "value": 82.62295,
+          "year": 2017.0
+        },
+        {
+          "value": 83.52554,
+          "year": 2018.0
+        },
+        {
+          "value": 79.46257,
+          "year": 2019.0
+        },
+        {
+          "value": 81.80039,
+          "year": 2020.0
+        },
+        {
+          "value": 78.05344,
+          "year": 2021.0
+        },
+        {
+          "value": 84.51537,
+          "year": 2022.0
+        },
+        {
+          "value": 83.44693,
+          "year": 2023.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 1.0,
+        "baseYear": 2015,
+        "latestAvailable": 2023.0
+      },
+      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Type of product": "AGR",
+      "Reporting Type": "G",
+      "series": "TM_TRF_ZERO",
+      "goal": "10",
+      "target": "10.a",
+      "indicator": "10.a.1",
+      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
+      "values": [
+        {
+          "value": 81.48148,
+          "year": 2010.0
+        },
+        {
+          "value": 72.41379,
+          "year": 2015.0
+        },
+        {
+          "value": 82.14286,
+          "year": 2016.0
+        },
+        {
+          "value": 62.16216,
+          "year": 2017.0
+        },
+        {
+          "value": 63.15789,
+          "year": 2018.0
+        },
+        {
+          "value": 81.48148,
+          "year": 2019.0
+        },
+        {
+          "value": 78.26087,
+          "year": 2020.0
+        },
+        {
+          "value": 91.30435,
+          "year": 2021.0
+        },
+        {
+          "value": 80.95238,
+          "year": 2022.0
+        },
+        {
+          "value": 90.32258,
+          "year": 2023.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 1.0,
+        "baseYear": 2015,
+        "latestAvailable": 2023.0
+      },
+      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Type of product": "TEX",
+      "Reporting Type": "G",
+      "series": "TM_TRF_ZERO",
+      "goal": "10",
+      "target": "10.a",
+      "indicator": "10.a.1",
+      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
+      "values": [
+        {
+          "value": 80.0,
+          "year": 2010.0
+        },
+        {
+          "value": 33.33333,
+          "year": 2015.0
+        },
+        {
+          "value": 55.55556,
+          "year": 2016.0
+        },
+        {
+          "value": 75.0,
+          "year": 2017.0
+        },
+        {
+          "value": 75.0,
+          "year": 2018.0
+        },
+        {
+          "value": 75.0,
+          "year": 2019.0
+        },
+        {
+          "value": 83.33333,
+          "year": 2020.0
+        },
+        {
+          "value": 100.0,
+          "year": 2021.0
+        },
+        {
+          "value": 92.30769,
+          "year": 2022.0
+        },
+        {
+          "value": 84.21053,
+          "year": 2023.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 1.0,
+        "baseYear": 2015,
+        "latestAvailable": 2023.0
+      },
+      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Type of product": "IND",
+      "Reporting Type": "G",
+      "series": "TM_TRF_ZERO",
+      "goal": "10",
+      "target": "10.a",
+      "indicator": "10.a.1",
+      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
+      "values": [
+        {
+          "value": 79.8627,
+          "year": 2010.0
+        },
+        {
+          "value": 75.42998,
+          "year": 2015.0
+        },
+        {
+          "value": 78.90819,
+          "year": 2016.0
+        },
+        {
+          "value": 84.19118,
+          "year": 2017.0
+        },
+        {
+          "value": 85.02773,
+          "year": 2018.0
+        },
+        {
+          "value": 79.66805,
+          "year": 2019.0
+        },
+        {
+          "value": 82.06751,
+          "year": 2020.0
+        },
+        {
+          "value": 77.05263,
+          "year": 2021.0
+        },
+        {
+          "value": 84.3061,
+          "year": 2022.0
+        },
+        {
+          "value": 83.02703,
+          "year": 2023.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 1.0,
+        "baseYear": 2015,
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
       "Partner_Agency(ies)": "",
@@ -1262,6 +1650,10 @@
         {
           "value": 0.0,
           "year": 2020.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -1289,44 +1681,60 @@
       "seriesDescription": "Domestic material consumption, by type of raw material (tonnes)",
       "values": [
         {
-          "value": 680501.1361,
+          "value": 691609.3361,
           "year": 2010.0
         },
         {
-          "value": 680261.12452,
+          "value": 678945.92452,
           "year": 2011.0
         },
         {
-          "value": 545095.4375,
+          "value": 555074.8375,
           "year": 2012.0
         },
         {
-          "value": 428847.59086,
+          "value": 514913.57586,
           "year": 2013.0
         },
         {
-          "value": 230002.3869,
+          "value": 352950.7809,
           "year": 2014.0
         },
         {
-          "value": 362711.27723,
+          "value": 438182.05423,
           "year": 2015.0
         },
         {
-          "value": 410667.90056,
+          "value": 477961.75989,
           "year": 2016.0
         },
         {
-          "value": 285737.75189,
+          "value": 372946.85589,
           "year": 2017.0
         },
         {
-          "value": 208595.77916,
+          "value": 325368.86716,
           "year": 2018.0
         },
         {
-          "value": 211217.65377,
+          "value": 363858.45181,
           "year": 2019.0
+        },
+        {
+          "value": 322752.17858,
+          "year": 2020.0
+        },
+        {
+          "value": 344364.15634,
+          "year": 2021.0
+        },
+        {
+          "value": 354383.46201,
+          "year": 2022.0
+        },
+        {
+          "value": 359332.61641,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -1341,7 +1749,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2019.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "UNEP",
       "Partner_Agency(ies)": "OECD",
@@ -1359,44 +1767,60 @@
       "seriesDescription": "Domestic material consumption, by type of raw material (tonnes)",
       "values": [
         {
-          "value": 680501.1361,
+          "value": 691609.3361,
           "year": 2010.0
         },
         {
-          "value": 680261.12452,
+          "value": 678945.92452,
           "year": 2011.0
         },
         {
-          "value": 545095.4375,
+          "value": 555074.8375,
           "year": 2012.0
         },
         {
-          "value": 428847.59086,
+          "value": 514913.57586,
           "year": 2013.0
         },
         {
-          "value": 230002.3869,
+          "value": 352950.7809,
           "year": 2014.0
         },
         {
-          "value": 362711.27723,
+          "value": 438182.05423,
           "year": 2015.0
         },
         {
-          "value": 410667.90056,
+          "value": 477961.75989,
           "year": 2016.0
         },
         {
-          "value": 285737.75189,
+          "value": 372946.85589,
           "year": 2017.0
         },
         {
-          "value": 208595.77916,
+          "value": 325368.86716,
           "year": 2018.0
         },
         {
-          "value": 211217.65377,
+          "value": 363858.45181,
           "year": 2019.0
+        },
+        {
+          "value": 322752.17858,
+          "year": 2020.0
+        },
+        {
+          "value": 344364.15634,
+          "year": 2021.0
+        },
+        {
+          "value": 354383.46201,
+          "year": 2022.0
+        },
+        {
+          "value": 359332.61641,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -1411,7 +1835,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2019.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "UNEP",
       "Partner_Agency(ies)": "OECD",
@@ -1429,44 +1853,60 @@
       "seriesDescription": "Domestic material consumption per unit of GDP, by type of raw material (kilograms per constant 2015 United States dollars)",
       "values": [
         {
-          "value": 0.27683,
+          "value": 0.28135,
           "year": 2010.0
         },
         {
-          "value": 0.27812,
+          "value": 0.27758,
           "year": 2011.0
         },
         {
-          "value": 0.21979,
+          "value": 0.22381,
           "year": 2012.0
         },
         {
-          "value": 0.17519,
+          "value": 0.21035,
           "year": 2013.0
         },
         {
-          "value": 0.08971,
+          "value": 0.13766,
           "year": 2014.0
         },
         {
-          "value": 0.14514,
+          "value": 0.17534,
           "year": 2015.0
         },
         {
-          "value": 0.15698,
+          "value": 0.1827,
           "year": 2016.0
         },
         {
-          "value": 0.10871,
+          "value": 0.14248,
           "year": 2017.0
         },
         {
-          "value": 0.07689,
+          "value": 0.12354,
           "year": 2018.0
         },
         {
-          "value": 0.07575,
+          "value": 0.13434,
           "year": 2019.0
+        },
+        {
+          "value": 0.11894,
+          "year": 2020.0
+        },
+        {
+          "value": 0.12529,
+          "year": 2021.0
+        },
+        {
+          "value": 0.12712,
+          "year": 2022.0
+        },
+        {
+          "value": 0.12766,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -1490,7 +1930,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2019.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "UNEP",
       "Partner_Agency(ies)": "OECD",
@@ -1508,44 +1948,60 @@
       "seriesDescription": "Domestic material consumption per unit of GDP, by type of raw material (kilograms per constant 2015 United States dollars)",
       "values": [
         {
-          "value": 0.27683,
+          "value": 0.28135,
           "year": 2010.0
         },
         {
-          "value": 0.27812,
+          "value": 0.27758,
           "year": 2011.0
         },
         {
-          "value": 0.21979,
+          "value": 0.22381,
           "year": 2012.0
         },
         {
-          "value": 0.17519,
+          "value": 0.21035,
           "year": 2013.0
         },
         {
-          "value": 0.08971,
+          "value": 0.13766,
           "year": 2014.0
         },
         {
-          "value": 0.14514,
+          "value": 0.17534,
           "year": 2015.0
         },
         {
-          "value": 0.15698,
+          "value": 0.1827,
           "year": 2016.0
         },
         {
-          "value": 0.10871,
+          "value": 0.14248,
           "year": 2017.0
         },
         {
-          "value": 0.07689,
+          "value": 0.12354,
           "year": 2018.0
         },
         {
-          "value": 0.07575,
+          "value": 0.13434,
           "year": 2019.0
+        },
+        {
+          "value": 0.11894,
+          "year": 2020.0
+        },
+        {
+          "value": 0.12529,
+          "year": 2021.0
+        },
+        {
+          "value": 0.12712,
+          "year": 2022.0
+        },
+        {
+          "value": 0.12766,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -1569,7 +2025,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2019.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "UNEP",
       "Partner_Agency(ies)": "OECD",
@@ -1587,44 +2043,60 @@
       "seriesDescription": "Domestic material consumption per capita, by type of raw material (tonnes)",
       "values": [
         {
-          "value": 12.01492,
+          "value": 12.27324,
           "year": 2010.0
         },
         {
-          "value": 12.02831,
+          "value": 12.062,
           "year": 2011.0
         },
         {
-          "value": 9.65164,
+          "value": 9.87695,
           "year": 2012.0
         },
         {
-          "value": 7.60206,
+          "value": 9.1803,
           "year": 2013.0
         },
         {
-          "value": 4.07929,
+          "value": 6.30799,
           "year": 2014.0
         },
         {
-          "value": 6.43356,
+          "value": 7.83938,
           "year": 2015.0
         },
         {
-          "value": 7.28031,
+          "value": 8.54785,
           "year": 2016.0
         },
         {
-          "value": 5.05972,
+          "value": 6.66834,
           "year": 2017.0
         },
         {
-          "value": 3.68772,
+          "value": 5.81733,
           "year": 2018.0
         },
         {
-          "value": 3.72781,
+          "value": 6.50549,
           "year": 2019.0
+        },
+        {
+          "value": 5.76076,
+          "year": 2020.0
+        },
+        {
+          "value": 6.12279,
+          "year": 2021.0
+        },
+        {
+          "value": 6.27605,
+          "year": 2022.0
+        },
+        {
+          "value": 6.34381,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -1639,7 +2111,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2019.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "UNEP",
       "Partner_Agency(ies)": "OECD",
@@ -1657,44 +2129,60 @@
       "seriesDescription": "Domestic material consumption per capita, by type of raw material (tonnes)",
       "values": [
         {
-          "value": 12.01492,
+          "value": 12.27324,
           "year": 2010.0
         },
         {
-          "value": 12.02831,
+          "value": 12.062,
           "year": 2011.0
         },
         {
-          "value": 9.65164,
+          "value": 9.87695,
           "year": 2012.0
         },
         {
-          "value": 7.60206,
+          "value": 9.1803,
           "year": 2013.0
         },
         {
-          "value": 4.07929,
+          "value": 6.30799,
           "year": 2014.0
         },
         {
-          "value": 6.43356,
+          "value": 7.83938,
           "year": 2015.0
         },
         {
-          "value": 7.28031,
+          "value": 8.54785,
           "year": 2016.0
         },
         {
-          "value": 5.05972,
+          "value": 6.66834,
           "year": 2017.0
         },
         {
-          "value": 3.68772,
+          "value": 5.81733,
           "year": 2018.0
         },
         {
-          "value": 3.72781,
+          "value": 6.50549,
           "year": 2019.0
+        },
+        {
+          "value": 5.76076,
+          "year": 2020.0
+        },
+        {
+          "value": 6.12279,
+          "year": 2021.0
+        },
+        {
+          "value": 6.27605,
+          "year": 2022.0
+        },
+        {
+          "value": 6.34381,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -1709,7 +2197,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2019.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "UNEP",
       "Partner_Agency(ies)": "OECD",
@@ -1727,8 +2215,12 @@
       "seriesDescription": "Food waste per capita (KG)",
       "values": [
         {
-          "value": 112.14973,
+          "value": 113.61148,
           "year": 2019.0
+        },
+        {
+          "value": 153.30792,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -1743,7 +2235,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2019.0
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "FAO, UNEP",
       "Partner_Agency(ies)": "",
@@ -1763,6 +2255,10 @@
         {
           "value": 6354.40342,
           "year": 2019.0
+        },
+        {
+          "value": 8656.68503,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -1777,13 +2273,185 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2019.0
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "FAO, UNEP",
       "Partner_Agency(ies)": "",
       "Tier_Classification": "Tier II",
       "currentLevelAssessment": null,
       "status": "Insufficient Data"
+    },
+    {
+      "Reporting Type": "G",
+      "Type of renewable technology": "ALL",
+      "series": "EG_EGY_RNEW",
+      "goal": "7",
+      "target": "7.b",
+      "indicator": "7.b.1",
+      "seriesDescription": "Installed renewable\u00a0electricity-generating capacity (watts per capita)",
+      "values": [
+        {
+          "value": 1225.49193,
+          "year": 2010.0
+        },
+        {
+          "value": 1220.74814,
+          "year": 2011.0
+        },
+        {
+          "value": 1618.23241,
+          "year": 2012.0
+        },
+        {
+          "value": 1625.82061,
+          "year": 2013.0
+        },
+        {
+          "value": 1635.66126,
+          "year": 2014.0
+        },
+        {
+          "value": 1640.09925,
+          "year": 2015.0
+        },
+        {
+          "value": 1638.92902,
+          "year": 2016.0
+        },
+        {
+          "value": 1638.63673,
+          "year": 2017.0
+        },
+        {
+          "value": 1641.91961,
+          "year": 2018.0
+        },
+        {
+          "value": 1641.62685,
+          "year": 2019.0
+        },
+        {
+          "value": 1645.34593,
+          "year": 2020.0
+        },
+        {
+          "value": 1650.93414,
+          "year": 2021.0
+        },
+        {
+          "value": 1654.04537,
+          "year": 2022.0
+        },
+        {
+          "value": 1664.10357,
+          "year": 2023.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": 2015,
+        "latestAvailable": 2023.0
+      },
+      "Custodian_Agency(ies)": "IRENA",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Limited or No Progress"
+    },
+    {
+      "Reporting Type": "G",
+      "Type of renewable technology": "ALL",
+      "series": "EG_EGY_RNEW",
+      "goal": "12",
+      "target": "12.a",
+      "indicator": "12.a.1",
+      "seriesDescription": "Installed renewable\u00a0electricity-generating capacity (watts per capita)",
+      "values": [
+        {
+          "value": 1225.49193,
+          "year": 2010.0
+        },
+        {
+          "value": 1220.74814,
+          "year": 2011.0
+        },
+        {
+          "value": 1618.23241,
+          "year": 2012.0
+        },
+        {
+          "value": 1625.82061,
+          "year": 2013.0
+        },
+        {
+          "value": 1635.66126,
+          "year": 2014.0
+        },
+        {
+          "value": 1640.09925,
+          "year": 2015.0
+        },
+        {
+          "value": 1638.92902,
+          "year": 2016.0
+        },
+        {
+          "value": 1638.63673,
+          "year": 2017.0
+        },
+        {
+          "value": 1641.91961,
+          "year": 2018.0
+        },
+        {
+          "value": 1641.62685,
+          "year": 2019.0
+        },
+        {
+          "value": 1645.34593,
+          "year": 2020.0
+        },
+        {
+          "value": 1650.93414,
+          "year": 2021.0
+        },
+        {
+          "value": 1654.04537,
+          "year": 2022.0
+        },
+        {
+          "value": 1664.10357,
+          "year": 2023.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": 2015,
+        "latestAvailable": 2023.0
+      },
+      "Custodian_Agency(ies)": "IRENA",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Limited or No Progress"
     },
     {
       "Reporting Type": "G",
@@ -1891,6 +2559,10 @@
         {
           "value": 2.55907,
           "year": 2021.0
+        },
+        {
+          "value": 3.79164,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -1906,60 +2578,13 @@
         },
         "targetValue": 5.0,
         "baseYear": 2018,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "UNEP",
       "Partner_Agency(ies)": "IOC-UNESCO,IMO,FAO",
       "Tier_Classification": "Tier II",
       "currentLevelAssessment": null,
       "status": "Target Achieved"
-    },
-    {
-      "Reporting Type": "G",
-      "Frequency of Chlorophyll-a concentration": "High",
-      "series": "EN_MAR_CHLANM",
-      "goal": "14",
-      "target": "14.1",
-      "indicator": "14.1.1",
-      "seriesDescription": "Chlorophyll-a anomaly, remote sensing (%)",
-      "values": [
-        {
-          "value": 8.57159,
-          "year": 2018.0
-        },
-        {
-          "value": 10.00889,
-          "year": 2019.0
-        },
-        {
-          "value": 8.63725,
-          "year": 2020.0
-        },
-        {
-          "value": 9.81783,
-          "year": 2021.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "decrease",
-        "CAGRLimit": [
-          0.01,
-          -0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "targetValue": 5.0,
-        "baseYear": 2018,
-        "latestAvailable": 2021.0
-      },
-      "Custodian_Agency(ies)": "UNEP",
-      "Partner_Agency(ies)": "IOC-UNESCO,IMO,FAO",
-      "Tier_Classification": "Tier II",
-      "currentLevelAssessment": null,
-      "status": "Deterioration"
     },
     {
       "Reporting Type": "G",
@@ -1985,6 +2610,10 @@
         {
           "value": 9.43592,
           "year": 2021.0
+        },
+        {
+          "value": 8.42402,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -2000,7 +2629,58 @@
         },
         "targetValue": 5.0,
         "baseYear": 2018,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2022.0
+      },
+      "Custodian_Agency(ies)": "UNEP",
+      "Partner_Agency(ies)": "IOC-UNESCO,IMO,FAO",
+      "Tier_Classification": "Tier II",
+      "currentLevelAssessment": null,
+      "status": "Limited or No Progress"
+    },
+    {
+      "Reporting Type": "G",
+      "Frequency of Chlorophyll-a concentration": "High",
+      "series": "EN_MAR_CHLANM",
+      "goal": "14",
+      "target": "14.1",
+      "indicator": "14.1.1",
+      "seriesDescription": "Chlorophyll-a anomaly, remote sensing (%)",
+      "values": [
+        {
+          "value": 8.57159,
+          "year": 2018.0
+        },
+        {
+          "value": 10.00889,
+          "year": 2019.0
+        },
+        {
+          "value": 8.63725,
+          "year": 2020.0
+        },
+        {
+          "value": 9.81783,
+          "year": 2021.0
+        },
+        {
+          "value": 10.42441,
+          "year": 2022.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "decrease",
+        "CAGRLimit": [
+          0.01,
+          -0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 5.0,
+        "baseYear": 2018,
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "UNEP",
       "Partner_Agency(ies)": "IOC-UNESCO,IMO,FAO",
@@ -2017,56 +2697,64 @@
       "seriesDescription": "Average proportion of Marine Key Biodiversity Areas (KBAs) covered by protected areas (%)",
       "values": [
         {
-          "value": 26.30901,
+          "value": 26.30665,
           "year": 2010.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2011.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2012.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2013.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2014.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2015.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2016.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2017.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2018.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2019.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2020.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2021.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2022.0
+        },
+        {
+          "value": 29.66919,
+          "year": 2023.0
+        },
+        {
+          "value": 29.66919,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -2090,12 +2778,61 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "UNEP-WCMC,UNEP,IUCN",
       "Partner_Agency(ies)": "Ramsar",
       "Tier_Classification": "Tier I",
       "currentLevelAssessment": "Far from target",
+      "status": "Limited or No Progress"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "EN_SCP_FSHGDP",
+      "goal": "14",
+      "target": "14.7",
+      "indicator": "14.7.1",
+      "seriesDescription": "Sustainable fisheries as a proportion of GDP",
+      "values": [
+        {
+          "value": 9.11,
+          "year": 2011.0
+        },
+        {
+          "value": 9.21,
+          "year": 2013.0
+        },
+        {
+          "value": 11.05,
+          "year": 2015.0
+        },
+        {
+          "value": 11.79,
+          "year": 2017.0
+        },
+        {
+          "value": 10.72,
+          "year": 2019.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": 2015,
+        "latestAvailable": 2019.0
+      },
+      "Custodian_Agency(ies)": "FAO,UNEP-WCMC",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
       "status": "Limited or No Progress"
     },
     {
@@ -2265,56 +3002,64 @@
       "seriesDescription": "Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas (%)",
       "values": [
         {
-          "value": 26.30901,
+          "value": 26.30665,
           "year": 2010.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2011.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2012.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2013.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2014.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2015.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2016.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2017.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2018.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2019.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2020.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2021.0
         },
         {
-          "value": 29.67152,
+          "value": 29.66919,
           "year": 2022.0
+        },
+        {
+          "value": 29.66919,
+          "year": 2023.0
+        },
+        {
+          "value": 29.66919,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -2330,7 +3075,7 @@
         },
         "targetValue": 95.0,
         "baseYear": 2015,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "UNEP-WCMC,UNEP,IUCN",
       "Partner_Agency(ies)": "Ramsar",
@@ -2344,7 +3089,7 @@
       "goal": "15",
       "target": "15.2",
       "indicator": "15.2.1",
-      "seriesDescription": "Forest area under an independently verified forest management certification scheme (thousands of hectares)",
+      "seriesDescription": "Forest area certified under an independently verified certification scheme (thousands of hectares)",
       "values": [
         {
           "value": 0.0,
@@ -2381,6 +3126,10 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -2395,7 +3144,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "FAO",
       "Partner_Agency(ies)": "UNEP,UNFCCC",
@@ -2552,56 +3301,64 @@
       "seriesDescription": "Average proportion of Mountain Key Biodiversity Areas (KBAs) covered by protected areas (%)",
       "values": [
         {
-          "value": 22.44264,
+          "value": 22.43772,
           "year": 2010.0
         },
         {
-          "value": 30.14841,
+          "value": 30.14354,
           "year": 2011.0
         },
         {
-          "value": 30.14841,
+          "value": 30.14354,
           "year": 2012.0
         },
         {
-          "value": 30.14841,
+          "value": 30.14354,
           "year": 2013.0
         },
         {
-          "value": 30.14841,
+          "value": 30.14354,
           "year": 2014.0
         },
         {
-          "value": 30.14841,
+          "value": 30.14354,
           "year": 2015.0
         },
         {
-          "value": 30.14841,
+          "value": 30.14354,
           "year": 2016.0
         },
         {
-          "value": 30.14841,
+          "value": 30.14354,
           "year": 2017.0
         },
         {
-          "value": 30.14841,
+          "value": 30.14354,
           "year": 2018.0
         },
         {
-          "value": 30.14841,
+          "value": 30.14354,
           "year": 2019.0
         },
         {
-          "value": 30.14841,
+          "value": 30.14354,
           "year": 2020.0
         },
         {
-          "value": 30.14841,
+          "value": 30.14354,
           "year": 2021.0
         },
         {
-          "value": 30.14841,
+          "value": 30.14354,
           "year": 2022.0
+        },
+        {
+          "value": 30.14354,
+          "year": 2023.0
+        },
+        {
+          "value": 30.14354,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -2617,941 +3374,13 @@
         },
         "targetValue": 95.0,
         "baseYear": 2015,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "UNEP-WCMC,UNEP,IUCN",
       "Partner_Agency(ies)": "",
       "Tier_Classification": "Tier I",
       "currentLevelAssessment": null,
       "status": "Limited or No Progress"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "ARTIFICIAL",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCVI",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain Green Cover Index",
-      "values": [
-        {
-          "value": 0.0,
-          "year": 2010.0
-        },
-        {
-          "value": 0.0,
-          "year": 2015.0
-        },
-        {
-          "value": 0.0,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "not decrease",
-        "CAGRLimit": [
-          0.001,
-          -0.0005,
-          -0.001
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": null,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "FAO",
-      "Partner_Agency(ies)": "UNEP",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Insufficient Data"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "CROPLAND",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCVI",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain Green Cover Index",
-      "values": [
-        {
-          "value": 0.0,
-          "year": 2010.0
-        },
-        {
-          "value": 0.0,
-          "year": 2015.0
-        },
-        {
-          "value": 0.0,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "not decrease",
-        "CAGRLimit": [
-          0.001,
-          -0.0005,
-          -0.001
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": null,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "FAO",
-      "Partner_Agency(ies)": "UNEP",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Insufficient Data"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "SPARSE_NAT_VEG",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCVI",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain Green Cover Index",
-      "values": [
-        {
-          "value": 16.89,
-          "year": 2010.0
-        },
-        {
-          "value": 16.89,
-          "year": 2015.0
-        },
-        {
-          "value": 16.89,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "not decrease",
-        "CAGRLimit": [
-          0.001,
-          -0.0005,
-          -0.001
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "FAO",
-      "Partner_Agency(ies)": "UNEP",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Fair progress but acceleration needed"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "SHRUB_COVERED",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCVI",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain Green Cover Index",
-      "values": [
-        {
-          "value": 0.56,
-          "year": 2010.0
-        },
-        {
-          "value": 0.56,
-          "year": 2015.0
-        },
-        {
-          "value": 0.56,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "not decrease",
-        "CAGRLimit": [
-          0.001,
-          -0.0005,
-          -0.001
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "FAO",
-      "Partner_Agency(ies)": "UNEP",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Fair progress but acceleration needed"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "GLACIERS",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCVI",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain Green Cover Index",
-      "values": [
-        {
-          "value": 78.82,
-          "year": 2010.0
-        },
-        {
-          "value": 78.82,
-          "year": 2015.0
-        },
-        {
-          "value": 78.82,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "not decrease",
-        "CAGRLimit": [
-          0.001,
-          -0.0005,
-          -0.001
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "FAO",
-      "Partner_Agency(ies)": "UNEP",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Fair progress but acceleration needed"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "GRASSLAND",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCVI",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain Green Cover Index",
-      "values": [
-        {
-          "value": 1.46,
-          "year": 2010.0
-        },
-        {
-          "value": 1.46,
-          "year": 2015.0
-        },
-        {
-          "value": 1.46,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "not decrease",
-        "CAGRLimit": [
-          0.001,
-          -0.0005,
-          -0.001
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "FAO",
-      "Partner_Agency(ies)": "UNEP",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Fair progress but acceleration needed"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "TREE_COVERED",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCVI",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain Green Cover Index",
-      "values": [
-        {
-          "value": 0.11,
-          "year": 2010.0
-        },
-        {
-          "value": 0.11,
-          "year": 2015.0
-        },
-        {
-          "value": 0.11,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "not decrease",
-        "CAGRLimit": [
-          0.001,
-          -0.0005,
-          -0.001
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "FAO",
-      "Partner_Agency(ies)": "UNEP",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Fair progress but acceleration needed"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "INLAND_WATER",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCVI",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain Green Cover Index",
-      "values": [
-        {
-          "value": 1.9,
-          "year": 2010.0
-        },
-        {
-          "value": 1.9,
-          "year": 2015.0
-        },
-        {
-          "value": 1.9,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "not decrease",
-        "CAGRLimit": [
-          0.001,
-          -0.0005,
-          -0.001
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "FAO",
-      "Partner_Agency(ies)": "UNEP",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Fair progress but acceleration needed"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "HERB_AQUA_FLOOD",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCVI",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain Green Cover Index",
-      "values": [
-        {
-          "value": 0.03,
-          "year": 2010.0
-        },
-        {
-          "value": 0.03,
-          "year": 2015.0
-        },
-        {
-          "value": 0.03,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "not decrease",
-        "CAGRLimit": [
-          0.001,
-          -0.0005,
-          -0.001
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "FAO",
-      "Partner_Agency(ies)": "UNEP",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Fair progress but acceleration needed"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "MGCI",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCVI",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain Green Cover Index",
-      "values": [
-        {
-          "value": 2.15,
-          "year": 2010.0
-        },
-        {
-          "value": 2.15,
-          "year": 2015.0
-        },
-        {
-          "value": 2.15,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "not decrease",
-        "CAGRLimit": [
-          0.001,
-          -0.0005,
-          -0.001
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "FAO",
-      "Partner_Agency(ies)": "UNEP",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Fair progress but acceleration needed"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "TERRESTRIAL_BARREN",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCVI",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain Green Cover Index",
-      "values": [
-        {
-          "value": 0.25,
-          "year": 2010.0
-        },
-        {
-          "value": 0.25,
-          "year": 2015.0
-        },
-        {
-          "value": 0.25,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "not decrease",
-        "CAGRLimit": [
-          0.001,
-          -0.0005,
-          -0.001
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "FAO",
-      "Partner_Agency(ies)": "UNEP",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Fair progress but acceleration needed"
-    },
-    {
-      "Reporting Type": "G",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_TOTL",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain area (square kilometres)",
-      "values": [
-        {
-          "value": 770458.63,
-          "year": 2010.0
-        },
-        {
-          "value": 770458.63,
-          "year": 2015.0
-        },
-        {
-          "value": 770458.63,
-          "year": 2018.0
-        }
-      ],
-      "methodology": "NA",
-      "Custodian_Agency(ies)": "NA",
-      "Partner_Agency(ies)": "NA",
-      "Tier_Classification": "NA",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "HERB_AQUA_FLOOD",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCOV",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain green cover area (square kilometres)",
-      "values": [
-        {
-          "value": 216.88,
-          "year": 2010.0
-        },
-        {
-          "value": 216.88,
-          "year": 2015.0
-        },
-        {
-          "value": 216.88,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "NA",
-      "Partner_Agency(ies)": "NA",
-      "Tier_Classification": "NA",
-      "currentLevelAssessment": null,
-      "status": "Limited or No Progress"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "INLAND_WATER",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCOV",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain green cover area (square kilometres)",
-      "values": [
-        {
-          "value": 14603.56,
-          "year": 2010.0
-        },
-        {
-          "value": 14603.56,
-          "year": 2015.0
-        },
-        {
-          "value": 14603.56,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "NA",
-      "Partner_Agency(ies)": "NA",
-      "Tier_Classification": "NA",
-      "currentLevelAssessment": null,
-      "status": "Limited or No Progress"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "GRASSLAND",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCOV",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain green cover area (square kilometres)",
-      "values": [
-        {
-          "value": 11213.28,
-          "year": 2010.0
-        },
-        {
-          "value": 11213.28,
-          "year": 2015.0
-        },
-        {
-          "value": 11213.28,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "NA",
-      "Partner_Agency(ies)": "NA",
-      "Tier_Classification": "NA",
-      "currentLevelAssessment": null,
-      "status": "Limited or No Progress"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "SPARSE_NAT_VEG",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCOV",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain green cover area (square kilometres)",
-      "values": [
-        {
-          "value": 130100.4,
-          "year": 2010.0
-        },
-        {
-          "value": 130100.4,
-          "year": 2015.0
-        },
-        {
-          "value": 130100.4,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "NA",
-      "Partner_Agency(ies)": "NA",
-      "Tier_Classification": "NA",
-      "currentLevelAssessment": null,
-      "status": "Limited or No Progress"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "MGCI",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCOV",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain green cover area (square kilometres)",
-      "values": [
-        {
-          "value": 16594.36,
-          "year": 2010.0
-        },
-        {
-          "value": 16594.36,
-          "year": 2015.0
-        },
-        {
-          "value": 16594.36,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "NA",
-      "Partner_Agency(ies)": "NA",
-      "Tier_Classification": "NA",
-      "currentLevelAssessment": null,
-      "status": "Limited or No Progress"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "TREE_COVERED",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCOV",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain green cover area (square kilometres)",
-      "values": [
-        {
-          "value": 863.66,
-          "year": 2010.0
-        },
-        {
-          "value": 863.66,
-          "year": 2015.0
-        },
-        {
-          "value": 863.66,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "NA",
-      "Partner_Agency(ies)": "NA",
-      "Tier_Classification": "NA",
-      "currentLevelAssessment": null,
-      "status": "Limited or No Progress"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "SHRUB_COVERED",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCOV",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain green cover area (square kilometres)",
-      "values": [
-        {
-          "value": 4300.54,
-          "year": 2010.0
-        },
-        {
-          "value": 4300.54,
-          "year": 2015.0
-        },
-        {
-          "value": 4300.54,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "NA",
-      "Partner_Agency(ies)": "NA",
-      "Tier_Classification": "NA",
-      "currentLevelAssessment": null,
-      "status": "Limited or No Progress"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "TERRESTRIAL_BARREN",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCOV",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain green cover area (square kilometres)",
-      "values": [
-        {
-          "value": 1919.05,
-          "year": 2010.0
-        },
-        {
-          "value": 1919.05,
-          "year": 2015.0
-        },
-        {
-          "value": 1919.05,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "NA",
-      "Partner_Agency(ies)": "NA",
-      "Tier_Classification": "NA",
-      "currentLevelAssessment": null,
-      "status": "Limited or No Progress"
-    },
-    {
-      "Reporting Type": "G",
-      "Land cover": "GLACIERS",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_GRNCOV",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Mountain green cover area (square kilometres)",
-      "values": [
-        {
-          "value": 607241.26,
-          "year": 2010.0
-        },
-        {
-          "value": 607241.26,
-          "year": 2015.0
-        },
-        {
-          "value": 607241.26,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "NA",
-      "Partner_Agency(ies)": "NA",
-      "Tier_Classification": "NA",
-      "currentLevelAssessment": null,
-      "status": "Limited or No Progress"
-    },
-    {
-      "Reporting Type": "G",
-      "Bioclimatic belt": "TOTAL",
-      "series": "ER_MTN_DGRDP",
-      "goal": "15",
-      "target": "15.4",
-      "indicator": "15.4.2",
-      "seriesDescription": "Proportion of degraded mountain land (%)",
-      "values": [
-        {
-          "value": 0.0,
-          "year": 2015.0
-        },
-        {
-          "value": 0.0,
-          "year": 2018.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "decrease",
-        "CAGRLimit": [
-          0.01,
-          -0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "targetValue": 1.0,
-        "baseYear": null,
-        "latestAvailable": 2018.0
-      },
-      "Custodian_Agency(ies)": "NA",
-      "Partner_Agency(ies)": "NA",
-      "Tier_Classification": "NA",
-      "currentLevelAssessment": null,
-      "status": "Target Achieved"
     },
     {
       "Reporting Type": "G",
@@ -3562,60 +3391,64 @@
       "seriesDescription": "Red List Index",
       "values": [
         {
-          "value": 0.92721,
+          "value": 0.92592,
           "year": 2010.0
         },
         {
-          "value": 0.92558,
+          "value": 0.92441,
           "year": 2011.0
         },
         {
-          "value": 0.92332,
+          "value": 0.92221,
           "year": 2012.0
         },
         {
-          "value": 0.92048,
+          "value": 0.91952,
           "year": 2013.0
         },
         {
-          "value": 0.91789,
+          "value": 0.91621,
           "year": 2014.0
         },
         {
-          "value": 0.91516,
+          "value": 0.91338,
           "year": 2015.0
         },
         {
-          "value": 0.91344,
+          "value": 0.9119,
           "year": 2016.0
         },
         {
-          "value": 0.91199,
+          "value": 0.91007,
           "year": 2017.0
         },
         {
-          "value": 0.9107,
+          "value": 0.90875,
           "year": 2018.0
         },
         {
-          "value": 0.90974,
+          "value": 0.90816,
           "year": 2019.0
         },
         {
-          "value": 0.90911,
+          "value": 0.90737,
           "year": 2020.0
         },
         {
-          "value": 0.90896,
+          "value": 0.90662,
           "year": 2021.0
         },
         {
-          "value": 0.90775,
+          "value": 0.90633,
           "year": 2022.0
         },
         {
-          "value": 0.90692,
+          "value": 0.90556,
           "year": 2023.0
+        },
+        {
+          "value": 0.90462,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -3635,7 +3468,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2023.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "IUCN",
       "Partner_Agency(ies)": "UNEP,CITES, BirdLife International",
@@ -3694,6 +3527,14 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
+        },
+        {
+          "value": 0.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -3708,7 +3549,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "CBD-Secretariat",
       "Partner_Agency(ies)": "FAO,UNEP",
@@ -3751,6 +3592,14 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
+        },
+        {
+          "value": 0.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -3819,6 +3668,14 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
+        },
+        {
+          "value": 0.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -3846,31 +3703,31 @@
       "seriesDescription": "Number of victims of intentional homicide per 100,000 population, by sex (victims per 100,000 population)",
       "values": [
         {
-          "value": 19.52,
+          "value": 19.43,
           "year": 2010.0
         },
         {
-          "value": 1.78,
+          "value": 1.76,
           "year": 2011.0
         },
         {
-          "value": 14.24,
+          "value": 14.09,
           "year": 2012.0
         },
         {
-          "value": 12.48,
+          "value": 12.39,
           "year": 2013.0
         },
         {
-          "value": 7.15,
+          "value": 7.12,
           "year": 2014.0
         },
         {
-          "value": 7.16,
+          "value": 7.14,
           "year": 2015.0
         },
         {
-          "value": 5.37,
+          "value": 5.35,
           "year": 2016.0
         }
       ],
@@ -3981,6 +3838,10 @@
         {
           "value": 32.5,
           "year": 2016.0
+        },
+        {
+          "value": 20.61,
+          "year": 2020.0
         }
       ],
       "methodology": {
@@ -4004,13 +3865,13 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2016.0
+        "latestAvailable": 2020.0
       },
       "Custodian_Agency(ies)": "UNODC",
       "Partner_Agency(ies)": "",
       "Tier_Classification": "Tier I",
-      "currentLevelAssessment": "Far from target",
-      "status": "Deterioration"
+      "currentLevelAssessment": "Moderate distance to target",
+      "status": "Fair progress but acceleration needed"
     },
     {
       "Reporting Type": "G",
@@ -4033,15 +3894,15 @@
           "year": 2012.0
         },
         {
-          "value": 98.36088,
+          "value": 98.3609,
           "year": 2018.0
         },
         {
-          "value": 98.99727,
+          "value": 98.9973,
           "year": 2019.0
         },
         {
-          "value": 99.15347,
+          "value": 99.1535,
           "year": 2020.0
         }
       ],
@@ -4074,52 +3935,60 @@
       "seriesDescription": "Developing countries\u2019 and least developed countries\u2019 share of global merchandise imports (%)",
       "values": [
         {
-          "value": 0.00524,
+          "value": 0.005238,
           "year": 2010.0
         },
         {
-          "value": 0.00496,
+          "value": 0.004963,
           "year": 2011.0
         },
         {
-          "value": 0.00461,
+          "value": 0.004611,
           "year": 2012.0
         },
         {
-          "value": 0.00503,
+          "value": 0.005031,
           "year": 2013.0
         },
         {
-          "value": 0.00455,
+          "value": 0.004547,
           "year": 2014.0
         },
         {
-          "value": 0.00398,
+          "value": 0.003987,
           "year": 2015.0
         },
         {
-          "value": 0.00453,
+          "value": 0.004528,
           "year": 2016.0
         },
         {
-          "value": 0.00423,
+          "value": 0.004231,
           "year": 2017.0
         },
         {
-          "value": 0.00418,
+          "value": 0.004186,
           "year": 2018.0
         },
         {
-          "value": 0.0051,
+          "value": 0.005101,
           "year": 2019.0
         },
         {
-          "value": 0.00535,
+          "value": 0.005356,
           "year": 2020.0
         },
         {
-          "value": 0.0038,
+          "value": 0.00472,
           "year": 2021.0
+        },
+        {
+          "value": 0.003977,
+          "year": 2022.0
+        },
+        {
+          "value": 0.003732,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -4134,7 +4003,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "NA",
       "Partner_Agency(ies)": "NA",
@@ -4151,7 +4020,7 @@
       "seriesDescription": "Developing countries\u2019 and least developed countries\u2019 share of global merchandise exports (%)",
       "values": [
         {
-          "value": 0.00248,
+          "value": 0.002485,
           "year": 2010.0
         },
         {
@@ -4163,40 +4032,48 @@
           "year": 2012.0
         },
         {
-          "value": 0.00286,
+          "value": 0.002858,
           "year": 2013.0
         },
         {
-          "value": 0.00294,
+          "value": 0.002942,
           "year": 2014.0
         },
         {
-          "value": 0.00245,
+          "value": 0.002453,
           "year": 2015.0
         },
         {
-          "value": 0.00359,
+          "value": 0.003585,
           "year": 2016.0
         },
         {
-          "value": 0.00336,
+          "value": 0.003358,
           "year": 2017.0
         },
         {
-          "value": 0.00358,
+          "value": 0.003576,
           "year": 2018.0
         },
         {
-          "value": 0.00435,
+          "value": 0.004348,
           "year": 2019.0
         },
         {
-          "value": 0.00462,
+          "value": 0.004623,
           "year": 2020.0
         },
         {
-          "value": 0.00347,
+          "value": 0.003598,
           "year": 2021.0
+        },
+        {
+          "value": 0.003423,
+          "year": 2022.0
+        },
+        {
+          "value": 0.003668,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -4211,7 +4088,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "NA",
       "Partner_Agency(ies)": "NA",
@@ -4265,16 +4142,24 @@
           "year": 2018.0
         },
         {
-          "value": 4.9119,
+          "value": 4.83995,
           "year": 2019.0
         },
         {
-          "value": 4.88991,
+          "value": 4.83995,
           "year": 2020.0
         },
         {
-          "value": 4.9119,
+          "value": 4.83995,
           "year": 2021.0
+        },
+        {
+          "value": 4.83968,
+          "year": 2022.0
+        },
+        {
+          "value": 4.82897,
+          "year": 2023.0
         }
       ],
       "methodology": "NA",
@@ -4330,16 +4215,24 @@
           "year": 2018.0
         },
         {
-          "value": 3.62048,
+          "value": 3.61921,
           "year": 2019.0
         },
         {
-          "value": 3.62455,
+          "value": 3.62327,
           "year": 2020.0
         },
         {
-          "value": 3.61925,
+          "value": 3.61798,
           "year": 2021.0
+        },
+        {
+          "value": 3.61907,
+          "year": 2022.0
+        },
+        {
+          "value": 3.619,
+          "year": 2023.0
         }
       ],
       "methodology": "NA",
@@ -4405,6 +4298,14 @@
         {
           "value": 10.86034,
           "year": 2021.0
+        },
+        {
+          "value": 10.86035,
+          "year": 2022.0
+        },
+        {
+          "value": 10.86035,
+          "year": 2023.0
         }
       ],
       "methodology": "NA",
@@ -4460,16 +4361,24 @@
           "year": 2018.0
         },
         {
-          "value": 1.22345,
+          "value": 1.22342,
           "year": 2019.0
         },
         {
-          "value": 1.22345,
+          "value": 1.22342,
           "year": 2020.0
         },
         {
-          "value": 1.22345,
+          "value": 1.22342,
           "year": 2021.0
+        },
+        {
+          "value": 1.22342,
+          "year": 2022.0
+        },
+        {
+          "value": 1.22342,
+          "year": 2023.0
         }
       ],
       "methodology": "NA",
@@ -4489,52 +4398,60 @@
       "seriesDescription": "Average tariff applied by developed countries, most-favored nation status, by type of product (%)",
       "values": [
         {
-          "value": 4.40462,
+          "value": 4.40458,
           "year": 2010.0
         },
         {
-          "value": 4.42981,
+          "value": 4.42978,
           "year": 2011.0
         },
         {
-          "value": 4.20824,
+          "value": 4.2082,
           "year": 2012.0
         },
         {
-          "value": 4.18919,
+          "value": 4.18915,
           "year": 2013.0
         },
         {
-          "value": 4.18972,
+          "value": 4.18968,
           "year": 2014.0
         },
         {
-          "value": 4.19647,
+          "value": 4.19643,
           "year": 2015.0
         },
         {
-          "value": 4.15043,
+          "value": 4.15039,
           "year": 2016.0
         },
         {
-          "value": 3.85262,
+          "value": 3.85258,
           "year": 2017.0
         },
         {
-          "value": 3.86217,
+          "value": 3.86213,
           "year": 2018.0
         },
         {
-          "value": 3.8841,
+          "value": 3.87976,
           "year": 2019.0
         },
         {
-          "value": 3.88723,
+          "value": 3.88246,
           "year": 2020.0
         },
         {
-          "value": 3.88356,
+          "value": 3.87776,
           "year": 2021.0
+        },
+        {
+          "value": 3.88677,
+          "year": 2022.0
+        },
+        {
+          "value": 3.88658,
+          "year": 2023.0
         }
       ],
       "methodology": "NA",
@@ -4590,16 +4507,97 @@
           "year": 2018.0
         },
         {
-          "value": 19.40044,
+          "value": 4.26517,
           "year": 2019.0
         },
         {
-          "value": 19.43123,
+          "value": 4.26708,
           "year": 2020.0
         },
         {
-          "value": 19.36904,
+          "value": 4.2682,
           "year": 2021.0
+        },
+        {
+          "value": 5.43118,
+          "year": 2022.0
+        },
+        {
+          "value": 5.43115,
+          "year": 2023.0
+        }
+      ],
+      "methodology": "NA",
+      "Custodian_Agency(ies)": "WTO,ITC,UNCTAD",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "status": "Methodology Unavailable",
+      "currentLevelAssessment": null
+    },
+    {
+      "Type of product": "AGR",
+      "Reporting Type": "G",
+      "series": "TM_TAX_DPRF",
+      "goal": "17",
+      "target": "17.12",
+      "indicator": "17.12.1",
+      "seriesDescription": "Average tariff applied by developed countries, preferential status, by type of product (%)",
+      "values": [
+        {
+          "value": 8.94371,
+          "year": 2010.0
+        },
+        {
+          "value": 8.83491,
+          "year": 2011.0
+        },
+        {
+          "value": 2.03513,
+          "year": 2012.0
+        },
+        {
+          "value": 2.19218,
+          "year": 2013.0
+        },
+        {
+          "value": 2.19211,
+          "year": 2014.0
+        },
+        {
+          "value": 2.19243,
+          "year": 2015.0
+        },
+        {
+          "value": 2.19246,
+          "year": 2016.0
+        },
+        {
+          "value": 2.17819,
+          "year": 2017.0
+        },
+        {
+          "value": 2.18793,
+          "year": 2018.0
+        },
+        {
+          "value": 2.18789,
+          "year": 2019.0
+        },
+        {
+          "value": 2.18788,
+          "year": 2020.0
+        },
+        {
+          "value": 2.189,
+          "year": 2021.0
+        },
+        {
+          "value": 2.42545,
+          "year": 2022.0
+        },
+        {
+          "value": 2.42547,
+          "year": 2023.0
         }
       ],
       "methodology": "NA",
@@ -4655,16 +4653,24 @@
           "year": 2018.0
         },
         {
-          "value": 2.524,
+          "value": 2.45204,
           "year": 2019.0
         },
         {
-          "value": 2.50201,
+          "value": 2.45204,
           "year": 2020.0
         },
         {
-          "value": 2.524,
+          "value": 2.45204,
           "year": 2021.0
+        },
+        {
+          "value": 2.45177,
+          "year": 2022.0
+        },
+        {
+          "value": 2.44106,
+          "year": 2023.0
         }
       ],
       "methodology": "NA",
@@ -4720,16 +4726,24 @@
           "year": 2018.0
         },
         {
-          "value": 0.75874,
+          "value": 0.75746,
           "year": 2019.0
         },
         {
-          "value": 0.75851,
+          "value": 0.75723,
           "year": 2020.0
         },
         {
-          "value": 0.75851,
+          "value": 0.75723,
           "year": 2021.0
+        },
+        {
+          "value": 0.75742,
+          "year": 2022.0
+        },
+        {
+          "value": 0.75741,
+          "year": 2023.0
         }
       ],
       "methodology": "NA",
@@ -4795,6 +4809,14 @@
         {
           "value": 7.07177,
           "year": 2021.0
+        },
+        {
+          "value": 7.07178,
+          "year": 2022.0
+        },
+        {
+          "value": 7.07178,
+          "year": 2023.0
         }
       ],
       "methodology": "NA",
@@ -4850,16 +4872,24 @@
           "year": 2018.0
         },
         {
-          "value": 1.03738,
+          "value": 1.03735,
           "year": 2019.0
         },
         {
-          "value": 1.03738,
+          "value": 1.03735,
           "year": 2020.0
         },
         {
-          "value": 1.03738,
+          "value": 1.03735,
           "year": 2021.0
+        },
+        {
+          "value": 1.03735,
+          "year": 2022.0
+        },
+        {
+          "value": 1.03735,
+          "year": 2023.0
         }
       ],
       "methodology": "NA",
@@ -4879,117 +4909,60 @@
       "seriesDescription": "Average tariff applied by developed countries, preferential status, by type of product (%)",
       "values": [
         {
-          "value": 1.05001,
+          "value": 1.04998,
           "year": 2010.0
         },
         {
-          "value": 1.04992,
+          "value": 1.04988,
           "year": 2011.0
         },
         {
-          "value": 0.99408,
+          "value": 0.99404,
           "year": 2012.0
         },
         {
-          "value": 0.9957,
+          "value": 0.99566,
           "year": 2013.0
         },
         {
-          "value": 0.99595,
+          "value": 0.99591,
           "year": 2014.0
         },
         {
-          "value": 1.00258,
+          "value": 1.00254,
           "year": 2015.0
         },
         {
-          "value": 1.0,
+          "value": 0.99996,
           "year": 2016.0
         },
         {
-          "value": 0.86631,
+          "value": 0.86627,
           "year": 2017.0
         },
         {
-          "value": 0.87678,
+          "value": 0.87674,
           "year": 2018.0
         },
         {
-          "value": 0.88173,
+          "value": 0.88569,
           "year": 2019.0
         },
         {
-          "value": 0.88111,
+          "value": 0.88506,
           "year": 2020.0
         },
         {
-          "value": 0.88109,
+          "value": 0.88509,
           "year": 2021.0
-        }
-      ],
-      "methodology": "NA",
-      "Custodian_Agency(ies)": "WTO,ITC,UNCTAD",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
-    },
-    {
-      "Type of product": "AGR",
-      "Reporting Type": "G",
-      "series": "TM_TAX_DPRF",
-      "goal": "17",
-      "target": "17.12",
-      "indicator": "17.12.1",
-      "seriesDescription": "Average tariff applied by developed countries, preferential status, by type of product (%)",
-      "values": [
-        {
-          "value": 8.94371,
-          "year": 2010.0
         },
         {
-          "value": 8.83491,
-          "year": 2011.0
+          "value": 0.88787,
+          "year": 2022.0
         },
         {
-          "value": 2.03513,
-          "year": 2012.0
-        },
-        {
-          "value": 2.19218,
-          "year": 2013.0
-        },
-        {
-          "value": 2.19211,
-          "year": 2014.0
-        },
-        {
-          "value": 2.19243,
-          "year": 2015.0
-        },
-        {
-          "value": 2.19246,
-          "year": 2016.0
-        },
-        {
-          "value": 2.17819,
-          "year": 2017.0
-        },
-        {
-          "value": 2.18793,
-          "year": 2018.0
-        },
-        {
-          "value": 6.13875,
-          "year": 2019.0
-        },
-        {
-          "value": 6.16761,
-          "year": 2020.0
-        },
-        {
-          "value": 6.10567,
-          "year": 2021.0
+          "value": 0.88785,
+          "year": 2023.0
         }
       ],
       "methodology": "NA",
@@ -5008,52 +4981,56 @@
       "seriesDescription": "DEC alternative conversion factor (in local currency unit per United States dollar)",
       "values": [
         {
-          "value": 5.6241,
+          "value": 5.624075,
           "year": 2010.0
         },
         {
-          "value": 5.3687,
+          "value": 5.368712,
           "year": 2011.0
         },
         {
-          "value": 5.7925,
+          "value": 5.792476,
           "year": 2012.0
         },
         {
-          "value": 5.6163,
+          "value": 5.616312,
           "year": 2013.0
         },
         {
-          "value": 5.6125,
+          "value": 5.612467,
           "year": 2014.0
         },
         {
-          "value": 6.7279,
+          "value": 6.727907,
           "year": 2015.0
         },
         {
-          "value": 6.7317,
+          "value": 6.731718,
           "year": 2016.0
         },
         {
-          "value": 6.6029,
+          "value": 6.602893,
           "year": 2017.0
         },
         {
-          "value": 6.3146,
+          "value": 6.314619,
           "year": 2018.0
         },
         {
-          "value": 6.6694,
+          "value": 6.669447,
           "year": 2019.0
         },
         {
-          "value": 6.5421,
+          "value": 6.542152,
           "year": 2020.0
         },
         {
-          "value": 6.2871,
+          "value": 6.287113,
           "year": 2021.0
+        },
+        {
+          "value": 7.076152,
+          "year": 2022.0
         }
       ],
       "methodology": "NA",
@@ -5072,48 +5049,52 @@
       "seriesDescription": "Annual growth of exports of goods and services (%)",
       "values": [
         {
-          "value": 9.42707,
+          "value": 9.43620178041542,
           "year": 2010.0
         },
         {
-          "value": 4.25532,
+          "value": 4.25287835808443,
           "year": 2011.0
         },
         {
-          "value": -3.90156,
+          "value": -3.90532781145589,
           "year": 2012.0
         },
         {
-          "value": 2.37352,
+          "value": 2.36722116966126,
           "year": 2013.0
         },
         {
-          "value": 11.81615,
+          "value": 11.8247640741946,
           "year": 2014.0
         },
         {
-          "value": -9.9127,
+          "value": -9.91597250009094,
           "year": 2015.0
         },
         {
-          "value": 15.16253,
+          "value": 15.1665657177468,
           "year": 2016.0
         },
         {
-          "value": -3.78682,
+          "value": -3.78493040215982,
           "year": 2017.0
         },
         {
-          "value": 3.60787,
+          "value": 3.60220833409252,
           "year": 2018.0
         },
         {
-          "value": -10.42912,
+          "value": -5.43967639817095,
           "year": 2019.0
         },
         {
-          "value": -6.16532,
+          "value": -5.58893001283315,
           "year": 2020.0
+        },
+        {
+          "value": 0.652062566486734,
+          "year": 2021.0
         }
       ],
       "methodology": "NA",
@@ -5132,48 +5113,52 @@
       "seriesDescription": "Annual GDP growth (%)",
       "values": [
         {
-          "value": 1.73583,
+          "value": 1.73582505889665,
           "year": 2010.0
         },
         {
-          "value": -0.49652,
+          "value": -0.496519391959083,
           "year": 2011.0
         },
         {
-          "value": 1.39419,
+          "value": 1.39419335955625,
           "year": 2012.0
         },
         {
-          "value": -1.29828,
+          "value": -1.29828069335511,
           "year": 2013.0
         },
         {
-          "value": 4.74214,
+          "value": 4.7421356730152,
           "year": 2014.0
         },
         {
-          "value": -2.52932,
+          "value": -2.52931802394475,
           "year": 2015.0
         },
         {
-          "value": 4.68195,
+          "value": 4.68195410972302,
           "year": 2016.0
         },
         {
-          "value": 0.05273,
+          "value": 0.0527281828800312,
           "year": 2017.0
         },
         {
-          "value": 0.62307,
+          "value": 0.62306542854094,
           "year": 2018.0
         },
         {
-          "value": 2.27131,
+          "value": 2.83217756798683,
           "year": 2019.0
         },
         {
-          "value": 0.35653,
+          "value": 0.187608793759281,
           "year": 2020.0
+        },
+        {
+          "value": 1.29021048770599,
+          "year": 2021.0
         }
       ],
       "methodology": {
@@ -5188,7 +5173,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2020.0
+        "latestAvailable": 2021.0
       },
       "Custodian_Agency(ies)": "World Bank",
       "Partner_Agency(ies)": "",
@@ -5205,48 +5190,52 @@
       "seriesDescription": "Annual growth of the general government final consumption expenditure (%)",
       "values": [
         {
-          "value": -2.47115,
+          "value": -2.47273480622106,
           "year": 2010.0
         },
         {
-          "value": -0.06069,
+          "value": -0.0546232512973006,
           "year": 2011.0
         },
         {
-          "value": 0.97161,
+          "value": 0.974647032032777,
           "year": 2012.0
         },
         {
-          "value": 4.13472,
+          "value": 4.12256434929034,
           "year": 2013.0
         },
         {
-          "value": -0.20214,
+          "value": -0.189158748953133,
           "year": 2014.0
         },
         {
-          "value": -0.54977,
+          "value": -0.556978140416362,
           "year": 2015.0
         },
         {
-          "value": 1.7748,
+          "value": 1.77049084931188,
           "year": 2016.0
         },
         {
-          "value": 1.6438,
+          "value": 1.65677935815881,
           "year": 2017.0
         },
         {
-          "value": 3.02348,
+          "value": 3.01347132772732,
           "year": 2018.0
         },
         {
-          "value": 4.3953,
+          "value": 4.00507801302265,
           "year": 2019.0
         },
         {
-          "value": -2.1182,
+          "value": -1.76792534551325,
           "year": 2020.0
+        },
+        {
+          "value": 1.44968200523756,
+          "year": 2021.0
         }
       ],
       "methodology": "NA",
@@ -5265,48 +5254,52 @@
       "seriesDescription": "Annual growth of the gross capital formation (%)",
       "values": [
         {
-          "value": 66.47843,
+          "value": 66.5002484977183,
           "year": 2010.0
         },
         {
-          "value": 22.29308,
+          "value": 22.2881022482124,
           "year": 2011.0
         },
         {
-          "value": -38.96594,
+          "value": -38.9603905469877,
           "year": 2012.0
         },
         {
-          "value": -20.7235,
+          "value": -20.7397982368445,
           "year": 2013.0
         },
         {
-          "value": -21.92158,
+          "value": -21.9263845889233,
           "year": 2014.0
         },
         {
-          "value": 10.1909,
+          "value": 10.219128187052,
           "year": 2015.0
         },
         {
-          "value": 10.90085,
+          "value": 10.8839911520934,
           "year": 2016.0
         },
         {
-          "value": -4.13362,
+          "value": -4.1339197731151,
           "year": 2017.0
         },
         {
-          "value": -6.89396,
+          "value": -6.89196981472661,
           "year": 2018.0
         },
         {
-          "value": 53.28487,
+          "value": 46.9438311163768,
           "year": 2019.0
         },
         {
-          "value": 5.86685,
+          "value": 0.421461555376396,
           "year": 2020.0
+        },
+        {
+          "value": 6.47239151855771,
+          "year": 2021.0
         }
       ],
       "methodology": "NA",
@@ -5325,48 +5318,52 @@
       "seriesDescription": "Annual growth of households and NPISHs final consumption expenditure (%)",
       "values": [
         {
-          "value": -0.3768,
+          "value": -0.381729414463123,
           "year": 2010.0
         },
         {
-          "value": 0.37823,
+          "value": 0.393059781267979,
           "year": 2011.0
         },
         {
-          "value": -0.91743,
+          "value": -0.930476377694774,
           "year": 2012.0
         },
         {
-          "value": -1.1078,
+          "value": -1.09630266552021,
           "year": 2013.0
         },
         {
-          "value": 0.71894,
+          "value": 0.708875996856875,
           "year": 2014.0
         },
         {
-          "value": 0.1826,
+          "value": 0.182612015870646,
           "year": 2015.0
         },
         {
-          "value": 1.4913,
+          "value": 1.48640363232637,
           "year": 2016.0
         },
         {
-          "value": 0.86531,
+          "value": 0.867023708444918,
           "year": 2017.0
         },
         {
-          "value": 1.52153,
+          "value": 1.52003237555644,
           "year": 2018.0
         },
         {
-          "value": -0.06378,
+          "value": 0.500685652326439,
           "year": 2019.0
         },
         {
-          "value": 1.62731,
+          "value": 0.379196547566153,
           "year": 2020.0
+        },
+        {
+          "value": 3.17385050658321,
+          "year": 2021.0
         }
       ],
       "methodology": "NA",
@@ -5385,48 +5382,52 @@
       "seriesDescription": "Annual growth of imports of goods and services (%)",
       "values": [
         {
-          "value": 38.5626,
+          "value": 38.5613086038124,
           "year": 2010.0
         },
         {
-          "value": 18.00521,
+          "value": 18.0025841474637,
           "year": 2011.0
         },
         {
-          "value": -30.00394,
+          "value": -30.0048839664109,
           "year": 2012.0
         },
         {
-          "value": -6.6284,
+          "value": -6.62645178716126,
           "year": 2013.0
         },
         {
-          "value": -11.46197,
+          "value": -11.4610452222544,
           "year": 2014.0
         },
         {
-          "value": 1.72883,
+          "value": 1.73566206999823,
           "year": 2015.0
         },
         {
-          "value": 10.9996,
+          "value": 10.9963336633929,
           "year": 2016.0
         },
         {
-          "value": -3.50814,
+          "value": -3.50805284984088,
           "year": 2017.0
         },
         {
-          "value": 2.42379,
+          "value": 2.4187301666625,
           "year": 2018.0
         },
         {
-          "value": 14.46694,
+          "value": 15.1430871697285,
           "year": 2019.0
         },
         {
-          "value": -2.76002,
+          "value": -5.84795321637426,
           "year": 2020.0
+        },
+        {
+          "value": 5.89161940768746,
+          "year": 2021.0
         }
       ],
       "methodology": "NA",
@@ -5445,48 +5446,52 @@
       "seriesDescription": "Merchandise trade as a proportion of GDP (%)",
       "values": [
         {
-          "value": 47.46009,
+          "value": 47.4598742719136,
           "year": 2010.0
         },
         {
-          "value": 52.37538,
+          "value": 52.3754974778138,
           "year": 2011.0
         },
         {
-          "value": 51.19426,
+          "value": 51.1940458174842,
           "year": 2012.0
         },
         {
-          "value": 55.75517,
+          "value": 55.7552907191883,
           "year": 2013.0
         },
         {
-          "value": 50.17507,
+          "value": 50.1747723779073,
           "year": 2014.0
         },
         {
-          "value": 42.93519,
+          "value": 42.9352330288216,
           "year": 2015.0
         },
         {
-          "value": 48.35349,
+          "value": 48.3536211746243,
           "year": 2016.0
         },
         {
-          "value": 47.55207,
+          "value": 47.552023262113,
           "year": 2017.0
         },
         {
-          "value": 50.00341,
+          "value": 50.0035646166842,
           "year": 2018.0
         },
         {
-          "value": 60.51433,
+          "value": 60.4542078397631,
           "year": 2019.0
         },
         {
-          "value": 57.6395,
+          "value": 57.5110715911288,
           "year": 2020.0
+        },
+        {
+          "value": 57.7289855140853,
+          "year": 2021.0
         }
       ],
       "methodology": "NA",
@@ -5555,6 +5560,10 @@
         {
           "value": 1.0,
           "year": 2020.0
+        },
+        {
+          "value": 1.0,
+          "year": 2021.0
         }
       ],
       "methodology": {
@@ -5603,6 +5612,10 @@
         {
           "value": 1.0,
           "year": 2020.0
+        },
+        {
+          "value": 1.0,
+          "year": 2021.0
         }
       ],
       "methodology": {
@@ -5672,6 +5685,10 @@
         {
           "value": 16781.0,
           "year": 2021.0
+        },
+        {
+          "value": 17908.0,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -5686,7 +5703,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "ITU",
       "Partner_Agency(ies)": "",
@@ -5704,48 +5721,52 @@
       "seriesDescription": "Fixed broadband subscriptions per 100\u00a0inhabitants, by speed (per 100 inhabitants)",
       "values": [
         {
-          "value": 21.98719,
+          "value": 21.88505,
           "year": 2010.0
         },
         {
-          "value": 21.12528,
+          "value": 20.92234,
           "year": 2011.0
         },
         {
-          "value": 20.24947,
+          "value": 20.04297,
           "year": 2012.0
         },
         {
-          "value": 19.25511,
+          "value": 19.11065,
           "year": 2013.0
         },
         {
-          "value": 18.58736,
+          "value": 18.51423,
           "year": 2014.0
         },
         {
-          "value": 17.89101,
+          "value": 17.85045,
           "year": 2015.0
         },
         {
-          "value": 21.78336,
+          "value": 21.72781,
           "year": 2017.0
         },
         {
-          "value": 24.12258,
+          "value": 24.06106,
           "year": 2018.0
         },
         {
-          "value": 26.17153,
+          "value": 26.10014,
           "year": 2019.0
         },
         {
-          "value": 27.94595,
+          "value": 27.91904,
           "year": 2020.0
         },
         {
-          "value": 29.8366,
+          "value": 29.94415,
           "year": 2021.0
+        },
+        {
+          "value": 31.98428,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -5760,7 +5781,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "ITU",
       "Partner_Agency(ies)": "",
@@ -6038,7 +6059,7 @@
           "year": 2016.0
         },
         {
-          "value": 69.48,
+          "value": 69.5,
           "year": 2017.0
         }
       ],
@@ -6139,6 +6160,10 @@
         {
           "value": 1.0,
           "year": 2023.0
+        },
+        {
+          "value": 1.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -6153,7 +6178,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2023.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "NA",
       "Partner_Agency(ies)": "NA",
@@ -6224,6 +6249,10 @@
         {
           "value": 1.0,
           "year": 2023.0
+        },
+        {
+          "value": 1.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -6238,7 +6267,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2023.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "NA",
       "Partner_Agency(ies)": "NA",
@@ -6255,52 +6284,60 @@
       "seriesDescription": "Indicator of Food Price Anomalies (IFPA), by Consumer Food Price Index",
       "values": [
         {
-          "value": 0.26,
+          "value": 0.09,
           "year": 2010.0
         },
         {
-          "value": 0.29,
+          "value": 0.16,
           "year": 2011.0
         },
         {
-          "value": -0.79,
+          "value": -0.96,
           "year": 2012.0
         },
         {
-          "value": 0.03,
+          "value": -0.02,
           "year": 2013.0
         },
         {
-          "value": 0.29,
+          "value": 0.26,
           "year": 2014.0
         },
         {
-          "value": 0.41,
+          "value": 0.4,
           "year": 2015.0
         },
         {
-          "value": 1.01,
+          "value": 1.03,
           "year": 2016.0
         },
         {
-          "value": 0.21,
+          "value": 0.15,
           "year": 2017.0
         },
         {
-          "value": -0.29,
+          "value": -0.39,
           "year": 2018.0
         },
         {
-          "value": -0.74,
+          "value": -0.87,
           "year": 2019.0
         },
         {
-          "value": -0.76,
+          "value": -0.86,
           "year": 2020.0
         },
         {
-          "value": -0.03,
+          "value": -0.05,
           "year": 2021.0
+        },
+        {
+          "value": 1.21,
+          "year": 2022.0
+        },
+        {
+          "value": -0.4,
+          "year": 2023.0
         }
       ],
       "methodology": "NA",
@@ -6319,27 +6356,27 @@
       "seriesDescription": "Tuberculosis incidence (per 100,000 population)",
       "values": [
         {
-          "value": 233.0,
+          "value": 232.0,
           "year": 2010.0
         },
         {
-          "value": 235.0,
+          "value": 233.0,
           "year": 2011.0
         },
         {
-          "value": 172.0,
+          "value": 170.0,
           "year": 2012.0
         },
         {
-          "value": 197.0,
+          "value": 195.0,
           "year": 2013.0
         },
         {
-          "value": 179.0,
+          "value": 178.0,
           "year": 2014.0
         },
         {
-          "value": 167.0,
+          "value": 166.0,
           "year": 2015.0
         },
         {
@@ -6355,7 +6392,7 @@
           "year": 2018.0
         },
         {
-          "value": 130.0,
+          "value": 129.0,
           "year": 2019.0
         },
         {
@@ -6365,6 +6402,14 @@
         {
           "value": 70.0,
           "year": 2021.0
+        },
+        {
+          "value": 119.0,
+          "year": 2022.0
+        },
+        {
+          "value": 101.0,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -6380,7 +6425,7 @@
         },
         "targetValue": 5.0,
         "baseYear": 2015,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "WHO",
       "Partner_Agency(ies)": "",
@@ -6389,7 +6434,8 @@
       "status": "On Track"
     },
     {
-      "Age": "15-19",
+      "Age": "10-14",
+      "Location": "ALLAREA",
       "Sex": "FEMALE",
       "Reporting Type": "G",
       "series": "SP_DYN_ADKL",
@@ -6399,28 +6445,52 @@
       "seriesDescription": "Adolescent birth rate (per 1,000 women aged 15-19 and 10-14 years)",
       "values": [
         {
-          "value": 51.26,
+          "value": 0.90978,
           "year": 2010.0
         },
         {
-          "value": 39.91,
+          "value": 0.624707,
+          "year": 2011.0
+        },
+        {
+          "value": 0.321182,
+          "year": 2012.0
+        },
+        {
+          "value": 0.328731,
+          "year": 2013.0
+        },
+        {
+          "value": 0.335514,
+          "year": 2014.0
+        },
+        {
+          "value": 0.171262,
           "year": 2015.0
         },
         {
-          "value": 38.98,
+          "value": 0.0,
           "year": 2016.0
         },
         {
-          "value": 38.97,
+          "value": 0.178412,
           "year": 2017.0
         },
         {
-          "value": 37.57,
+          "value": 0.180505,
           "year": 2018.0
         },
         {
-          "value": 36.95,
+          "value": 0.182249,
           "year": 2019.0
+        },
+        {
+          "value": 0.0,
+          "year": 2021.0
+        },
+        {
+          "value": 0.0,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -6435,7 +6505,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2019.0
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "DESA Population Division",
       "Partner_Agency(ies)": "UNFPA, WHO",
@@ -6444,7 +6514,8 @@
       "status": "On Track"
     },
     {
-      "Age": "10-14",
+      "Age": "15-19",
+      "Location": "ALLAREA",
       "Sex": "FEMALE",
       "Reporting Type": "G",
       "series": "SP_DYN_ADKL",
@@ -6454,32 +6525,52 @@
       "seriesDescription": "Adolescent birth rate (per 1,000 women aged 15-19 and 10-14 years)",
       "values": [
         {
-          "value": 0.63,
+          "value": 51.735573,
+          "year": 2010.0
+        },
+        {
+          "value": 41.213768,
           "year": 2011.0
         },
         {
-          "value": 0.32,
+          "value": 40.0,
           "year": 2012.0
         },
         {
-          "value": 0.33,
+          "value": 40.404041,
           "year": 2013.0
         },
         {
-          "value": 0.34,
+          "value": 41.109459,
           "year": 2014.0
         },
         {
-          "value": 0.17,
+          "value": 37.890427,
           "year": 2015.0
         },
         {
-          "value": 0.18,
+          "value": 42.171852,
+          "year": 2016.0
+        },
+        {
+          "value": 38.992687,
           "year": 2017.0
         },
         {
-          "value": 0.18,
+          "value": 37.239868,
           "year": 2018.0
+        },
+        {
+          "value": 36.952812,
+          "year": 2019.0
+        },
+        {
+          "value": 27.831841,
+          "year": 2021.0
+        },
+        {
+          "value": 22.006344,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -6494,96 +6585,13 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2018.0
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "DESA Population Division",
       "Partner_Agency(ies)": "UNFPA, WHO",
       "Tier_Classification": "Tier I",
       "currentLevelAssessment": null,
-      "status": "Deterioration"
-    },
-    {
-      "Location": "ALLAREA",
-      "Reporting Type": "G",
-      "series": "SH_H2O_SAFE",
-      "goal": "6",
-      "target": "6.1",
-      "indicator": "6.1.1",
-      "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
-      "values": [
-        {
-          "value": 97.0,
-          "year": 2010.0
-        },
-        {
-          "value": 97.0,
-          "year": 2011.0
-        },
-        {
-          "value": 97.0,
-          "year": 2012.0
-        },
-        {
-          "value": 97.0,
-          "year": 2013.0
-        },
-        {
-          "value": 97.0,
-          "year": 2014.0
-        },
-        {
-          "value": 97.0,
-          "year": 2015.0
-        },
-        {
-          "value": 97.0,
-          "year": 2016.0
-        },
-        {
-          "value": 97.0,
-          "year": 2017.0
-        },
-        {
-          "value": 97.0,
-          "year": 2018.0
-        },
-        {
-          "value": 97.0,
-          "year": 2019.0
-        },
-        {
-          "value": 97.0,
-          "year": 2020.0
-        }
-      ],
-      "methodology": {
-        "targetValue": 99,
-        "currentLevelThresholds": [
-          99,
-          75,
-          50,
-          25
-        ],
-        "currentLevelThresholdsName": [
-          "Target met or almost met",
-          "Close to Target",
-          "Moderate distance to target",
-          "Far from target",
-          "Very far from target"
-        ],
-        "normativeDirection": "increase",
-        "trendMethodology": "CAGRR",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2020.0
-      },
-      "Custodian_Agency(ies)": "WHO,UNICEF",
-      "Partner_Agency(ies)": "UNEP, UN-Habitat",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": "Close to Target",
-      "status": "Limited or No Progress"
+      "status": "On Track"
     },
     {
       "Location": "ALLAREA",
@@ -6595,48 +6603,40 @@
       "seriesDescription": "Proportion of population using safely managed sanitation services, by urban/rural (%)",
       "values": [
         {
-          "value": 87.0,
-          "year": 2010.0
-        },
-        {
-          "value": 88.0,
-          "year": 2011.0
-        },
-        {
-          "value": 89.0,
-          "year": 2012.0
-        },
-        {
-          "value": 89.0,
-          "year": 2013.0
-        },
-        {
-          "value": 90.0,
+          "value": 0.0,
           "year": 2014.0
         },
         {
-          "value": 91.0,
+          "value": 0.0,
           "year": 2015.0
         },
         {
-          "value": 91.0,
+          "value": 0.0,
           "year": 2016.0
         },
         {
-          "value": 91.0,
+          "value": 0.0,
           "year": 2017.0
         },
         {
-          "value": 92.0,
+          "value": 0.0,
           "year": 2018.0
         },
         {
-          "value": 92.0,
+          "value": 0.0,
           "year": 2019.0
         },
         {
-          "value": 92.0,
+          "value": 0.0,
           "year": 2020.0
+        },
+        {
+          "value": 0.0,
+          "year": 2021.0
+        },
+        {
+          "value": 0.0,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -6659,14 +6659,14 @@
         "baselineYear": {
           "all": 2015
         },
-        "baseYear": 2015,
-        "latestAvailable": 2020.0
+        "baseYear": null,
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "WHO,UNICEF",
       "Partner_Agency(ies)": "UNEP",
       "Tier_Classification": "Tier I (a)/Tier II (b)",
-      "currentLevelAssessment": "Close to Target",
-      "status": "Limited or No Progress"
+      "currentLevelAssessment": null,
+      "status": "Insufficient Data"
     },
     {
       "Location": "ALLAREA",
@@ -6679,22 +6679,6 @@
       "values": [
         {
           "value": 0.0,
-          "year": 2010.0
-        },
-        {
-          "value": 0.0,
-          "year": 2011.0
-        },
-        {
-          "value": 0.0,
-          "year": 2012.0
-        },
-        {
-          "value": 0.0,
-          "year": 2013.0
-        },
-        {
-          "value": 0.0,
           "year": 2014.0
         },
         {
@@ -6720,6 +6704,14 @@
         {
           "value": 0.0,
           "year": 2020.0
+        },
+        {
+          "value": 0.0,
+          "year": 2021.0
+        },
+        {
+          "value": 0.0,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -6735,7 +6727,7 @@
         },
         "targetValue": 1.0,
         "baseYear": null,
-        "latestAvailable": 2020.0
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "WHO,UNICEF",
       "Partner_Agency(ies)": "UNEP",
@@ -6758,6 +6750,10 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -6773,7 +6769,7 @@
         },
         "targetValue": 97.0,
         "baseYear": null,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "WHO, UN-Habitat,UNSD",
       "Partner_Agency(ies)": "UNEP,OECD,Eurostat",
@@ -6858,55 +6854,55 @@
       "seriesDescription": "Lakes and rivers permanent water area (% of total land area)",
       "values": [
         {
-          "value": 0.05465,
+          "value": 5.46464,
           "year": 2010.0
         },
         {
-          "value": 0.05538,
+          "value": 5.53828,
           "year": 2011.0
         },
         {
-          "value": 0.05567,
+          "value": 5.56731,
           "year": 2012.0
         },
         {
-          "value": 0.05603,
+          "value": 5.60266,
           "year": 2013.0
         },
         {
-          "value": 0.05608,
+          "value": 5.6075,
           "year": 2014.0
         },
         {
-          "value": 0.0563,
+          "value": 5.6296,
           "year": 2015.0
         },
         {
-          "value": 0.05311,
+          "value": 5.31061,
           "year": 2016.0
         },
         {
-          "value": 0.05004,
+          "value": 5.00405,
           "year": 2017.0
         },
         {
-          "value": 0.04693,
+          "value": 4.69324,
           "year": 2018.0
         },
         {
-          "value": 0.04392,
+          "value": 4.39159,
           "year": 2019.0
         },
         {
-          "value": 0.04109,
+          "value": 4.10936,
           "year": 2020.0
         },
         {
-          "value": 0.04147,
+          "value": 4.14681,
           "year": 2021.0
         },
         {
-          "value": 0.04219,
+          "value": 4.21877,
           "year": 2022.0
         }
       ],
@@ -6994,55 +6990,55 @@
       "seriesDescription": "Lakes and rivers seasonal water area (% of total land area)",
       "values": [
         {
-          "value": 0.00151,
+          "value": 0.1507,
           "year": 2010.0
         },
         {
-          "value": 0.0016,
+          "value": 0.15991,
           "year": 2011.0
         },
         {
-          "value": 0.00163,
+          "value": 0.16262,
           "year": 2012.0
         },
         {
-          "value": 0.00163,
+          "value": 0.16311,
           "year": 2013.0
         },
         {
-          "value": 0.00165,
+          "value": 0.16471,
           "year": 2014.0
         },
         {
-          "value": 0.00193,
+          "value": 0.19343,
           "year": 2015.0
         },
         {
-          "value": 0.00168,
+          "value": 0.16825,
           "year": 2016.0
         },
         {
-          "value": 0.00217,
+          "value": 0.21678,
           "year": 2017.0
         },
         {
-          "value": 0.00273,
+          "value": 0.27283,
           "year": 2018.0
         },
         {
-          "value": 0.00284,
+          "value": 0.28353,
           "year": 2019.0
         },
         {
-          "value": 0.00274,
+          "value": 0.27386,
           "year": 2020.0
         },
         {
-          "value": 0.00318,
+          "value": 0.31844,
           "year": 2021.0
         },
         {
-          "value": 0.0032,
+          "value": 0.32,
           "year": 2022.0
         }
       ],
@@ -7062,55 +7058,55 @@
       "seriesDescription": "Lakes and rivers permanent water area change (%)",
       "values": [
         {
-          "value": 6.77483,
+          "value": 11.14561,
           "year": 2010.0
         },
         {
-          "value": 8.21361,
+          "value": 12.64328,
           "year": 2011.0
         },
         {
-          "value": 8.78094,
+          "value": 13.23384,
           "year": 2012.0
         },
         {
-          "value": 9.47154,
+          "value": 13.9527,
           "year": 2013.0
         },
         {
-          "value": 9.5662,
+          "value": 14.05125,
           "year": 2014.0
         },
         {
-          "value": 9.99798,
+          "value": 14.5007,
           "year": 2015.0
         },
         {
-          "value": 3.76521,
+          "value": 8.01279,
           "year": 2016.0
         },
         {
-          "value": -2.2248,
+          "value": 1.77758,
           "year": 2017.0
         },
         {
-          "value": -8.29789,
+          "value": -4.54411,
           "year": 2018.0
         },
         {
-          "value": -14.19175,
+          "value": -10.67923,
           "year": 2019.0
         },
         {
-          "value": -19.70627,
+          "value": -16.41949,
           "year": 2020.0
         },
         {
-          "value": -18.97462,
+          "value": -15.65789,
           "year": 2021.0
         },
         {
-          "value": -17.56855,
+          "value": -14.19426,
           "year": 2022.0
         }
       ],
@@ -7130,55 +7126,55 @@
       "seriesDescription": "Lakes and rivers seasonal water area change (%)",
       "values": [
         {
-          "value": 52.94979,
+          "value": 3.39081,
           "year": 2010.0
         },
         {
-          "value": 62.30416,
+          "value": 9.71417,
           "year": 2011.0
         },
         {
-          "value": 65.05379,
+          "value": 11.57286,
           "year": 2012.0
         },
         {
-          "value": 65.54627,
+          "value": 11.90576,
           "year": 2013.0
         },
         {
-          "value": 67.17568,
+          "value": 13.00721,
           "year": 2014.0
         },
         {
-          "value": 96.31769,
+          "value": 32.70659,
           "year": 2015.0
         },
         {
-          "value": 70.76683,
+          "value": 15.43475,
           "year": 2016.0
         },
         {
-          "value": 120.02152,
+          "value": 48.72988,
           "year": 2017.0
         },
         {
-          "value": 176.90961,
+          "value": 87.18502,
           "year": 2018.0
         },
         {
-          "value": 187.76775,
+          "value": 94.52489,
           "year": 2019.0
         },
         {
-          "value": 177.95882,
+          "value": 87.89426,
           "year": 2020.0
         },
         {
-          "value": 223.20639,
+          "value": 118.48066,
           "year": 2021.0
         },
         {
-          "value": 224.78905,
+          "value": 119.5505,
           "year": 2022.0
         }
       ],
@@ -7266,55 +7262,55 @@
       "seriesDescription": "Reservoir minimum water area (% of total land area)",
       "values": [
         {
-          "value": 1e-05,
+          "value": 0.00086,
           "year": 2010.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00088,
           "year": 2011.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00087,
           "year": 2012.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00091,
           "year": 2013.0
         },
         {
-          "value": 1e-05,
+          "value": 0.0009,
           "year": 2014.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00091,
           "year": 2015.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00091,
           "year": 2016.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00091,
           "year": 2017.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00091,
           "year": 2018.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00091,
           "year": 2019.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00091,
           "year": 2020.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00091,
           "year": 2021.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00091,
           "year": 2022.0
         }
       ],
@@ -7402,55 +7398,55 @@
       "seriesDescription": "Reservoir maximum water area (% of total land area)",
       "values": [
         {
-          "value": 1e-05,
+          "value": 0.00092,
           "year": 2010.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00095,
           "year": 2011.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00094,
           "year": 2012.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00099,
           "year": 2013.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00099,
           "year": 2014.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00099,
           "year": 2015.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00099,
           "year": 2016.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00099,
           "year": 2017.0
         },
         {
-          "value": 1e-05,
+          "value": 0.00099,
           "year": 2018.0
         },
         {
-          "value": 1e-05,
+          "value": 0.001,
           "year": 2019.0
         },
         {
-          "value": 1e-05,
+          "value": 0.001,
           "year": 2020.0
         },
         {
-          "value": 1e-05,
+          "value": 0.001,
           "year": 2021.0
         },
         {
-          "value": 1e-05,
+          "value": 0.001,
           "year": 2022.0
         }
       ],
@@ -7557,6 +7553,14 @@
         {
           "value": 100.0,
           "year": 2021.0
+        },
+        {
+          "value": 100.0,
+          "year": 2022.0
+        },
+        {
+          "value": 100.0,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -7580,7 +7584,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "World Bank",
       "Partner_Agency(ies)": "IEA, UN-Energy ",
@@ -7629,16 +7633,24 @@
           "year": 2017.0
         },
         {
-          "value": 11.3,
+          "value": 11.4,
           "year": 2018.0
         },
         {
-          "value": 10.84,
+          "value": 10.87,
           "year": 2019.0
         },
         {
-          "value": 11.46,
+          "value": 11.8,
           "year": 2020.0
+        },
+        {
+          "value": 11.64,
+          "year": 2021.0
+        },
+        {
+          "value": 11.92,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -7654,13 +7666,86 @@
         },
         "targetValue": 95.0,
         "baseYear": 2015,
-        "latestAvailable": 2020.0
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "UNSD,IEA,IRENA",
       "Partner_Agency(ies)": "World Bank, UN-Energy",
       "Tier_Classification": "Tier I",
       "currentLevelAssessment": null,
-      "status": "Deterioration"
+      "status": "Limited or No Progress"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "EG_EGY_PRIM",
+      "goal": "7",
+      "target": "7.3",
+      "indicator": "7.3.1",
+      "seriesDescription": "Energy intensity level of primary energy (megajoules per constant 2021 purchasing power parity GDP)",
+      "values": [
+        {
+          "value": 3.05,
+          "year": 2010.0
+        },
+        {
+          "value": 3.3,
+          "year": 2011.0
+        },
+        {
+          "value": 2.68,
+          "year": 2012.0
+        },
+        {
+          "value": 2.64,
+          "year": 2013.0
+        },
+        {
+          "value": 2.37,
+          "year": 2014.0
+        },
+        {
+          "value": 2.49,
+          "year": 2015.0
+        },
+        {
+          "value": 2.35,
+          "year": 2016.0
+        },
+        {
+          "value": 2.4,
+          "year": 2017.0
+        },
+        {
+          "value": 2.53,
+          "year": 2018.0
+        },
+        {
+          "value": 2.51,
+          "year": 2019.0
+        },
+        {
+          "value": 2.44,
+          "year": 2020.0
+        },
+        {
+          "value": 2.44,
+          "year": 2021.0
+        }
+      ],
+      "methodology": {
+        "CAGRRequire": -0.026,
+        "normativeDirection": "decrease",
+        "trendMethodology": "CAGRR",
+        "baselineYear": {
+          "all": 2010
+        },
+        "baseYear": 2015,
+        "latestAvailable": 2021.0
+      },
+      "Custodian_Agency(ies)": "UNSD,IEA",
+      "Partner_Agency(ies)": "World Bank, UN-Energy",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Limited or No Progress"
     },
     {
       "Reporting Type": "G",
@@ -7671,52 +7756,60 @@
       "seriesDescription": "Annual growth rate of real GDP per capita (%)",
       "values": [
         {
-          "value": 1.9,
+          "value": 1.6,
           "year": 2010.0
         },
         {
-          "value": -0.39,
+          "value": -0.9,
           "year": 2011.0
         },
         {
-          "value": 1.55,
+          "value": 1.5,
           "year": 2012.0
         },
         {
-          "value": -1.1,
+          "value": -0.8,
           "year": 2013.0
         },
         {
-          "value": 5.0,
+          "value": 5.4,
           "year": 2014.0
         },
         {
-          "value": -2.43,
+          "value": -2.3,
           "year": 2015.0
         },
         {
-          "value": 4.64,
+          "value": 4.6,
           "year": 2016.0
         },
         {
-          "value": 0.03,
+          "value": 0.0,
           "year": 2017.0
         },
         {
-          "value": 0.62,
+          "value": 0.6,
           "year": 2018.0
         },
         {
-          "value": 2.27,
+          "value": 2.8,
           "year": 2019.0
         },
         {
-          "value": 0.19,
+          "value": 0.2,
           "year": 2020.0
         },
         {
-          "value": 0.69,
+          "value": 1.4,
           "year": 2021.0
+        },
+        {
+          "value": 1.5,
+          "year": 2022.0
+        },
+        {
+          "value": 1.1,
+          "year": 2023.0
         }
       ],
       "methodology": "NA",
@@ -7770,80 +7863,6 @@
     },
     {
       "Reporting Type": "G",
-      "Mode of transportation": "SEA",
-      "series": "IS_RDP_PORFVOL",
-      "goal": "9",
-      "target": "9.1",
-      "indicator": "9.1.2",
-      "seriesDescription": "Container port traffic, maritime transport (twenty-foot equivalent units - TEUs)",
-      "values": [
-        {
-          "value": 6779.0,
-          "year": 2010.0
-        },
-        {
-          "value": 6809.0,
-          "year": 2011.0
-        },
-        {
-          "value": 6749.0,
-          "year": 2012.0
-        },
-        {
-          "value": 6869.0,
-          "year": 2013.0
-        },
-        {
-          "value": 6630.0,
-          "year": 2014.0
-        },
-        {
-          "value": 6972.0,
-          "year": 2015.0
-        },
-        {
-          "value": 6972.0,
-          "year": 2016.0
-        },
-        {
-          "value": 12849.0,
-          "year": 2017.0
-        },
-        {
-          "value": 12849.0,
-          "year": 2018.0
-        },
-        {
-          "value": 12849.0,
-          "year": 2019.0
-        },
-        {
-          "value": 12849.0,
-          "year": 2020.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "baseYear": 2015,
-        "latestAvailable": 2020.0
-      },
-      "Custodian_Agency(ies)": "ICAO,ITF-OECD",
-      "Partner_Agency(ies)": "UPU, UNEP,UNECE",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "On Track"
-    },
-    {
-      "Reporting Type": "G",
       "Activity": "ISIC4_C",
       "series": "NV_IND_MANFPC",
       "goal": "9",
@@ -7852,56 +7871,64 @@
       "seriesDescription": "Manufacturing value added per capita (constant 2015 United States dollars)",
       "values": [
         {
-          "value": 986.64,
+          "value": 982.06,
           "year": 2010.0
         },
         {
-          "value": 1188.85,
+          "value": 1177.43,
           "year": 2011.0
         },
         {
-          "value": 1311.49,
+          "value": 1298.11,
           "year": 2012.0
         },
         {
-          "value": 1372.36,
+          "value": 1362.07,
           "year": 2013.0
         },
         {
-          "value": 2004.16,
+          "value": 1996.31,
           "year": 2014.0
         },
         {
-          "value": 1815.15,
+          "value": 1811.07,
           "year": 2015.0
         },
         {
-          "value": 2153.39,
+          "value": 2147.82,
           "year": 2016.0
         },
         {
-          "value": 889.74,
+          "value": 887.47,
           "year": 2017.0
         },
         {
-          "value": 984.13,
+          "value": 981.62,
           "year": 2018.0
         },
         {
-          "value": 963.65,
+          "value": 872.51,
           "year": 2019.0
         },
         {
-          "value": 1075.45,
+          "value": 1075.23,
           "year": 2020.0
         },
         {
-          "value": 1141.85,
+          "value": 1121.41,
           "year": 2021.0
         },
         {
-          "value": 1200.08,
+          "value": 1173.13,
           "year": 2022.0
+        },
+        {
+          "value": 1295.65,
+          "year": 2023.0
+        },
+        {
+          "value": 1361.45,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -7916,7 +7943,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "UNIDO",
       "Partner_Agency(ies)": "World Bank",
@@ -7970,20 +7997,28 @@
           "year": 2018.0
         },
         {
-          "value": 2.0,
+          "value": 1.81,
           "year": 2019.0
         },
         {
-          "value": 2.23,
+          "value": 2.22,
           "year": 2020.0
         },
         {
-          "value": 2.35,
+          "value": 2.29,
           "year": 2021.0
         },
         {
-          "value": 2.42,
+          "value": 2.36,
           "year": 2022.0
+        },
+        {
+          "value": 2.57,
+          "year": 2023.0
+        },
+        {
+          "value": 2.65,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -8012,7 +8047,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "UNIDO",
       "Partner_Agency(ies)": "World Bank",
@@ -8066,16 +8101,24 @@
           "year": 2018.0
         },
         {
-          "value": 3.57,
+          "value": 3.32,
           "year": 2019.0
         },
         {
-          "value": 3.44,
+          "value": 3.38,
           "year": 2020.0
         },
         {
-          "value": 4.04,
+          "value": 2.91,
           "year": 2021.0
+        },
+        {
+          "value": 3.2,
+          "year": 2022.0
+        },
+        {
+          "value": 3.16,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -8090,13 +8133,13 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "UNIDO",
       "Partner_Agency(ies)": "World Bank",
       "Tier_Classification": "Tier I",
       "currentLevelAssessment": null,
-      "status": "Limited or No Progress"
+      "status": "Deterioration"
     },
     {
       "Reporting Type": "G",
@@ -8137,6 +8180,10 @@
         {
           "value": 100.0,
           "year": 2021.0
+        },
+        {
+          "value": 100.0,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -8160,7 +8207,7 @@
           "all": 2015
         },
         "baseYear": 2017,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "ITU",
       "Partner_Agency(ies)": "",
@@ -8219,6 +8266,10 @@
         {
           "value": 100.0,
           "year": 2021.0
+        },
+        {
+          "value": 100.0,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -8242,7 +8293,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "ITU",
       "Partner_Agency(ies)": "",
@@ -8281,6 +8332,10 @@
         {
           "value": 100.0,
           "year": 2021.0
+        },
+        {
+          "value": 100.0,
+          "year": 2022.0
         }
       ],
       "methodology": {
@@ -8296,7 +8351,7 @@
         },
         "targetValue": 95.0,
         "baseYear": 2016,
-        "latestAvailable": 2021.0
+        "latestAvailable": 2022.0
       },
       "Custodian_Agency(ies)": "ITU",
       "Partner_Agency(ies)": "",

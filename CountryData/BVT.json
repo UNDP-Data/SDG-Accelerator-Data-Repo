@@ -8,7 +8,7 @@
     },
     {
       "goal": 15,
-      "noOfIndicatorsWithData": 3,
+      "noOfIndicatorsWithData": 4,
       "status": "For Review"
     },
     {
@@ -36,6 +36,11 @@
     {
       "goal": "15",
       "target": "15.4",
+      "status": "On Track"
+    },
+    {
+      "goal": "15",
+      "target": "15.5",
       "status": "On Track"
     },
     {
@@ -78,6 +83,12 @@
       "goal": "15",
       "target": "15.4",
       "indicator": "15.4.1",
+      "status": "On Track"
+    },
+    {
+      "goal": "15",
+      "target": "15.5",
+      "indicator": "15.5.1",
       "status": "On Track"
     },
     {
@@ -153,6 +164,14 @@
         {
           "value": 100.0,
           "year": 2022.0
+        },
+        {
+          "value": 100.0,
+          "year": 2023.0
+        },
+        {
+          "value": 100.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -176,7 +195,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "UNEP-WCMC,UNEP,IUCN",
       "Partner_Agency(ies)": "Ramsar",
@@ -287,6 +306,14 @@
         {
           "value": 100.0,
           "year": 2022.0
+        },
+        {
+          "value": 100.0,
+          "year": 2023.0
+        },
+        {
+          "value": 100.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -302,7 +329,7 @@
         },
         "targetValue": 95.0,
         "baseYear": 2015,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "UNEP-WCMC,UNEP,IUCN",
       "Partner_Agency(ies)": "Ramsar",
@@ -316,7 +343,7 @@
       "goal": "15",
       "target": "15.2",
       "indicator": "15.2.1",
-      "seriesDescription": "Forest area under an independently verified forest management certification scheme (thousands of hectares)",
+      "seriesDescription": "Forest area certified under an independently verified certification scheme (thousands of hectares)",
       "values": [
         {
           "value": 0.0,
@@ -353,6 +380,10 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
         }
       ],
       "methodology": {
@@ -367,7 +398,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2023.0
       },
       "Custodian_Agency(ies)": "FAO",
       "Partner_Agency(ies)": "UNEP,UNFCCC",
@@ -434,6 +465,14 @@
         {
           "value": 100.0,
           "year": 2022.0
+        },
+        {
+          "value": 100.0,
+          "year": 2023.0
+        },
+        {
+          "value": 100.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -449,12 +488,106 @@
         },
         "targetValue": 95.0,
         "baseYear": 2015,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "UNEP-WCMC,UNEP,IUCN",
       "Partner_Agency(ies)": "",
       "Tier_Classification": "Tier I",
       "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Reporting Type": "G",
+      "series": "ER_RSK_LST",
+      "goal": "15",
+      "target": "15.5",
+      "indicator": "15.5.1",
+      "seriesDescription": "Red List Index",
+      "values": [
+        {
+          "value": 0.93281,
+          "year": 2010.0
+        },
+        {
+          "value": 0.93325,
+          "year": 2011.0
+        },
+        {
+          "value": 0.93379,
+          "year": 2012.0
+        },
+        {
+          "value": 0.93427,
+          "year": 2013.0
+        },
+        {
+          "value": 0.9344,
+          "year": 2014.0
+        },
+        {
+          "value": 0.93465,
+          "year": 2015.0
+        },
+        {
+          "value": 0.93521,
+          "year": 2016.0
+        },
+        {
+          "value": 0.9356,
+          "year": 2017.0
+        },
+        {
+          "value": 0.93596,
+          "year": 2018.0
+        },
+        {
+          "value": 0.93651,
+          "year": 2019.0
+        },
+        {
+          "value": 0.93631,
+          "year": 2020.0
+        },
+        {
+          "value": 0.93696,
+          "year": 2021.0
+        },
+        {
+          "value": 0.93722,
+          "year": 2022.0
+        },
+        {
+          "value": 0.93742,
+          "year": 2023.0
+        },
+        {
+          "value": 0.93803,
+          "year": 2024.0
+        }
+      ],
+      "methodology": {
+        "targetValue": 0.8,
+        "currentLevelThresholds": [
+          0.8,
+          0.7
+        ],
+        "currentLevelThresholdsName": [
+          "Extinction risk below global average",
+          "Extinction risk at global average",
+          "Extinction risk above global average"
+        ],
+        "normativeDirection": "increase",
+        "trendMethodology": "CAGRR",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": 2015,
+        "latestAvailable": 2024.0
+      },
+      "Custodian_Agency(ies)": "IUCN",
+      "Partner_Agency(ies)": "UNEP,CITES, BirdLife International",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": "Extinction risk below global average",
       "status": "Target Achieved"
     },
     {
@@ -508,6 +641,14 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
+        },
+        {
+          "value": 0.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -522,7 +663,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2022.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "CBD-Secretariat",
       "Partner_Agency(ies)": "FAO,UNEP",
@@ -565,6 +706,14 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
+        },
+        {
+          "value": 0.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
@@ -633,6 +782,14 @@
         {
           "value": 0.0,
           "year": 2022.0
+        },
+        {
+          "value": 0.0,
+          "year": 2023.0
+        },
+        {
+          "value": 0.0,
+          "year": 2024.0
         }
       ],
       "methodology": {
