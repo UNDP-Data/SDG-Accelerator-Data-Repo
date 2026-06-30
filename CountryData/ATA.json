@@ -1,7 +1,125 @@
 {
   "countryCode": "ATA",
-  "goalStatus": [],
-  "targetStatus": [],
-  "indicatorStatus": [],
-  "tsData": []
+  "goalStatus": [
+    {
+      "goal": 15,
+      "noOfIndicatorsWithData": 1,
+      "status": "On Track"
+    }
+  ],
+  "targetStatus": [
+    {
+      "goal": "15",
+      "target": "15.5",
+      "status": "On Track"
+    }
+  ],
+  "indicatorStatus": [
+    {
+      "goal": "15",
+      "target": "15.5",
+      "indicator": "15.5.1",
+      "status": "On Track"
+    }
+  ],
+  "tsData": [
+    {
+      "Reporting Type": "G",
+      "series": "ER_RSK_LST",
+      "goal": "15",
+      "target": "15.5",
+      "indicator": "15.5.1",
+      "seriesDescription": "Red List Index",
+      "values": [
+        {
+          "year": 2010.0,
+          "value": 0.87548
+        },
+        {
+          "year": 2011.0,
+          "value": 0.87554
+        },
+        {
+          "year": 2012.0,
+          "value": 0.87561
+        },
+        {
+          "year": 2013.0,
+          "value": 0.87569
+        },
+        {
+          "year": 2014.0,
+          "value": 0.87575
+        },
+        {
+          "year": 2015.0,
+          "value": 0.87583
+        },
+        {
+          "year": 2016.0,
+          "value": 0.87589
+        },
+        {
+          "year": 2017.0,
+          "value": 0.87596
+        },
+        {
+          "year": 2018.0,
+          "value": 0.87603
+        },
+        {
+          "year": 2019.0,
+          "value": 0.87609
+        },
+        {
+          "year": 2020.0,
+          "value": 0.87616
+        },
+        {
+          "year": 2021.0,
+          "value": 0.87623
+        },
+        {
+          "year": 2022.0,
+          "value": 0.87629
+        },
+        {
+          "year": 2023.0,
+          "value": 0.87637
+        },
+        {
+          "year": 2024.0,
+          "value": 0.87644
+        },
+        {
+          "year": 2025.0,
+          "value": 0.8765
+        }
+      ],
+      "methodology": {
+        "targetValue": 0.8,
+        "currentLevelThresholds": [
+          0.8,
+          0.7
+        ],
+        "currentLevelThresholdsName": [
+          "Extinction risk below global average",
+          "Extinction risk at global average",
+          "Extinction risk above global average"
+        ],
+        "normativeDirection": "increase",
+        "trendMethodology": "CAGRR",
+        "baselineYear": {
+          "all": 2015
+        },
+        "baseYear": 2015,
+        "latestAvailable": 2025.0
+      },
+      "Custodian_Agency(ies)": "IUCN",
+      "Partner_Agency(ies)": "UNEP,CITES, BirdLife International",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": "Extinction risk below global average",
+      "status": "Target Achieved"
+    }
+  ]
 }

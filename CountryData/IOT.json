@@ -40,6 +40,11 @@
       "goal": 6,
       "noOfIndicatorsWithData": 0,
       "status": null
+    },
+    {
+      "goal": 9,
+      "noOfIndicatorsWithData": 0,
+      "status": null
     }
   ],
   "targetStatus": [
@@ -97,6 +102,11 @@
       "goal": "6",
       "target": "6.6",
       "status": null
+    },
+    {
+      "goal": "9",
+      "target": "9.1",
+      "status": null
     }
   ],
   "indicatorStatus": [
@@ -133,12 +143,6 @@
     {
       "goal": "15",
       "target": "15.1",
-      "indicator": "15.1.1",
-      "status": null
-    },
-    {
-      "goal": "15",
-      "target": "15.1",
       "indicator": "15.1.2",
       "status": null
     },
@@ -171,151 +175,15 @@
       "target": "6.6",
       "indicator": "6.6.1",
       "status": null
+    },
+    {
+      "goal": "9",
+      "target": "9.1",
+      "indicator": "9.1.2",
+      "status": null
     }
   ],
   "tsData": [
-    {
-      "Type of product": "TEX",
-      "Reporting Type": "G",
-      "series": "TM_TRF_ZERO",
-      "goal": "10",
-      "target": "10.a",
-      "indicator": "10.a.1",
-      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
-      "values": [
-        {
-          "value": 33.33333,
-          "year": 2010.0
-        },
-        {
-          "value": 0.0,
-          "year": 2015.0
-        },
-        {
-          "value": 33.33333,
-          "year": 2016.0
-        },
-        {
-          "value": 14.28571,
-          "year": 2017.0
-        },
-        {
-          "value": 25.0,
-          "year": 2018.0
-        },
-        {
-          "value": 33.33333,
-          "year": 2019.0
-        },
-        {
-          "value": 44.44444,
-          "year": 2020.0
-        },
-        {
-          "value": 0.0,
-          "year": 2021.0
-        },
-        {
-          "value": 36.36364,
-          "year": 2022.0
-        },
-        {
-          "value": 5.26316,
-          "year": 2023.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "targetValue": 1.0,
-        "baseYear": 2016,
-        "latestAvailable": 2023.0
-      },
-      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Target Achieved"
-    },
-    {
-      "Type of product": "AGR",
-      "Reporting Type": "G",
-      "series": "TM_TRF_ZERO",
-      "goal": "10",
-      "target": "10.a",
-      "indicator": "10.a.1",
-      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
-      "values": [
-        {
-          "value": 0.0,
-          "year": 2010.0
-        },
-        {
-          "value": 57.14286,
-          "year": 2015.0
-        },
-        {
-          "value": 66.66667,
-          "year": 2016.0
-        },
-        {
-          "value": 53.84615,
-          "year": 2017.0
-        },
-        {
-          "value": 61.53846,
-          "year": 2018.0
-        },
-        {
-          "value": 46.66667,
-          "year": 2019.0
-        },
-        {
-          "value": 22.22222,
-          "year": 2020.0
-        },
-        {
-          "value": 27.27273,
-          "year": 2021.0
-        },
-        {
-          "value": 44.44444,
-          "year": 2022.0
-        },
-        {
-          "value": 50.0,
-          "year": 2023.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "targetValue": 1.0,
-        "baseYear": 2015,
-        "latestAvailable": 2023.0
-      },
-      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Target Achieved"
-    },
     {
       "Type of product": "ALP",
       "Reporting Type": "G",
@@ -326,44 +194,48 @@
       "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
       "values": [
         {
-          "value": 41.44144,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 41.44144
         },
         {
-          "value": 72.83951,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 72.83951
         },
         {
-          "value": 59.89011,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 59.89011
         },
         {
-          "value": 42.58373,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 42.58373
         },
         {
-          "value": 45.19231,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 45.19231
         },
         {
-          "value": 35.78947,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 35.78947
         },
         {
-          "value": 33.19149,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 33.19149
         },
         {
-          "value": 38.02083,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 38.02083
         },
         {
-          "value": 48.34437,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 48.34437
         },
         {
-          "value": 45.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 45.0
+        },
+        {
+          "year": 2024.0,
+          "value": 45.0
         }
       ],
       "methodology": {
@@ -379,78 +251,7 @@
         },
         "targetValue": 1.0,
         "baseYear": 2015,
-        "latestAvailable": 2023.0
-      },
-      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I",
-      "currentLevelAssessment": null,
-      "status": "Target Achieved"
-    },
-    {
-      "Type of product": "IND",
-      "Reporting Type": "G",
-      "series": "TM_TRF_ZERO",
-      "goal": "10",
-      "target": "10.a",
-      "indicator": "10.a.1",
-      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
-      "values": [
-        {
-          "value": 42.30769,
-          "year": 2010.0
-        },
-        {
-          "value": 75.49669,
-          "year": 2015.0
-        },
-        {
-          "value": 62.96296,
-          "year": 2016.0
-        },
-        {
-          "value": 46.19883,
-          "year": 2017.0
-        },
-        {
-          "value": 48.23529,
-          "year": 2018.0
-        },
-        {
-          "value": 35.77236,
-          "year": 2019.0
-        },
-        {
-          "value": 33.99015,
-          "year": 2020.0
-        },
-        {
-          "value": 42.85714,
-          "year": 2021.0
-        },
-        {
-          "value": 55.35714,
-          "year": 2022.0
-        },
-        {
-          "value": 52.51799,
-          "year": 2023.0
-        }
-      ],
-      "methodology": {
-        "normativeDirection": "increase",
-        "CAGRLimit": [
-          0.01,
-          0.005,
-          -0.01
-        ],
-        "trendMethodology": "CAGRA",
-        "baselineYear": {
-          "all": 2015
-        },
-        "targetValue": 1.0,
-        "baseYear": 2015,
-        "latestAvailable": 2023.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
       "Partner_Agency(ies)": "",
@@ -468,44 +269,48 @@
       "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
       "values": [
         {
-          "value": 33.33333,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 33.33333
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 11.11111,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 11.11111
         },
         {
-          "value": 11.76471,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 11.76471
         },
         {
-          "value": 18.18182,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 18.18182
         },
         {
-          "value": 21.42857,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 21.42857
         },
         {
-          "value": 6.25,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 6.25
         },
         {
-          "value": 15.78947,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 15.78947
         },
         {
-          "value": 10.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 10.0
+        },
+        {
+          "year": 2024.0,
+          "value": 10.0
         }
       ],
       "methodology": {
@@ -521,7 +326,232 @@
         },
         "targetValue": 1.0,
         "baseYear": 2017,
-        "latestAvailable": 2023.0
+        "latestAvailable": 2024.0
+      },
+      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Type of product": "AGR",
+      "Reporting Type": "G",
+      "series": "TM_TRF_ZERO",
+      "goal": "10",
+      "target": "10.a",
+      "indicator": "10.a.1",
+      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
+      "values": [
+        {
+          "year": 2010.0,
+          "value": 0.0
+        },
+        {
+          "year": 2015.0,
+          "value": 57.14286
+        },
+        {
+          "year": 2016.0,
+          "value": 66.66667
+        },
+        {
+          "year": 2017.0,
+          "value": 53.84615
+        },
+        {
+          "year": 2018.0,
+          "value": 61.53846
+        },
+        {
+          "year": 2019.0,
+          "value": 46.66667
+        },
+        {
+          "year": 2020.0,
+          "value": 22.22222
+        },
+        {
+          "year": 2021.0,
+          "value": 27.27273
+        },
+        {
+          "year": 2022.0,
+          "value": 44.44444
+        },
+        {
+          "year": 2023.0,
+          "value": 50.0
+        },
+        {
+          "year": 2024.0,
+          "value": 50.0
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 1.0,
+        "baseYear": 2015,
+        "latestAvailable": 2024.0
+      },
+      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Type of product": "IND",
+      "Reporting Type": "G",
+      "series": "TM_TRF_ZERO",
+      "goal": "10",
+      "target": "10.a",
+      "indicator": "10.a.1",
+      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
+      "values": [
+        {
+          "year": 2010.0,
+          "value": 42.30769
+        },
+        {
+          "year": 2015.0,
+          "value": 75.49669
+        },
+        {
+          "year": 2016.0,
+          "value": 62.96296
+        },
+        {
+          "year": 2017.0,
+          "value": 46.19883
+        },
+        {
+          "year": 2018.0,
+          "value": 48.23529
+        },
+        {
+          "year": 2019.0,
+          "value": 35.77236
+        },
+        {
+          "year": 2020.0,
+          "value": 33.99015
+        },
+        {
+          "year": 2021.0,
+          "value": 42.85714
+        },
+        {
+          "year": 2022.0,
+          "value": 55.35714
+        },
+        {
+          "year": 2023.0,
+          "value": 52.51799
+        },
+        {
+          "year": 2024.0,
+          "value": 52.51799
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 1.0,
+        "baseYear": 2015,
+        "latestAvailable": 2024.0
+      },
+      "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "currentLevelAssessment": null,
+      "status": "Target Achieved"
+    },
+    {
+      "Type of product": "TEX",
+      "Reporting Type": "G",
+      "series": "TM_TRF_ZERO",
+      "goal": "10",
+      "target": "10.a",
+      "indicator": "10.a.1",
+      "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
+      "values": [
+        {
+          "year": 2010.0,
+          "value": 33.33333
+        },
+        {
+          "year": 2015.0,
+          "value": 0.0
+        },
+        {
+          "year": 2016.0,
+          "value": 33.33333
+        },
+        {
+          "year": 2017.0,
+          "value": 14.28571
+        },
+        {
+          "year": 2018.0,
+          "value": 25.0
+        },
+        {
+          "year": 2019.0,
+          "value": 33.33333
+        },
+        {
+          "year": 2020.0,
+          "value": 44.44444
+        },
+        {
+          "year": 2021.0,
+          "value": 0.0
+        },
+        {
+          "year": 2022.0,
+          "value": 36.36364
+        },
+        {
+          "year": 2023.0,
+          "value": 5.26316
+        },
+        {
+          "year": 2024.0,
+          "value": 5.26316
+        }
+      ],
+      "methodology": {
+        "normativeDirection": "increase",
+        "CAGRLimit": [
+          0.01,
+          0.005,
+          -0.01
+        ],
+        "trendMethodology": "CAGRA",
+        "baselineYear": {
+          "all": 2015
+        },
+        "targetValue": 1.0,
+        "baseYear": 2016,
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "ITC,UNCTAD,WTO",
       "Partner_Agency(ies)": "",
@@ -539,8 +569,8 @@
       "seriesDescription": "Proportion of tariff lines applied to imports with zero-tariff (%)",
       "values": [
         {
-          "value": 100.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 100.0
         }
       ],
       "methodology": {
@@ -573,12 +603,12 @@
       "seriesDescription": "Countries that have national urban policies or regional development plans that respond to population dynamics; ensure balanced territorial development; and increase local fiscal space (1 = YES; 0 = NO)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.0
         }
       ],
       "methodology": {
@@ -606,60 +636,64 @@
       "seriesDescription": "Domestic material consumption, by type of raw material (tonnes)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.0
+        },
+        {
+          "year": 2024.0,
+          "value": 0.0
         }
       ],
       "methodology": {
@@ -674,7 +708,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2023.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "UNEP",
       "Partner_Agency(ies)": "OECD",
@@ -692,60 +726,64 @@
       "seriesDescription": "Domestic material consumption, by type of raw material (tonnes)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.0
+        },
+        {
+          "year": 2024.0,
+          "value": 0.0
         }
       ],
       "methodology": {
@@ -760,7 +798,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2023.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "UNEP",
       "Partner_Agency(ies)": "OECD",
@@ -777,64 +815,68 @@
       "seriesDescription": "Average proportion of Marine Key Biodiversity Areas (KBAs) covered by protected areas (%)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2024.0
+          "year": 2024.0,
+          "value": 0.0
+        },
+        {
+          "year": 2025.0,
+          "value": 0.0
         }
       ],
       "methodology": {
@@ -858,57 +900,13 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2024.0
+        "latestAvailable": 2025.0
       },
       "Custodian_Agency(ies)": "UNEP-WCMC,UNEP,IUCN",
       "Partner_Agency(ies)": "Ramsar",
       "Tier_Classification": "Tier I",
       "currentLevelAssessment": null,
       "status": "Insufficient Data"
-    },
-    {
-      "Reporting Type": "G",
-      "series": "AG_LND_TOTL",
-      "goal": "15",
-      "target": "15.1",
-      "indicator": "15.1.1",
-      "seriesDescription": "Land area (thousands of hectares)",
-      "values": [
-        {
-          "value": 6.0,
-          "year": 2010.0
-        },
-        {
-          "value": 6.0,
-          "year": 2015.0
-        },
-        {
-          "value": 6.0,
-          "year": 2016.0
-        },
-        {
-          "value": 6.0,
-          "year": 2017.0
-        },
-        {
-          "value": 6.0,
-          "year": 2018.0
-        },
-        {
-          "value": 6.0,
-          "year": 2019.0
-        },
-        {
-          "value": 6.0,
-          "year": 2020.0
-        }
-      ],
-      "methodology": "NA",
-      "Custodian_Agency(ies)": "FAO",
-      "Partner_Agency(ies)": "UNEP",
-      "Tier_Classification": "Tier I",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
     },
     {
       "Reporting Type": "G",
@@ -919,64 +917,68 @@
       "seriesDescription": "Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas (%)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2024.0
+          "year": 2024.0,
+          "value": 0.0
+        },
+        {
+          "year": 2025.0,
+          "value": 0.0
         }
       ],
       "methodology": {
@@ -992,7 +994,7 @@
         },
         "targetValue": 95.0,
         "baseYear": null,
-        "latestAvailable": 2024.0
+        "latestAvailable": 2025.0
       },
       "Custodian_Agency(ies)": "UNEP-WCMC,UNEP,IUCN",
       "Partner_Agency(ies)": "Ramsar",
@@ -1009,44 +1011,48 @@
       "seriesDescription": "Forest area certified under an independently verified certification scheme (thousands of hectares)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.0
+        },
+        {
+          "year": 2024.0,
+          "value": 0.0
         }
       ],
       "methodology": {
@@ -1061,7 +1067,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2023.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "FAO",
       "Partner_Agency(ies)": "UNEP,UNFCCC",
@@ -1078,64 +1084,68 @@
       "seriesDescription": "Red List Index",
       "values": [
         {
-          "value": 0.87202,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 0.858
         },
         {
-          "value": 0.86661,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 0.85467
         },
         {
-          "value": 0.86137,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.85088
         },
         {
-          "value": 0.85486,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.84716
         },
         {
-          "value": 0.85147,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.84367
         },
         {
-          "value": 0.8459,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.84026
         },
         {
-          "value": 0.84114,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.83572
         },
         {
-          "value": 0.83603,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.83309
         },
         {
-          "value": 0.831,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.82874
         },
         {
-          "value": 0.82585,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.82508
         },
         {
-          "value": 0.8202,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.82109
         },
         {
-          "value": 0.81649,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.81753
         },
         {
-          "value": 0.81039,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.81377
         },
         {
-          "value": 0.80438,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.81054
         },
         {
-          "value": 0.80047,
-          "year": 2024.0
+          "year": 2024.0,
+          "value": 0.80651
+        },
+        {
+          "year": 2025.0,
+          "value": 0.80324
         }
       ],
       "methodology": {
@@ -1155,7 +1165,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2024.0
+        "latestAvailable": 2025.0
       },
       "Custodian_Agency(ies)": "IUCN",
       "Partner_Agency(ies)": "UNEP,CITES, BirdLife International",
@@ -1172,56 +1182,60 @@
       "seriesDescription": "Total reported number of Standard Material Transfer Agreements (SMTAs) transferring plant genetic resources for food and agriculture to the country (number)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2024.0
+          "year": 2024.0,
+          "value": 0.0
+        },
+        {
+          "year": 2025.0,
+          "value": 0.0
         }
       ],
       "methodology": {
@@ -1236,7 +1250,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2024.0
+        "latestAvailable": 2025.0
       },
       "Custodian_Agency(ies)": "CBD-Secretariat",
       "Partner_Agency(ies)": "FAO,UNEP",
@@ -1253,40 +1267,44 @@
       "seriesDescription": "Countries that have legislative, administrative and policy framework or measures reported through the Online Reporting System on Compliance  of the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2024.0
+          "year": 2024.0,
+          "value": 0.0
+        },
+        {
+          "year": 2025.0,
+          "value": 0.0
         }
       ],
       "methodology": {
@@ -1313,56 +1331,60 @@
       "seriesDescription": "Countries that are contracting Parties to the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2024.0
+          "year": 2024.0,
+          "value": 0.0
+        },
+        {
+          "year": 2025.0,
+          "value": 0.0
         }
       ],
       "methodology": {
@@ -1381,152 +1403,6 @@
       "status": "Target Not Achieved"
     },
     {
-      "Type of product": "ALP",
-      "Reporting Type": "G",
-      "series": "TM_TAX_DMFN",
-      "goal": "17",
-      "target": "17.12",
-      "indicator": "17.12.1",
-      "seriesDescription": "Average tariff applied by developed countries, most-favored nation status, by type of product (%)",
-      "values": [
-        {
-          "value": 1.66873,
-          "year": 2010.0
-        },
-        {
-          "value": 1.67252,
-          "year": 2011.0
-        },
-        {
-          "value": 1.80024,
-          "year": 2012.0
-        },
-        {
-          "value": 1.7362,
-          "year": 2013.0
-        },
-        {
-          "value": 1.80453,
-          "year": 2014.0
-        },
-        {
-          "value": 1.77037,
-          "year": 2015.0
-        },
-        {
-          "value": 1.70449,
-          "year": 2016.0
-        },
-        {
-          "value": 1.77583,
-          "year": 2017.0
-        },
-        {
-          "value": 1.67895,
-          "year": 2018.0
-        },
-        {
-          "value": 1.66296,
-          "year": 2019.0
-        },
-        {
-          "value": 1.58824,
-          "year": 2020.0
-        },
-        {
-          "value": 1.59109,
-          "year": 2021.0
-        },
-        {
-          "value": 1.55366,
-          "year": 2022.0
-        },
-        {
-          "value": 1.54264,
-          "year": 2023.0
-        }
-      ],
-      "methodology": "NA",
-      "Custodian_Agency(ies)": "WTO,ITC,UNCTAD",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
-    },
-    {
-      "Type of product": "AGR",
-      "Reporting Type": "G",
-      "series": "TM_TAX_DMFN",
-      "goal": "17",
-      "target": "17.12",
-      "indicator": "17.12.1",
-      "seriesDescription": "Average tariff applied by developed countries, most-favored nation status, by type of product (%)",
-      "values": [
-        {
-          "value": 7.92078,
-          "year": 2010.0
-        },
-        {
-          "value": 7.92078,
-          "year": 2011.0
-        },
-        {
-          "value": 7.22835,
-          "year": 2012.0
-        },
-        {
-          "value": 7.27651,
-          "year": 2013.0
-        },
-        {
-          "value": 7.27664,
-          "year": 2014.0
-        },
-        {
-          "value": 7.27089,
-          "year": 2015.0
-        },
-        {
-          "value": 7.34091,
-          "year": 2016.0
-        },
-        {
-          "value": 11.19058,
-          "year": 2017.0
-        },
-        {
-          "value": 11.21855,
-          "year": 2018.0
-        },
-        {
-          "value": 11.07394,
-          "year": 2019.0
-        },
-        {
-          "value": 11.10969,
-          "year": 2020.0
-        },
-        {
-          "value": 11.11092,
-          "year": 2021.0
-        },
-        {
-          "value": 11.11113,
-          "year": 2022.0
-        },
-        {
-          "value": 11.10625,
-          "year": 2023.0
-        }
-      ],
-      "methodology": "NA",
-      "Custodian_Agency(ies)": "WTO,ITC,UNCTAD",
-      "Partner_Agency(ies)": "",
-      "Tier_Classification": "Tier I",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
-    },
-    {
       "Type of product": "TEX",
       "Reporting Type": "G",
       "series": "TM_TAX_DMFN",
@@ -1536,60 +1412,64 @@
       "seriesDescription": "Average tariff applied by developed countries, most-favored nation status, by type of product (%)",
       "values": [
         {
-          "value": 5.02818,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 5.02818
         },
         {
-          "value": 5.02818,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 5.02818
         },
         {
-          "value": 5.01613,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 5.01613
         },
         {
-          "value": 5.01589,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 5.01589
         },
         {
-          "value": 5.01601,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 5.01601
         },
         {
-          "value": 5.04906,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 5.04906
         },
         {
-          "value": 5.0687,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 5.0687
         },
         {
-          "value": 4.86236,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 4.86236
         },
         {
-          "value": 5.06959,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 5.06959
         },
         {
-          "value": 5.08182,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 5.08182
         },
         {
-          "value": 5.01092,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 5.01092
         },
         {
-          "value": 5.01638,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 5.01638
         },
         {
-          "value": 5.07112,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 5.07112
         },
         {
-          "value": 5.07112,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 5.07112
+        },
+        {
+          "year": 2024.0,
+          "value": 4.97156
         }
       ],
       "methodology": "NA",
@@ -1609,60 +1489,64 @@
       "seriesDescription": "Average tariff applied by developed countries, most-favored nation status, by type of product (%)",
       "values": [
         {
-          "value": 1.45079,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 1.45079
         },
         {
-          "value": 1.45471,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 1.45471
         },
         {
-          "value": 1.61056,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 1.61056
         },
         {
-          "value": 1.54161,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 1.54161
         },
         {
-          "value": 1.61598,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 1.61598
         },
         {
-          "value": 1.59368,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 1.59368
         },
         {
-          "value": 1.53275,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 1.53275
         },
         {
-          "value": 1.64578,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 1.64578
         },
         {
-          "value": 1.54966,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 1.54966
         },
         {
-          "value": 1.48427,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 1.48427
         },
         {
-          "value": 1.41701,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 1.41701
         },
         {
-          "value": 1.41939,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 1.41939
         },
         {
-          "value": 1.37808,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 1.37808
         },
         {
-          "value": 1.36813,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 1.36813
+        },
+        {
+          "year": 2024.0,
+          "value": 1.32425
         }
       ],
       "methodology": "NA",
@@ -1682,60 +1566,218 @@
       "seriesDescription": "Average tariff applied by developed countries, most-favored nation status, by type of product (%)",
       "values": [
         {
-          "value": 11.82136,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 11.82136
         },
         {
-          "value": 11.82136,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 11.82136
         },
         {
-          "value": 11.82128,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 11.82128
         },
         {
-          "value": 11.82154,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 11.82154
         },
         {
-          "value": 11.81442,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 11.81442
         },
         {
-          "value": 11.75329,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 11.75329
         },
         {
-          "value": 11.74974,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 11.74974
         },
         {
-          "value": 11.58401,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 11.58401
         },
         {
-          "value": 11.74859,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 11.74859
         },
         {
-          "value": 11.74864,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 11.74864
         },
         {
-          "value": 11.74864,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 11.74864
         },
         {
-          "value": 11.74863,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 11.74863
         },
         {
-          "value": 11.74863,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 11.74863
         },
         {
-          "value": 11.74863,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 11.74863
+        },
+        {
+          "year": 2024.0,
+          "value": 11.62072
+        }
+      ],
+      "methodology": "NA",
+      "Custodian_Agency(ies)": "WTO,ITC,UNCTAD",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "status": "Methodology Unavailable",
+      "currentLevelAssessment": null
+    },
+    {
+      "Type of product": "ALP",
+      "Reporting Type": "G",
+      "series": "TM_TAX_DMFN",
+      "goal": "17",
+      "target": "17.12",
+      "indicator": "17.12.1",
+      "seriesDescription": "Average tariff applied by developed countries, most-favored nation status, by type of product (%)",
+      "values": [
+        {
+          "year": 2010.0,
+          "value": 1.66873
+        },
+        {
+          "year": 2011.0,
+          "value": 1.67252
+        },
+        {
+          "year": 2012.0,
+          "value": 1.80024
+        },
+        {
+          "year": 2013.0,
+          "value": 1.7362
+        },
+        {
+          "year": 2014.0,
+          "value": 1.80453
+        },
+        {
+          "year": 2015.0,
+          "value": 1.77037
+        },
+        {
+          "year": 2016.0,
+          "value": 1.70449
+        },
+        {
+          "year": 2017.0,
+          "value": 1.77583
+        },
+        {
+          "year": 2018.0,
+          "value": 1.67895
+        },
+        {
+          "year": 2019.0,
+          "value": 1.66296
+        },
+        {
+          "year": 2020.0,
+          "value": 1.58824
+        },
+        {
+          "year": 2021.0,
+          "value": 1.59109
+        },
+        {
+          "year": 2022.0,
+          "value": 1.55366
+        },
+        {
+          "year": 2023.0,
+          "value": 1.54264
+        },
+        {
+          "year": 2024.0,
+          "value": 1.49823
+        }
+      ],
+      "methodology": "NA",
+      "Custodian_Agency(ies)": "WTO,ITC,UNCTAD",
+      "Partner_Agency(ies)": "",
+      "Tier_Classification": "Tier I",
+      "status": "Methodology Unavailable",
+      "currentLevelAssessment": null
+    },
+    {
+      "Type of product": "AGR",
+      "Reporting Type": "G",
+      "series": "TM_TAX_DMFN",
+      "goal": "17",
+      "target": "17.12",
+      "indicator": "17.12.1",
+      "seriesDescription": "Average tariff applied by developed countries, most-favored nation status, by type of product (%)",
+      "values": [
+        {
+          "year": 2010.0,
+          "value": 7.92078
+        },
+        {
+          "year": 2011.0,
+          "value": 7.92078
+        },
+        {
+          "year": 2012.0,
+          "value": 7.22835
+        },
+        {
+          "year": 2013.0,
+          "value": 7.27651
+        },
+        {
+          "year": 2014.0,
+          "value": 7.27664
+        },
+        {
+          "year": 2015.0,
+          "value": 7.27089
+        },
+        {
+          "year": 2016.0,
+          "value": 7.34091
+        },
+        {
+          "year": 2017.0,
+          "value": 11.19058
+        },
+        {
+          "year": 2018.0,
+          "value": 11.21855
+        },
+        {
+          "year": 2019.0,
+          "value": 11.07394
+        },
+        {
+          "year": 2020.0,
+          "value": 11.10969
+        },
+        {
+          "year": 2021.0,
+          "value": 11.11092
+        },
+        {
+          "year": 2022.0,
+          "value": 11.11113
+        },
+        {
+          "year": 2023.0,
+          "value": 11.10625
+        },
+        {
+          "year": 2024.0,
+          "value": 11.10625
         }
       ],
       "methodology": "NA",
@@ -1755,60 +1797,64 @@
       "seriesDescription": "Average tariff applied by developed countries, preferential status, by type of product (%)",
       "values": [
         {
-          "value": 2.61447,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 2.61447
         },
         {
-          "value": 2.61447,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 2.61447
         },
         {
-          "value": 2.62481,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 2.62481
         },
         {
-          "value": 2.62457,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 2.62457
         },
         {
-          "value": 2.62472,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 2.62472
         },
         {
-          "value": 2.65042,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 2.65042
         },
         {
-          "value": 2.72111,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 2.72111
         },
         {
-          "value": 2.52166,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 2.52166
         },
         {
-          "value": 2.71569,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 2.71569
         },
         {
-          "value": 2.72433,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 2.72433
         },
         {
-          "value": 2.6861,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 2.6861
         },
         {
-          "value": 4.81506,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 4.81506
         },
         {
-          "value": 4.87612,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 4.87612
         },
         {
-          "value": 4.87612,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 4.87612
+        },
+        {
+          "year": 2024.0,
+          "value": 4.77669
         }
       ],
       "methodology": "NA",
@@ -1828,60 +1874,64 @@
       "seriesDescription": "Average tariff applied by developed countries, preferential status, by type of product (%)",
       "values": [
         {
-          "value": 0.39857,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 0.39857
         },
         {
-          "value": 0.39858,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 0.39858
         },
         {
-          "value": 0.52661,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.52661
         },
         {
-          "value": 0.45541,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.45541
         },
         {
-          "value": 0.53563,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.53563
         },
         {
-          "value": 0.46732,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.46732
         },
         {
-          "value": 0.49822,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.49822
         },
         {
-          "value": 0.53943,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.53943
         },
         {
-          "value": 0.47273,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.47273
         },
         {
-          "value": 0.46831,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.46831
         },
         {
-          "value": 0.46789,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.46789
         },
         {
-          "value": 1.0549,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 1.0549
         },
         {
-          "value": 1.01814,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 1.01814
         },
         {
-          "value": 1.01038,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 1.01038
+        },
+        {
+          "year": 2024.0,
+          "value": 0.9665
         }
       ],
       "methodology": "NA",
@@ -1901,60 +1951,64 @@
       "seriesDescription": "Average tariff applied by developed countries, preferential status, by type of product (%)",
       "values": [
         {
-          "value": 8.06055,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 8.06055
         },
         {
-          "value": 8.06055,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 8.06055
         },
         {
-          "value": 8.06051,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 8.06051
         },
         {
-          "value": 8.06064,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 8.06064
         },
         {
-          "value": 8.05701,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 8.05701
         },
         {
-          "value": 7.99589,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 7.99589
         },
         {
-          "value": 8.05516,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 8.05516
         },
         {
-          "value": 7.88958,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 7.88958
         },
         {
-          "value": 8.05401,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 8.05401
         },
         {
-          "value": 8.05406,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 8.05406
         },
         {
-          "value": 8.05406,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 8.05406
         },
         {
-          "value": 11.74341,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 11.74341
         },
         {
-          "value": 11.74341,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 11.74341
         },
         {
-          "value": 11.74341,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 11.74341
+        },
+        {
+          "year": 2024.0,
+          "value": 11.61549
         }
       ],
       "methodology": "NA",
@@ -1974,60 +2028,64 @@
       "seriesDescription": "Average tariff applied by developed countries, preferential status, by type of product (%)",
       "values": [
         {
-          "value": 0.57193,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 0.57193
         },
         {
-          "value": 0.57194,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 0.57194
         },
         {
-          "value": 0.6882,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.6882
         },
         {
-          "value": 0.62172,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.62172
         },
         {
-          "value": 0.69542,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.69542
         },
         {
-          "value": 0.62866,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.62866
         },
         {
-          "value": 0.65817,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.65817
         },
         {
-          "value": 0.70088,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.70088
         },
         {
-          "value": 0.64615,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.64615
         },
         {
-          "value": 0.66227,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.66227
         },
         {
-          "value": 0.66135,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.66135
         },
         {
-          "value": 1.27544,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 1.27544
         },
         {
-          "value": 1.24113,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 1.24113
         },
         {
-          "value": 1.23234,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 1.23234
+        },
+        {
+          "year": 2024.0,
+          "value": 1.18792
         }
       ],
       "methodology": "NA",
@@ -2047,60 +2105,64 @@
       "seriesDescription": "Average tariff applied by developed countries, preferential status, by type of product (%)",
       "values": [
         {
-          "value": 5.60614,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 5.60614
         },
         {
-          "value": 5.60614,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 5.60614
         },
         {
-          "value": 5.09397,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 5.09397
         },
         {
-          "value": 5.12183,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 5.12183
         },
         {
-          "value": 5.12148,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 5.12148
         },
         {
-          "value": 5.18352,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 5.18352
         },
         {
-          "value": 5.29123,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 5.29123
         },
         {
-          "value": 9.19372,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 9.19372
         },
         {
-          "value": 9.21853,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 9.21853
         },
         {
-          "value": 9.07392,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 9.07392
         },
         {
-          "value": 9.1097,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 9.1097
         },
         {
-          "value": 10.96612,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 10.96612
         },
         {
-          "value": 10.96633,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 10.96633
         },
         {
-          "value": 10.96145,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 10.96145
+        },
+        {
+          "year": 2024.0,
+          "value": 10.96145
         }
       ],
       "methodology": "NA",
@@ -2119,13 +2181,55 @@
       "seriesDescription": "Wetlands area (% of total land area)",
       "values": [
         {
-          "value": 65.71,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 65.71
         }
       ],
       "methodology": "NA",
       "Custodian_Agency(ies)": "UNEP,Ramsar",
       "Partner_Agency(ies)": "UN-Water,IUCN",
+      "Tier_Classification": "Tier I",
+      "status": "Methodology Unavailable",
+      "currentLevelAssessment": null
+    },
+    {
+      "Mode of transportation": "AIR",
+      "Reporting Type": "G",
+      "series": "IS_RDP_FRGVOL",
+      "goal": "9",
+      "target": "9.1",
+      "indicator": "9.1.2",
+      "seriesDescription": "Freight volume, by mode of transport (tonne kilometres)",
+      "values": [
+        {
+          "year": 2024.0,
+          "value": 0.0
+        }
+      ],
+      "methodology": "NA",
+      "Custodian_Agency(ies)": "ICAO,ITF-OECD",
+      "Partner_Agency(ies)": "UPU, UNEP,UNECE",
+      "Tier_Classification": "Tier I",
+      "status": "Methodology Unavailable",
+      "currentLevelAssessment": null
+    },
+    {
+      "Mode of transportation": "AIR",
+      "Reporting Type": "G",
+      "series": "IS_RDP_PFVOL",
+      "goal": "9",
+      "target": "9.1",
+      "indicator": "9.1.2",
+      "seriesDescription": "Passenger volume (passenger kilometres), by mode of transport",
+      "values": [
+        {
+          "year": 2024.0,
+          "value": 0.0
+        }
+      ],
+      "methodology": "NA",
+      "Custodian_Agency(ies)": "ICAO,ITF-OECD",
+      "Partner_Agency(ies)": "UPU, UNEP,UNECE",
       "Tier_Classification": "Tier I",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null

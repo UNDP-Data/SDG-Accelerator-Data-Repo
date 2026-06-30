@@ -15,6 +15,11 @@
       "goal": 6,
       "noOfIndicatorsWithData": 0,
       "status": null
+    },
+    {
+      "goal": 9,
+      "noOfIndicatorsWithData": 0,
+      "status": null
     }
   ],
   "targetStatus": [
@@ -52,6 +57,11 @@
       "goal": "6",
       "target": "6.6",
       "status": null
+    },
+    {
+      "goal": "9",
+      "target": "9.1",
+      "status": null
     }
   ],
   "indicatorStatus": [
@@ -60,12 +70,6 @@
       "target": "14.5",
       "indicator": "14.5.1",
       "status": "On Track"
-    },
-    {
-      "goal": "15",
-      "target": "15.1",
-      "indicator": "15.1.1",
-      "status": null
     },
     {
       "goal": "15",
@@ -102,6 +106,12 @@
       "target": "6.6",
       "indicator": "6.6.1",
       "status": null
+    },
+    {
+      "goal": "9",
+      "target": "9.1",
+      "indicator": "9.1.2",
+      "status": null
     }
   ],
   "tsData": [
@@ -114,64 +124,68 @@
       "seriesDescription": "Average proportion of Marine Key Biodiversity Areas (KBAs) covered by protected areas (%)",
       "values": [
         {
-          "value": 100.0,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2024.0
+          "year": 2024.0,
+          "value": 100.0
+        },
+        {
+          "year": 2025.0,
+          "value": 100.0
         }
       ],
       "methodology": {
@@ -195,57 +209,13 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2024.0
+        "latestAvailable": 2025.0
       },
       "Custodian_Agency(ies)": "UNEP-WCMC,UNEP,IUCN",
       "Partner_Agency(ies)": "Ramsar",
       "Tier_Classification": "Tier I",
       "currentLevelAssessment": "Target met or almost met",
       "status": "Target Achieved"
-    },
-    {
-      "Reporting Type": "G",
-      "series": "AG_LND_TOTL",
-      "goal": "15",
-      "target": "15.1",
-      "indicator": "15.1.1",
-      "seriesDescription": "Land area (thousands of hectares)",
-      "values": [
-        {
-          "value": 4.9,
-          "year": 2010.0
-        },
-        {
-          "value": 4.9,
-          "year": 2015.0
-        },
-        {
-          "value": 4.9,
-          "year": 2016.0
-        },
-        {
-          "value": 4.9,
-          "year": 2017.0
-        },
-        {
-          "value": 4.9,
-          "year": 2018.0
-        },
-        {
-          "value": 4.9,
-          "year": 2019.0
-        },
-        {
-          "value": 4.9,
-          "year": 2020.0
-        }
-      ],
-      "methodology": "NA",
-      "Custodian_Agency(ies)": "FAO",
-      "Partner_Agency(ies)": "UNEP",
-      "Tier_Classification": "Tier I",
-      "status": "Methodology Unavailable",
-      "currentLevelAssessment": null
     },
     {
       "Reporting Type": "G",
@@ -256,64 +226,68 @@
       "seriesDescription": "Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas (%)",
       "values": [
         {
-          "value": 100.0,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2024.0
+          "year": 2024.0,
+          "value": 100.0
+        },
+        {
+          "year": 2025.0,
+          "value": 100.0
         }
       ],
       "methodology": {
@@ -329,7 +303,7 @@
         },
         "targetValue": 95.0,
         "baseYear": 2015,
-        "latestAvailable": 2024.0
+        "latestAvailable": 2025.0
       },
       "Custodian_Agency(ies)": "UNEP-WCMC,UNEP,IUCN",
       "Partner_Agency(ies)": "Ramsar",
@@ -346,44 +320,48 @@
       "seriesDescription": "Forest area certified under an independently verified certification scheme (thousands of hectares)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.0
+        },
+        {
+          "year": 2024.0,
+          "value": 0.0
         }
       ],
       "methodology": {
@@ -398,7 +376,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2023.0
+        "latestAvailable": 2024.0
       },
       "Custodian_Agency(ies)": "FAO",
       "Partner_Agency(ies)": "UNEP,UNFCCC",
@@ -415,64 +393,68 @@
       "seriesDescription": "Average proportion of Mountain Key Biodiversity Areas (KBAs) covered by protected areas (%)",
       "values": [
         {
-          "value": 100.0,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 100.0
         },
         {
-          "value": 100.0,
-          "year": 2024.0
+          "year": 2024.0,
+          "value": 100.0
+        },
+        {
+          "year": 2025.0,
+          "value": 100.0
         }
       ],
       "methodology": {
@@ -488,7 +470,7 @@
         },
         "targetValue": 95.0,
         "baseYear": 2015,
-        "latestAvailable": 2024.0
+        "latestAvailable": 2025.0
       },
       "Custodian_Agency(ies)": "UNEP-WCMC,UNEP,IUCN",
       "Partner_Agency(ies)": "",
@@ -505,64 +487,68 @@
       "seriesDescription": "Red List Index",
       "values": [
         {
-          "value": 0.93281,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 0.97518
         },
         {
-          "value": 0.93325,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 0.97535
         },
         {
-          "value": 0.93379,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.97551
         },
         {
-          "value": 0.93427,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.97569
         },
         {
-          "value": 0.9344,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.97587
         },
         {
-          "value": 0.93465,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.97606
         },
         {
-          "value": 0.93521,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.97622
         },
         {
-          "value": 0.9356,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.97634
         },
         {
-          "value": 0.93596,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.97654
         },
         {
-          "value": 0.93651,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.97671
         },
         {
-          "value": 0.93631,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.97689
         },
         {
-          "value": 0.93696,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.97702
         },
         {
-          "value": 0.93722,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.97723
         },
         {
-          "value": 0.93742,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.97738
         },
         {
-          "value": 0.93803,
-          "year": 2024.0
+          "year": 2024.0,
+          "value": 0.97755
+        },
+        {
+          "year": 2025.0,
+          "value": 0.97771
         }
       ],
       "methodology": {
@@ -582,7 +568,7 @@
           "all": 2015
         },
         "baseYear": 2015,
-        "latestAvailable": 2024.0
+        "latestAvailable": 2025.0
       },
       "Custodian_Agency(ies)": "IUCN",
       "Partner_Agency(ies)": "UNEP,CITES, BirdLife International",
@@ -599,56 +585,60 @@
       "seriesDescription": "Total reported number of Standard Material Transfer Agreements (SMTAs) transferring plant genetic resources for food and agriculture to the country (number)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2024.0
+          "year": 2024.0,
+          "value": 0.0
+        },
+        {
+          "year": 2025.0,
+          "value": 0.0
         }
       ],
       "methodology": {
@@ -663,7 +653,7 @@
           "all": 2015
         },
         "baseYear": null,
-        "latestAvailable": 2024.0
+        "latestAvailable": 2025.0
       },
       "Custodian_Agency(ies)": "CBD-Secretariat",
       "Partner_Agency(ies)": "FAO,UNEP",
@@ -680,40 +670,44 @@
       "seriesDescription": "Countries that have legislative, administrative and policy framework or measures reported through the Online Reporting System on Compliance  of the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2024.0
+          "year": 2024.0,
+          "value": 0.0
+        },
+        {
+          "year": 2025.0,
+          "value": 0.0
         }
       ],
       "methodology": {
@@ -740,56 +734,60 @@
       "seriesDescription": "Countries that are contracting Parties to the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2023.0
+          "year": 2023.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2024.0
+          "year": 2024.0,
+          "value": 0.0
+        },
+        {
+          "year": 2025.0,
+          "value": 0.0
         }
       ],
       "methodology": {
@@ -816,56 +814,56 @@
       "seriesDescription": "Lakes and rivers permanent water area (square kilometres)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         }
       ],
       "methodology": "NA",
@@ -884,56 +882,56 @@
       "seriesDescription": "Lakes and rivers seasonal water area (square kilometres)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         }
       ],
       "methodology": "NA",
@@ -952,56 +950,56 @@
       "seriesDescription": "Reservoir minimum water area (square kilometres)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         }
       ],
       "methodology": "NA",
@@ -1020,56 +1018,56 @@
       "seriesDescription": "Reservoir maximum water area (square kilometres)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2010.0
+          "year": 2010.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2011.0
+          "year": 2011.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2012.0
+          "year": 2012.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2013.0
+          "year": 2013.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2014.0
+          "year": 2014.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2015.0
+          "year": 2015.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2016.0
+          "year": 2016.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2018.0
+          "year": 2018.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2019.0
+          "year": 2019.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2020.0
+          "year": 2020.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2021.0
+          "year": 2021.0,
+          "value": 0.0
         },
         {
-          "value": 0.0,
-          "year": 2022.0
+          "year": 2022.0,
+          "value": 0.0
         }
       ],
       "methodology": "NA",
@@ -1088,8 +1086,8 @@
       "seriesDescription": "Wetlands area (square kilometres)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         }
       ],
       "methodology": "NA",
@@ -1108,13 +1106,55 @@
       "seriesDescription": "Wetlands area (% of total land area)",
       "values": [
         {
-          "value": 0.0,
-          "year": 2017.0
+          "year": 2017.0,
+          "value": 0.0
         }
       ],
       "methodology": "NA",
       "Custodian_Agency(ies)": "UNEP,Ramsar",
       "Partner_Agency(ies)": "UN-Water,IUCN",
+      "Tier_Classification": "Tier I",
+      "status": "Methodology Unavailable",
+      "currentLevelAssessment": null
+    },
+    {
+      "Mode of transportation": "AIR",
+      "Reporting Type": "G",
+      "series": "IS_RDP_FRGVOL",
+      "goal": "9",
+      "target": "9.1",
+      "indicator": "9.1.2",
+      "seriesDescription": "Freight volume, by mode of transport (tonne kilometres)",
+      "values": [
+        {
+          "year": 2024.0,
+          "value": 0.0
+        }
+      ],
+      "methodology": "NA",
+      "Custodian_Agency(ies)": "ICAO,ITF-OECD",
+      "Partner_Agency(ies)": "UPU, UNEP,UNECE",
+      "Tier_Classification": "Tier I",
+      "status": "Methodology Unavailable",
+      "currentLevelAssessment": null
+    },
+    {
+      "Mode of transportation": "AIR",
+      "Reporting Type": "G",
+      "series": "IS_RDP_PFVOL",
+      "goal": "9",
+      "target": "9.1",
+      "indicator": "9.1.2",
+      "seriesDescription": "Passenger volume (passenger kilometres), by mode of transport",
+      "values": [
+        {
+          "year": 2024.0,
+          "value": 0.0
+        }
+      ],
+      "methodology": "NA",
+      "Custodian_Agency(ies)": "ICAO,ITF-OECD",
+      "Partner_Agency(ies)": "UPU, UNEP,UNECE",
       "Tier_Classification": "Tier I",
       "status": "Methodology Unavailable",
       "currentLevelAssessment": null
